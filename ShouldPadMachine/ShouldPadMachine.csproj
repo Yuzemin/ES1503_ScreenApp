@@ -1,0 +1,546 @@
+﻿<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="3.5">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{B0CC57DB-24B1-42AF-93A3-FA1A7B2670D7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ShouldPadMachine</RootNamespace>
+    <AssemblyName>ShouldPadMachine</AssemblyName>
+    <ProjectTypeGuids>{4D628B5B-2FBC-4AA6-8C16-197242AEB884};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <PlatformFamilyName>WindowsCE</PlatformFamilyName>
+    <PlatformID>E2BECB1F-8C8C-41ba-B736-9BE7D946A398</PlatformID>
+    <OSVersion>5.0</OSVersion>
+    <DeployDirSuffix>ShouldPadMachine</DeployDirSuffix>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <NativePlatformName>Windows CE</NativePlatformName>
+    <FormFactorID>
+    </FormFactorID>
+    <ApplicationIcon>grooveshark.ico</ApplicationIcon>
+    <StartupObject>
+    </StartupObject>
+    <SignAssembly>false</SignAssembly>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE;$(PlatformFamilyName)</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <FileAlignment>512</FileAlignment>
+    <WarningLevel>4</WarningLevel>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ShouldPadMachineAssist\ButtonEnable.cs" />
+    <Compile Include="ShouldPadMachineAssist\DefaultColor.cs" />
+    <Compile Include="ShouldPadMachineAssist\DefaultPath.cs" />
+    <Compile Include="ShouldPadMachineAssist\DefaultValue.cs" />
+    <Compile Include="ShouldPadMachineAssist\DelegateEx.cs" />
+    <Compile Include="ShouldPadMachineAssist\DrawErrorInfo.cs" />
+    <Compile Include="ShouldPadMachineAssist\Enum.cs" />
+    <Compile Include="ShouldPadMachineAssist\LanguageLibrary.cs" />
+    <Compile Include="ShouldPadMachineAssist\LowerMachineStatueData.cs" />
+    <Compile Include="ShouldPadMachineAssist\LowerShoudPointCollect.cs" />
+    <Compile Include="ShouldPadMachineAssist\MappingSize.cs" />
+    <Compile Include="ShouldPadMachineAssist\MessageString.cs" />
+    <Compile Include="ShouldPadMachineAssist\PointRange.cs" />
+    <Compile Include="ShouldPadMachineAssist\ScreenStatueData.cs" />
+    <Compile Include="ShouldPadMachineAssist\TabletComparerByTag.cs" />
+    <Compile Include="ShouldPadMachineAssist\TimeClock.cs" />
+    <Compile Include="ShouldPadMachineAssist\ValueRange.cs" />
+    <Compile Include="ShouldPadMachineBLL\AutoTimeManager.cs" />
+    <Compile Include="ShouldPadMachineBLL\DataBaseManager.cs" />
+    <Compile Include="ShouldPadMachineBLL\DrawShapeDC.cs" />
+    <Compile Include="ShouldPadMachineBLL\EditFormManager.cs" />
+    <Compile Include="ShouldPadMachineBLL\FileOperManager.cs" />
+    <Compile Include="ShouldPadMachineBLL\FlagData.cs" />
+    <Compile Include="ShouldPadMachineBLL\FlowDrawManager.cs" />
+    <Compile Include="ShouldPadMachineBLL\MainFormManager.cs" />
+    <Compile Include="ShouldPadMachineBLL\MenuFormManager.cs" />
+    <Compile Include="ShouldPadMachineBLL\ModifyBootLoader.cs" />
+    <Compile Include="ShouldPadMachineBLL\PointCal.cs" />
+    <Compile Include="ShouldPadMachineBLL\PointFactory.cs" />
+    <Compile Include="ShouldPadMachineBLL\PointRangeManager.cs" />
+    <Compile Include="ShouldPadMachineBLL\PromptInfoFormManager.cs" />
+    <Compile Include="ShouldPadMachineBLL\RadianAlgorithmer.cs" />
+    <Compile Include="ShouldPadMachineBLL\RepairMachineManager.cs" />
+    <Compile Include="ShouldPadMachineBLL\SendDataManager.cs" />
+    <Compile Include="ShouldPadMachineBLL\SerialDataHelper.cs" />
+    <Compile Include="ShouldPadMachineBLL\SerialDataManager.cs" />
+    <Compile Include="ShouldPadMachineBLL\ShapeOperManager.cs" />
+    <Compile Include="ShouldPadMachineBLL\ShowPromptInfoManager.cs" />
+    <Compile Include="ShouldPadMachineBLL\SystemTimeManager.cs" />
+    <Compile Include="ShouldPadMachineBLL\UpdataFileManager.cs" />
+    <Compile Include="ShouldPadMachineCTL\ButtonHead.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineCTL\ButtonHead.Designer.cs">
+      <DependentUpon>ButtonHead.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineCTL\DataButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineCTL\DataButton.designer.cs">
+      <DependentUpon>DataButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineCTL\DataButtonInfo.cs" />
+    <Compile Include="ShouldPadMachineCTL\DataChange.cs" />
+    <Compile Include="ShouldPadMachineCTL\ImageButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineCTL\ImageButton.designer.cs">
+      <DependentUpon>ImageButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineCTL\ImageDataButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineCTL\ImageDataButton.designer.cs">
+      <DependentUpon>ImageDataButton.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineDWL\Coordinates.cs" />
+    <Compile Include="ShouldPadMachineDWL\LocatShape.cs" />
+    <Compile Include="ShouldPadMachineDWL\ShapeDC.cs" />
+    <Compile Include="ShouldPadMachineFactory\MouldDataFactory.cs" />
+    <Compile Include="ShouldPadMachineHelper\SendDataHelper.cs" />
+    <Compile Include="ShouldPadMachineHelper\ShapePointInfo.cs" />
+    <Compile Include="ShouldPadMachineModel\DataInfo.cs" />
+    <Compile Include="ShouldPadMachineModel\ErrorInfo.cs" />
+    <Compile Include="ShouldPadMachineModel\InfoHashTable.cs" />
+    <Compile Include="ShouldPadMachineModel\PointF.cs" />
+    <Compile Include="ShouldPadMachineModel\ShouldPadDataModel.cs" />
+    <Compile Include="ShouldPadMachineModel\Location.cs" />
+    <Compile Include="ShouldPadMachineModel\LowerDataModel.cs" />
+    <Compile Include="ShouldPadMachineModel\Region.cs" />
+    <Compile Include="ShouldPadMachineModel\SerialDataModel.cs" />
+    <Compile Include="ShouldPadMachineModel\ShouldPadShapeInfo.cs" />
+    <Compile Include="ShouldPadMachinePMT\ErrorMessage.cs" />
+    <Compile Include="ShouldPadMachineSPL\CommunicatHelper.cs" />
+    <Compile Include="ShouldPadMachineSPL\SerialPortEx.cs" />
+    <Compile Include="ShouldPadMachineUI\AboutForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\AboutForm.designer.cs">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\AddCtrlStr.cs" />
+    <Compile Include="ShouldPadMachineUI\BaseDataForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\BaseDataForm.Designer.cs">
+      <DependentUpon>BaseDataForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\Calculator.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\Calculator.designer.cs">
+      <DependentUpon>Calculator.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\EditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\EditForm.Designer.cs">
+      <DependentUpon>EditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\EncryptionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\EncryptionForm.Designer.cs">
+      <DependentUpon>EncryptionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\FlowDrawForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\FlowDrawForm.Designer.cs">
+      <DependentUpon>FlowDrawForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineCTL\ImgBtn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineCTL\ImgBtn.Designer.cs">
+      <DependentUpon>ImgBtn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineCTL\ImgSwitch.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineCTL\ImgSwitch.Designer.cs">
+      <DependentUpon>ImgSwitch.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\HitForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\HitForm.Designer.cs">
+      <DependentUpon>HitForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\InfoForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\InfoForm.Designer.cs">
+      <DependentUpon>InfoForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\MachineWarnForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\MachineWarnForm.designer.cs">
+      <DependentUpon>MachineWarnForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\MainForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\MainForm.Designer.cs">
+      <DependentUpon>MainForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineDAL\ShouldPadMachineDAO.cs" />
+    <Compile Include="ShouldPadMachineDAL\XmlHelper.cs" />
+    <Compile Include="ShouldPadMachineUI\Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\Menu.Designer.cs">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\MessageBoxEX.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\MessageBoxEX.designer.cs">
+      <DependentUpon>MessageBoxEX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\ModifyShapeForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\ModifyShapeForm.designer.cs">
+      <DependentUpon>ModifyShapeForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\NineKeyboardForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\NineKeyboardForm.Designer.cs">
+      <DependentUpon>NineKeyboardForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\ProcessBar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\ProcessBar.Designer.cs">
+      <DependentUpon>ProcessBar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\Program.cs" />
+    <Compile Include="ShouldPadMachineUI\ShowNumForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\ShowNumForm.Designer.cs">
+      <DependentUpon>ShowNumForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineCTL\Tablet.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineCTL\Tablet.Designer.cs">
+      <DependentUpon>Tablet.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\TestForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\TestForm.Designer.cs">
+      <DependentUpon>TestForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\UpDataHint.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\UpDataHint.Designer.cs">
+      <DependentUpon>UpDataHint.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\WarnForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ShouldPadMachineUI\WarnForm.designer.cs">
+      <DependentUpon>WarnForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="ShouldPadMachineUI\AboutForm.resx">
+      <DependentUpon>AboutForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShouldPadMachineUI\BaseDataForm.resx">
+      <DependentUpon>BaseDataForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShouldPadMachineUI\Calculator.resx">
+      <DependentUpon>Calculator.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShouldPadMachineUI\EditForm.resx">
+      <DependentUpon>EditForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShouldPadMachineUI\EncryptionForm.resx">
+      <DependentUpon>EncryptionForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShouldPadMachineUI\FlowDrawForm.resx">
+      <DependentUpon>FlowDrawForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShouldPadMachineCTL\ImgBtn.resx">
+      <DependentUpon>ImgBtn.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShouldPadMachineCTL\ImgSwitch.resx">
+      <DependentUpon>ImgSwitch.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShouldPadMachineUI\HitForm.resx">
+      <DependentUpon>HitForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShouldPadMachineUI\InfoForm.resx">
+      <DependentUpon>InfoForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShouldPadMachineUI\MachineWarnForm.resx">
+      <DependentUpon>MachineWarnForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShouldPadMachineUI\MainForm.resx">
+      <DependentUpon>MainForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShouldPadMachineUI\Menu.resx">
+      <DependentUpon>Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShouldPadMachineUI\MessageBoxEX.resx">
+      <DependentUpon>MessageBoxEX.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShouldPadMachineUI\ModifyShapeForm.resx">
+      <DependentUpon>ModifyShapeForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShouldPadMachineUI\NineKeyboardForm.resx">
+      <DependentUpon>NineKeyboardForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShouldPadMachineUI\ProcessBar.resx">
+      <DependentUpon>ProcessBar.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShouldPadMachineUI\ShowNumForm.resx">
+      <DependentUpon>ShowNumForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShouldPadMachineCTL\Tablet.resx">
+      <DependentUpon>Tablet.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShouldPadMachineUI\TestForm.resx">
+      <DependentUpon>TestForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShouldPadMachineUI\UpDataHint.resx">
+      <DependentUpon>UpDataHint.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ShouldPadMachineUI\WarnForm.resx">
+      <DependentUpon>WarnForm.cs</DependentUpon>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Resources\img1d1.jpg" />
+    <None Include="Resources\img1d2.jpg" />
+    <None Include="Resources\img2d1.jpg" />
+    <None Include="Resources\img2d2.jpg" />
+    <None Include="Resources\img3d1.jpg" />
+    <None Include="Resources\img3d2.jpg" />
+    <None Include="Resources\img4d1.jpg" />
+    <None Include="Resources\img4d2.jpg" />
+    <None Include="Resources\img5d1.jpg" />
+    <None Include="Resources\img5d2.jpg" />
+    <None Include="Resources\img6d1.jpg" />
+    <None Include="Resources\img6d2.jpg" />
+    <None Include="Resources\img7d1.jpg" />
+    <None Include="Resources\img7d2.jpg" />
+    <None Include="Resources\img8d1.jpg" />
+    <None Include="Resources\img8d2.jpg" />
+    <None Include="Resources\img9d1.jpg" />
+    <None Include="Resources\img9d2.jpg" />
+    <None Include="Resources\imgAddPoit1.jpg" />
+    <None Include="Resources\imgAddPoit2.jpg" />
+    <None Include="Resources\imgCopyAll1.jpg" />
+    <None Include="Resources\imgCopyAll2.jpg" />
+    <None Include="Resources\imgCopyCur1.jpg" />
+    <None Include="Resources\imgCopyCur2.jpg" />
+    <None Include="Resources\imgDelPoint1.jpg" />
+    <None Include="Resources\imgDelPoint2.jpg" />
+    <None Include="Resources\imgDrawAll1.jpg" />
+    <None Include="Resources\imgDrawAll2.jpg" />
+    <None Include="Resources\imgEdit1.jpg" />
+    <None Include="Resources\imgEdit2.jpg" />
+    <None Include="Resources\imgExit1.jpg" />
+    <None Include="Resources\imgExit2.jpg" />
+    <None Include="Resources\imgGetXml1.jpg" />
+    <None Include="Resources\imgGetXml2.jpg" />
+    <None Include="Resources\imgHalfLift1.jpg" />
+    <None Include="Resources\imgHalfLift2.jpg" />
+    <None Include="Resources\imgHalfRight1.jpg" />
+    <None Include="Resources\imgHalfRight2.jpg" />
+    <None Include="Resources\imgLift1.jpg" />
+    <None Include="Resources\imgLift2.jpg" />
+    <None Include="Resources\imgMenu1.jpg" />
+    <None Include="Resources\imgMenu2.jpg" />
+    <None Include="Resources\imgMirror1.jpg" />
+    <None Include="Resources\imgMirror2.jpg" />
+    <None Include="Resources\imgNext1.jpg" />
+    <None Include="Resources\imgNext2.jpg" />
+    <None Include="Resources\imgNor.jpg" />
+    <None Include="Resources\imgPointCh1.jpg" />
+    <None Include="Resources\imgPointCh2.jpg" />
+    <None Include="Resources\imgPre1.jpg" />
+    <None Include="Resources\imgPre2.jpg" />
+    <None Include="Resources\imgRepeal1.jpg" />
+    <None Include="Resources\imgRepeal2.jpg" />
+    <None Include="Resources\imgReturn1.jpg" />
+    <None Include="Resources\imgReturn2.jpg" />
+    <None Include="Resources\imgRight1.jpg" />
+    <None Include="Resources\imgRight2.jpg" />
+    <None Include="Resources\imgSelAll1.jpg" />
+    <None Include="Resources\imgSelAll2.jpg" />
+    <None Include="Resources\imgSetParam1.jpg" />
+    <None Include="Resources\imgSetParam2.jpg" />
+    <None Include="Resources\imgSetPos1.jpg" />
+    <None Include="Resources\imgSetPos2.jpg" />
+    <None Include="Resources\imgSingle.jpg" />
+    <None Include="Resources\imgText1.jpg" />
+    <None Include="Resources\imgText2.jpg" />
+    <None Include="Resources\imgUpEco1.jpg" />
+    <None Include="Resources\imgUpEco2.jpg" />
+    <None Include="Resources\imgUpSrc1.jpg" />
+    <None Include="Resources\imgUpSrc2.jpg" />
+    <None Include="Resources\背景.jpg" />
+    <None Include="Resources\imgUpbtl.jpg" />
+    <None Include="Resources\imgUpbt2.jpg" />
+    <None Include="Resources\imgSysRe2.jpg" />
+    <None Include="Resources\imgSysRe1.jpg" />
+    <None Include="Resources\imgCatch1.jpg" />
+    <None Include="Resources\imgClamp1.jpg" />
+    <None Include="Resources\imgCut1.jpg" />
+    <None Include="Resources\imgPress1.jpg" />
+    <None Include="Resources\imgBlow2.jpg" />
+    <None Include="Resources\imgClamp2.jpg" />
+    <None Include="Resources\imgCut2.jpg" />
+    <None Include="Resources\imgCarry2.jpg" />
+    <None Include="Resources\imgCatch2.jpg" />
+    <None Include="Resources\imgPress2.jpg" />
+    <None Include="Resources\imgBlow1.jpg" />
+    <None Include="Resources\imgCarry1.jpg" />
+    <None Include="Resources\imgEditLock2.jpg" />
+    <None Include="Resources\imgEditLock1.jpg" />
+    <None Include="Resources\CommunicationError.jpg" />
+    <None Include="Resources\CrdWarn.jpg" />
+    <None Include="Resources\IOLVoltWarn.jpg" />
+    <None Include="Resources\LineBreakWarn.jpg" />
+    <None Include="Resources\ModeSwitchWarn.jpg" />
+    <None Include="Resources\ServoBackToZeroSensorWarn.jpg" />
+    <None Include="Resources\SF_NoEcdWarn.jpg" />
+    <None Include="Resources\SF_NoMotorWarn.jpg" />
+    <None Include="Resources\SF_OCurWarn.jpg" />
+    <None Include="Resources\SF_OLoadWarn.jpg" />
+    <None Include="Resources\SF_QepErrWarn.jpg" />
+    <None Include="Resources\SFLVoltWarn.jpg" />
+    <None Include="Resources\STLVoltWarn.jpg" />
+    <None Include="Resources\SysRePowerWarn.jpg" />
+    <None Include="Resources\SysTimeOutWarn.jpg" />
+    <None Include="Resources\TakeClothDownSensorWarn.jpg" />
+    <None Include="Resources\TakeClothLeftSensorWarn.jpg" />
+    <None Include="Resources\TakeClothMidSensorWarn.jpg" />
+    <None Include="Resources\TakeClothRightSensorWarn.jpg" />
+    <None Include="Resources\TakeClothUpperSensorWarn.jpg" />
+    <None Include="Resources\TotalWorkedNumberOverflowWarn.jpg" />
+    <None Include="Resources\WorkedNumberOverflowWarn1.jpg" />
+    <None Include="Resources\X_NoMotorWarn.jpg" />
+    <None Include="Resources\X_OCurWarn.jpg" />
+    <None Include="Resources\X_OLoadWarn.jpg" />
+    <None Include="Resources\X_QepErrWarn.jpg" />
+    <None Include="Resources\XBackToZeroSensorWarn.jpg" />
+    <None Include="Resources\Y_NoMotorWarn.jpg" />
+    <None Include="Resources\Y_OCurWarn.jpg" />
+    <None Include="Resources\Y_OLoadWarn.jpg" />
+    <None Include="Resources\Y_QepErrWarn.jpg" />
+    <None Include="Resources\YBackToZeroSensorWarn.jpg" />
+    <None Include="Resources\ButtonOK_OFF.jpg" />
+    <None Include="Resources\ButtonOK_ON.jpg" />
+    <None Include="Resources\UpdataSuccess.jpg" />
+    <Content Include="grooveshark.ico" />
+    <None Include="Resources\AboutMachine.jpg" />
+    <None Include="Resources\AboutMachine2.jpg" />
+    <None Include="Resources\SysInfo2.jpg" />
+    <None Include="Resources\SysInfo1.jpg" />
+    <None Include="Resources\imgAct2.jpg" />
+    <None Include="Resources\imgAct1.jpg" />
+    <None Include="Resources\imgAuto2.jpg" />
+    <None Include="Resources\imgAuto1.jpg" />
+    <None Include="Resources\warn_due.jpg" />
+    <None Include="Resources\warn_Upgrade.jpg" />
+    <None Include="Resources\imgEdit3.jpg" />
+    <None Include="Resources\imgMenu3.jpg" />
+    <None Include="Resources\imgNor1.jpg" />
+    <None Include="Resources\imgBacktype1_2.jpg" />
+    <None Include="Resources\imgBacktype1_1.jpg" />
+    <None Include="Resources\imgUnlock1.jpg" />
+    <None Include="Resources\imgUnlock2.jpg" />
+    <None Include="Resources\imgMir2.jpg" />
+    <None Include="Resources\imgMir1.jpg" />
+    <Content Include="亿生.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}">
+        <HostingProcess disable="1" />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
