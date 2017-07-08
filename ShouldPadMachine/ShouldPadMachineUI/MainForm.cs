@@ -336,60 +336,95 @@ namespace ShouldPadMachine.ShouldPadMachineUI
                         showPromptForm = true;
                 }                
 
-                if (flagData.TakeClothUpperSensorWarn != machineBasicDataInfo.TakeClothUpperSensorWarn)
+                if (flagData.UpperSensorErr != machineBasicDataInfo.takeClothUpperSensorErr)
                 {
-                    flagData.TakeClothUpperSensorWarn = machineBasicDataInfo.TakeClothUpperSensorWarn;
-                    lowerMachineStatueData.TakeClothUpperSensorWarn = flagData.TakeClothUpperSensorWarn;
-                    if (lowerMachineStatueData.TakeClothUpperSensorWarn)
+                    flagData.UpperSensorErr = machineBasicDataInfo.takeClothUpperSensorErr;
+                    lowerMachineStatueData.UpperSensorErr = flagData.UpperSensorErr;
+                    if (lowerMachineStatueData.UpperSensorErr)
                         showPromptForm = true;
                 }
-                if (flagData.TakeClothMidSensorWarn != machineBasicDataInfo.TakeClothMidSensorWarn)
+                if (flagData.UpperSensorErrL != machineBasicDataInfo.takeClothUpperSensorErrL)
                 {
-                    flagData.TakeClothMidSensorWarn = machineBasicDataInfo.TakeClothMidSensorWarn;
-                    lowerMachineStatueData.TakeClothMidSensorWarn = flagData.TakeClothMidSensorWarn;
-                    if (lowerMachineStatueData.TakeClothMidSensorWarn)
+                    flagData.UpperSensorErrL = machineBasicDataInfo.takeClothUpperSensorErrL;
+                    lowerMachineStatueData.UpperSensorErrL = flagData.UpperSensorErrL;
+                    if (lowerMachineStatueData.UpperSensorErrL)
                         showPromptForm = true;
                 }
-                if (flagData.TakeClothDownSensorWarn != machineBasicDataInfo.TakeClothDownSensorWarn)
+                if (flagData.MidSensorErr != machineBasicDataInfo.takeClothMidSensorErr)
                 {
-                    flagData.TakeClothDownSensorWarn = machineBasicDataInfo.TakeClothDownSensorWarn;
-                    lowerMachineStatueData.TakeClothDownSensorWarn = flagData.TakeClothDownSensorWarn;
-                    if (lowerMachineStatueData.TakeClothDownSensorWarn)
+                    flagData.MidSensorErr = machineBasicDataInfo.takeClothMidSensorErr;
+                    lowerMachineStatueData.MidSensorErr = flagData.MidSensorErr;
+                    if (lowerMachineStatueData.MidSensorErr)
                         showPromptForm = true;
                 }
-                if (flagData.TakeClothLeftSensorWarn != machineBasicDataInfo.TakeClothLeftSensorWarn)
+                if (flagData.MidSensorErrL != machineBasicDataInfo.takeClothMidSensorErrL)
                 {
-                    flagData.TakeClothLeftSensorWarn = machineBasicDataInfo.TakeClothLeftSensorWarn;
-                    lowerMachineStatueData.TakeClothLeftSensorWarn = flagData.TakeClothLeftSensorWarn;
-                    if (lowerMachineStatueData.TakeClothLeftSensorWarn)
+                    flagData.MidSensorErrL = machineBasicDataInfo.takeClothMidSensorErrL;
+                    lowerMachineStatueData.MidSensorErrL = flagData.MidSensorErrL;
+                    if (lowerMachineStatueData.MidSensorErrL)
                         showPromptForm = true;
                 }
-                if (flagData.TakeClothRightSensorWarn != machineBasicDataInfo.TakeClothRightSensorWarn)
+                if (flagData.DownSensorErr != machineBasicDataInfo.takeClothDownSensorErr)
                 {
-                    flagData.TakeClothRightSensorWarn = machineBasicDataInfo.TakeClothRightSensorWarn;
-                    lowerMachineStatueData.TakeClothRightSensorWarn = flagData.TakeClothRightSensorWarn;
-                    if (lowerMachineStatueData.TakeClothRightSensorWarn)
+                    flagData.DownSensorErr = machineBasicDataInfo.takeClothDownSensorErr;
+                    lowerMachineStatueData.DownSensorErr = flagData.DownSensorErr;
+                    if (lowerMachineStatueData.DownSensorErr)
                         showPromptForm = true;
                 }
-                if (flagData.XBackToZeroSensorWarn != machineBasicDataInfo.XBackToZeroSensorWarn)
+                if (flagData.DownSensorErrL != machineBasicDataInfo.takeClothDownSensorErrL)
                 {
-                    flagData.XBackToZeroSensorWarn = machineBasicDataInfo.XBackToZeroSensorWarn;
-                    lowerMachineStatueData.XBackToZeroSensorWarn = flagData.XBackToZeroSensorWarn;
-                    if (lowerMachineStatueData.XBackToZeroSensorWarn)
+                    flagData.DownSensorErrL = machineBasicDataInfo.takeClothDownSensorErrL;
+                    lowerMachineStatueData.DownSensorErrL = flagData.DownSensorErrL;
+                    if (lowerMachineStatueData.DownSensorErrL)
                         showPromptForm = true;
                 }
-                if (flagData.YBackToZeroSensorWarn != machineBasicDataInfo.YBackToZeroSensorWarn)
+                if (flagData.LeftSensorErr != machineBasicDataInfo.takeClothLeftSensorErr)
                 {
-                    flagData.YBackToZeroSensorWarn = machineBasicDataInfo.YBackToZeroSensorWarn;
-                    lowerMachineStatueData.YBackToZeroSensorWarn = flagData.YBackToZeroSensorWarn;
-                    if (lowerMachineStatueData.YBackToZeroSensorWarn)
+                    flagData.LeftSensorErr = machineBasicDataInfo.takeClothLeftSensorErr;
+                    lowerMachineStatueData.LeftSensorErr = flagData.LeftSensorErr;
+                    if (lowerMachineStatueData.LeftSensorErr)
                         showPromptForm = true;
                 }
-                if (flagData.ServoBackToZeroSensorWarn != machineBasicDataInfo.ServoBackToZeroSensorWarn)
+                if (flagData.LeftSensorErrL != machineBasicDataInfo.takeClothLeftSensorErrL)
                 {
-                    flagData.ServoBackToZeroSensorWarn = machineBasicDataInfo.ServoBackToZeroSensorWarn;
-                    lowerMachineStatueData.ServoBackToZeroSensorWarn = flagData.ServoBackToZeroSensorWarn;
-                    if (lowerMachineStatueData.ServoBackToZeroSensorWarn)
+                    flagData.LeftSensorErrL = machineBasicDataInfo.takeClothLeftSensorErrL;
+                    lowerMachineStatueData.LeftSensorErrL = flagData.LeftSensorErrL;
+                    if (lowerMachineStatueData.LeftSensorErrL)
+                        showPromptForm = true;
+                }
+                if (flagData.RightSensorErr != machineBasicDataInfo.takeClothRightSensorErr)
+                {
+                    flagData.RightSensorErr = machineBasicDataInfo.takeClothRightSensorErr;
+                    lowerMachineStatueData.RightSensorErr = flagData.RightSensorErr;
+                    if (lowerMachineStatueData.RightSensorErr)
+                        showPromptForm = true;
+                }
+                if (flagData.RightSensorErrL != machineBasicDataInfo.takeClothRightSensorErrL)
+                {
+                    flagData.RightSensorErrL = machineBasicDataInfo.takeClothRightSensorErrL;
+                    lowerMachineStatueData.RightSensorErrL = flagData.RightSensorErrL;
+                    if (lowerMachineStatueData.RightSensorErrL)
+                        showPromptForm = true;
+                }
+                if (flagData.XSensorErr != machineBasicDataInfo.xBackToZeroSensorErr)
+                {
+                    flagData.XSensorErr = machineBasicDataInfo.xBackToZeroSensorErr;
+                    lowerMachineStatueData.XSensorErr = flagData.XSensorErr;
+                    if (lowerMachineStatueData.XSensorErr)
+                        showPromptForm = true;
+                }
+                if (flagData.YoSensorErr != machineBasicDataInfo.yBackToZeroSensorErr)
+                {
+                    flagData.YoSensorErr = machineBasicDataInfo.yBackToZeroSensorErr;
+                    lowerMachineStatueData.YSensorErr = flagData.YoSensorErr;
+                    if (lowerMachineStatueData.YSensorErr)
+                        showPromptForm = true;
+                }
+                if (flagData.ServoSensorErr != machineBasicDataInfo.servoBackToZeroSensorErr)
+                {
+                    flagData.ServoSensorErr = machineBasicDataInfo.servoBackToZeroSensorErr;
+                    lowerMachineStatueData.ServoSensorErr = flagData.ServoSensorErr;
+                    if (lowerMachineStatueData.ServoSensorErr)
                         showPromptForm = true;
                 }
                 if (flagData.SysRePowerWarn != machineBasicDataInfo.SysRePowerWarn)
@@ -399,6 +434,8 @@ namespace ShouldPadMachine.ShouldPadMachineUI
                     if (lowerMachineStatueData.SysRePowerWarn)
                         showPromptForm = true;
                 }
+
+
 
                 if (flagData.Working != false)
                 {
@@ -672,25 +709,36 @@ namespace ShouldPadMachine.ShouldPadMachineUI
                     else if (lowerMachineStatueData.SysTimeOutWarn)
                         warnType = WarnType.SysTimeOutWarn;
 
-                    else if (lowerMachineStatueData.TakeClothUpperSensorWarn)
-                        warnType = WarnType.TakeClothUpperSensorWarn;
-                    else if (lowerMachineStatueData.TakeClothMidSensorWarn)
-                        warnType = WarnType.TakeClothMidSensorWarn;
-                    else if (lowerMachineStatueData.TakeClothDownSensorWarn)
-                        warnType = WarnType.TakeClothDownSensorWarn;
-                    else if (lowerMachineStatueData.TakeClothLeftSensorWarn)
-                        warnType = WarnType.TakeClothLeftSensorWarn;
-                    else if (lowerMachineStatueData.TakeClothRightSensorWarn)
-                        warnType = WarnType.TakeClothRightSensorWarn;
+                    else if (lowerMachineStatueData.UpperSensorErr)
+                        warnType = WarnType.UpperSensorErr;
+                    else if (lowerMachineStatueData.MidSensorErr)
+                        warnType = WarnType.MidSensorErr;
+                    else if (lowerMachineStatueData.DownSensorErr)
+                        warnType = WarnType.DownSensorErr;
+                    else if (lowerMachineStatueData.LeftSensorErr)
+                        warnType = WarnType.LeftSensorErr;
+                    else if (lowerMachineStatueData.RightSensorErr)
+                        warnType = WarnType.RightSensorErr;
 
-                    else if (lowerMachineStatueData.XBackToZeroSensorWarn)
-                        warnType = WarnType.XBackToZeroSensorWarn;
-                    else if (lowerMachineStatueData.YBackToZeroSensorWarn)
-                        warnType = WarnType.YBackToZeroSensorWarn;
-                    else if (lowerMachineStatueData.ServoBackToZeroSensorWarn)
-                        warnType = WarnType.ServoBackToZeroSensorWarn;
+                    else if (lowerMachineStatueData.UpperSensorErrL)
+                        warnType = WarnType.UpperSensorErrL;
+                    else if (lowerMachineStatueData.MidSensorErrL)
+                        warnType = WarnType.MidSensorErrL;
+                    else if (lowerMachineStatueData.DownSensorErrL)
+                        warnType = WarnType.DownSensorErrL;
+                    else if (lowerMachineStatueData.LeftSensorErrL)
+                        warnType = WarnType.LeftSensorErrL;
+                    else if (lowerMachineStatueData.RightSensorErrL)
+                        warnType = WarnType.RightSensorErrL;
+
+                    else if (lowerMachineStatueData.XSensorErr)
+                        warnType = WarnType.XSensorErr;
+                    else if (lowerMachineStatueData.YSensorErr)
+                        warnType = WarnType.YSensorErr;
+                    else if (lowerMachineStatueData.ServoSensorErr)
+                        warnType = WarnType.ServoSensorErr;
                     else if (lowerMachineStatueData.SysRePowerWarn)
-                        warnType = WarnType.SysRePowerWarn;
+                        warnType = WarnType.SysRePowerErr;
 
                     if (warnType != WarnType.Null)
                     {

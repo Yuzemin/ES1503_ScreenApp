@@ -388,7 +388,7 @@
   <data name="IOLVoltWarn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\IOLVoltWarn.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="ServoBackToZeroSensorWarn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="ServoSensorErr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ServoBackToZeroSensorWarn.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="SFLVoltWarn" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -418,19 +418,19 @@
   <data name="SysTimeOutWarn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SysTimeOutWarn.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TakeClothDownSensorWarn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="DownSensorErr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TakeClothDownSensorWarn.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TakeClothLeftSensorWarn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="LeftSensorErr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TakeClothLeftSensorWarn.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TakeClothMidSensorWarn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="MidSensorErr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TakeClothMidSensorWarn.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TakeClothRightSensorWarn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="RightSensorErr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TakeClothRightSensorWarn.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="TakeClothUpperSensorWarn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="UpperSensorErr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TakeClothUpperSensorWarn.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="TotalWorkedNumberOverflowWarn" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -439,7 +439,7 @@
   <data name="WorkedNumberOverflowWarn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\WorkedNumberOverflowWarn1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="XBackToZeroSensorWarn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="XSensorErr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\XBackToZeroSensorWarn.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="X_NoMotorWarn" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -454,7 +454,7 @@
   <data name="X_QepErrWarn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\X_QepErrWarn.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="YBackToZeroSensorWarn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+  <data name="YSensorErr" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\YBackToZeroSensorWarn.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Y_NoMotorWarn" type="System.Resources.ResXFileRef, System.Windows.Forms">
@@ -537,5 +537,20 @@
   </data>
   <data name="imgMir2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imgMir2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="DownSensorErrL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TakeClothDownSensorErr.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LeftSensorErrL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TakeClothLeftSensorErr.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MidSensorErrL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TakeClothMidSensorErr.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="RightSensorErrL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TakeClothRightSensorErr.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="UpperSensorErrL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\TakeClothUpperSensorErr.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
