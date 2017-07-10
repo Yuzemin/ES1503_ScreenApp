@@ -67,14 +67,19 @@ namespace ShouldPadMachine.ShouldPadMachineModel
         private bool y_NoMotorWarn;//Y无电机 
         private bool sysTimeOutWarn { get; set; }
         private bool sysRePowerWarn { get; set; } 
-        private bool takeClothUpperSensorWarn;//取布上端传感器错误
-        private bool takeClothMidSensorWarn;//取布中端传感器错误
-        private bool takeClothDownSensorWarn;//取布下端传感器错误
-        private bool takeClothLeftSensorWarn;//取布左端传感器错误
-        private bool takeClothRightSensorWarn;//取布右端传感器错误
-        private bool xBackToZeroSensorWarn;//x回零错误
-        private bool yBackToZeroSensorWarn;//y回零错误
-        private bool servoBackToZeroSensorWarn;//y回零错误
+        private bool UpperSensorErr;//取布上端传感器错误
+        private bool MidSensorErr;//取布中端传感器错误
+        private bool DownSensorErr;//取布下端传感器错误
+        private bool LeftSensorErr;//取布左端传感器错误
+        private bool RightSensorErr;//取布右端传感器错误
+        private bool xSensorErr;//x回零错误
+        private bool ySensorErr;//y回零错误
+        private bool servoSensorErr;//伺服回零错误
+        private bool UpperSensorErrL;//取布上端传感器常量错误
+        private bool MidSensorErrL;//取布中端传感器常量错误
+        private bool DownSensorErrL;//取布下端传感器常量错误
+        private bool LeftSensorErrL;//取布左端传感器常量错误
+        private bool RightSensorErrL;//取布右端传感器常量错误
 
         private byte sendClothStatue;
         private bool singleStepStatue;
@@ -237,52 +242,87 @@ namespace ShouldPadMachine.ShouldPadMachineModel
             }
         }
 
-        public bool TakeClothUpperSensorWarn
+        public bool takeClothUpperSensorErr
         {
             get {
-                return takeClothUpperSensorWarn;
+                return UpperSensorErr;
             }
         }
-        public bool TakeClothMidSensorWarn
+        public bool takeClothUpperSensorErrL
         {
-            get {
-                return takeClothMidSensorWarn;
+            get
+            {
+                return UpperSensorErrL;
             }
         }
-        public bool TakeClothDownSensorWarn
+        public bool takeClothMidSensorErr
         {
             get {
-                return takeClothDownSensorWarn;
+                return MidSensorErr;
             }
         }
-        public bool TakeClothLeftSensorWarn
+        public bool takeClothMidSensorErrL
         {
-            get {
-                return takeClothLeftSensorWarn;
+            get
+            {
+                return MidSensorErrL;
             }
         }
-        public bool TakeClothRightSensorWarn
+        public bool takeClothDownSensorErr
         {
             get {
-                return takeClothRightSensorWarn;
+                return DownSensorErr;
             }
         }
-        public bool XBackToZeroSensorWarn
+        public bool takeClothDownSensorErrL
         {
-            get {
-                return xBackToZeroSensorWarn;
+            get
+            {
+                return DownSensorErrL;
             }
         }
-        public bool YBackToZeroSensorWarn
+        public bool takeClothLeftSensorErr
         {
             get {
-                return yBackToZeroSensorWarn;
+                return LeftSensorErr;
             }
         }
-        public bool ServoBackToZeroSensorWarn
+        public bool takeClothLeftSensorErrL
+        {
+            get
+            {
+                return LeftSensorErrL;
+            }
+        }
+        public bool takeClothRightSensorErr
         {
             get {
-                return servoBackToZeroSensorWarn;
+                return RightSensorErr;
+            }
+        }
+        public bool takeClothRightSensorErrL
+        {
+            get
+            {
+                return RightSensorErrL;
+            }
+        }
+        public bool xBackToZeroSensorErr
+        {
+            get {
+                return xSensorErr;
+            }
+        }
+        public bool yBackToZeroSensorErr
+        {
+            get {
+                return ySensorErr;
+            }
+        }
+        public bool servoBackToZeroSensorErr
+        {
+            get {
+                return servoSensorErr;
             }
         }
 
@@ -489,24 +529,35 @@ namespace ShouldPadMachine.ShouldPadMachineModel
             sysTimeOutWarn = ((Err_Msg & (0x01U << i++)) != 0);
 
             //17取布上端传感器错误
-            takeClothUpperSensorWarn = ((Err_Msg & (0x01U << i++)) != 0);
+            UpperSensorErr = ((Err_Msg & (0x01U << i++)) != 0);
             //18取布中端传感器错误
-            takeClothMidSensorWarn = ((Err_Msg & (0x01U << i++)) != 0);
+            MidSensorErr = ((Err_Msg & (0x01U << i++)) != 0);
             //19取布下端传感器错误
-            takeClothDownSensorWarn = ((Err_Msg & (0x01U << i++)) != 0);
+            DownSensorErr = ((Err_Msg & (0x01U << i++)) != 0);
             //20取布左端传感器错误
-            takeClothLeftSensorWarn = ((Err_Msg & (0x01U << i++)) != 0);
+            LeftSensorErr = ((Err_Msg & (0x01U << i++)) != 0);
             //21取布右端传感器错误
-            takeClothRightSensorWarn = ((Err_Msg & (0x01U << i++)) != 0);
+            RightSensorErr = ((Err_Msg & (0x01U << i++)) != 0);
 
             //22x回零错误
-            xBackToZeroSensorWarn = ((Err_Msg & (0x01U << i++)) != 0);
+            xSensorErr = ((Err_Msg & (0x01U << i++)) != 0);
             //23y回零错误
-            yBackToZeroSensorWarn = ((Err_Msg & (0x01U << i++)) != 0);
+            ySensorErr = ((Err_Msg & (0x01U << i++)) != 0);
             //24伺服回零错误
-            servoBackToZeroSensorWarn = ((Err_Msg & (0x01U << i++)) != 0);
+            servoSensorErr = ((Err_Msg & (0x01U << i++)) != 0);
             //25电源波动报错
             sysRePowerWarn = ((Err_Msg & (0x01U << i++)) != 0);
+
+            //26取布上端传感器错误
+            UpperSensorErrL = ((Err_Msg & (0x01U << i++)) != 0);
+            //27取布中端传感器错误
+            MidSensorErrL = ((Err_Msg & (0x01U << i++)) != 0);
+            //28取布下端传感器错误
+            DownSensorErrL = ((Err_Msg & (0x01U << i++)) != 0);
+            //29取布左端传感器错误
+            LeftSensorErrL = ((Err_Msg & (0x01U << i++)) != 0);
+            //30取布右端传感器错误
+            RightSensorErrL = ((Err_Msg & (0x01U << i++)) != 0);
 
             i = 0;
         }

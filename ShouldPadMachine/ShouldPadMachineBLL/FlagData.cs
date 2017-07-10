@@ -46,14 +46,19 @@ namespace ShouldPadMachine.ShouldPadMachineBLL
         public bool Y_NoMotorWarn { get; set; }
         public bool SysTimeOutWarn { get; set; }
         public bool SysRePowerWarn { get; set; } 
-        public bool TakeClothUpperSensorWarn { get; set; }
-        public bool TakeClothMidSensorWarn { get; set; }
-        public bool TakeClothDownSensorWarn { get; set; }
-        public bool TakeClothLeftSensorWarn { get; set; }
-        public bool TakeClothRightSensorWarn { get; set; }
-        public bool XBackToZeroSensorWarn { get; set; }
-        public bool YBackToZeroSensorWarn { get; set; }
-        public bool ServoBackToZeroSensorWarn { get; set; }
+        public bool UpperSensorErr { get; set; }
+        public bool MidSensorErr { get; set; }
+        public bool DownSensorErr { get; set; }
+        public bool LeftSensorErr { get; set; }
+        public bool RightSensorErr { get; set; }
+        public bool XSensorErr { get; set; }
+        public bool YoSensorErr { get; set; }
+        public bool ServoSensorErr { get; set; }
+        public bool UpperSensorErrL { get; set; }
+        public bool MidSensorErrL { get; set; }
+        public bool DownSensorErrL { get; set; }
+        public bool LeftSensorErrL { get; set; }
+        public bool RightSensorErrL { get; set; }
     }
     public class EditFormFlagData
     {
