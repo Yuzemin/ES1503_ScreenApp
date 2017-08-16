@@ -59,6 +59,12 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             mainFormManager.LoadShouldPadImage();
             picShapeImage.Image = mainFormManager.GetShapeImage();
             lblTotalNeedleNumber.Text = mainFormManager.TotalNumber.ToString();
+
+            MachineBaseDataDAO baseDataDAO = new MachineBaseDataDAO();
+            if (baseDataDAO.IsParamsInvalid())
+            {
+                MessageBoxEX.Show("机器参数未完全初始化", MessageBoxButtonType.OK);
+            }
         }
 
         private void CheckMachineInfoData()

@@ -164,6 +164,21 @@ namespace ShouldPadMachine.ShouldPadMachineDAL
                     defaultDatas[i] = "1";
             }
         }
+
+        public bool IsParamsInvalid()
+        {
+            string x_val = GetSDataBaseValue(MachineBaseDataEnum.XZeroModify);
+            string y_val = GetSDataBaseValue(MachineBaseDataEnum.YZeroModify);
+            string up_val = GetSDataBaseValue(MachineBaseDataEnum.UpNeedleCodeValue);
+
+
+            if (x_val == "0" || y_val == "0" || up_val == "0")
+                return true;
+            else
+                return false;            
+            
+        }
+
         public int GetDataBaseValue(MachineBaseDataEnum machineBaseDataEnum)
         {
             return Convert.ToInt32(base.GetDataBaseValue((int)machineBaseDataEnum));
