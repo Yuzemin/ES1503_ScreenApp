@@ -217,6 +217,7 @@ namespace ShouldPadMachine.ShouldPadMachineAssist
             YSensorErr,
             ServoSensorErr,
             SysRePowerErr,
+            ModifiedValueWarn,
             Null,
         }
         public enum LowerDataType : byte

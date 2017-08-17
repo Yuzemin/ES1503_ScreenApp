@@ -167,16 +167,10 @@ namespace ShouldPadMachine.ShouldPadMachineDAL
 
         public bool IsParamsInvalid()
         {
-            string x_val = GetSDataBaseValue(MachineBaseDataEnum.XZeroModify);
-            string y_val = GetSDataBaseValue(MachineBaseDataEnum.YZeroModify);
-            string up_val = GetSDataBaseValue(MachineBaseDataEnum.UpNeedleCodeValue);
-
-
-            if (x_val == "0" || y_val == "0" || up_val == "0")
+            if ((GetDataBaseValue(MachineBaseDataEnum.XZeroModify) == 0) || (GetDataBaseValue(MachineBaseDataEnum.YZeroModify) == 0) || (GetDataBaseValue(MachineBaseDataEnum.UpNeedleCodeValue) == 0))
                 return true;
             else
-                return false;            
-            
+                return false;
         }
 
         public int GetDataBaseValue(MachineBaseDataEnum machineBaseDataEnum)

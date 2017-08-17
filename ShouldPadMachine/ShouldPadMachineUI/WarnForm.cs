@@ -113,7 +113,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
                 }
                 if (ibWarnSure != null)
                     ibWarnSure.Visible = false;
-                if (warnType != WarnType.CommunicationError)
+                if ((warnType != WarnType.CommunicationError) && (warnType != WarnType.ModifiedValueWarn))
                 {
                     this.Size = new Size(316, 188);
                     warnPicBox.Dock = DockStyle.Fill;
@@ -152,6 +152,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
 
                 switch (warnType)
                 {
+                    case WarnType.ModifiedValueWarn:
                     case WarnType.CommunicationError:
                         break;
                     case WarnType.ModeSwitchWarn:

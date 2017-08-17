@@ -63,7 +63,9 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             MachineBaseDataDAO baseDataDAO = new MachineBaseDataDAO();
             if (baseDataDAO.IsParamsInvalid())
             {
-                MessageBoxEX.Show("机器参数未完全初始化", MessageBoxButtonType.OK);
+				warnForm.HaveWarnMsg = true;
+                warnForm.WarnType = WarnType.ModifiedValueWarn;
+				warnForm.Show();
             }
         }
 
@@ -590,8 +592,6 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             if (editForm == null)
                 editForm = new EditForm();
   
-         
-
             editForm.ShouldPadShapeInfo = mainFormManager.ShouldPadShapeInfo; //传入加布和点坐标
             InitCollingStepMode(false);
             ScreenStatueData.ScreenStatueDataEX.InterfaceMode = InterfaceMode.EditFormMode;
