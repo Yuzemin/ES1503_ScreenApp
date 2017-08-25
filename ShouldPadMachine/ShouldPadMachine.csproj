@@ -531,6 +531,7 @@
     <None Include="Resources\TakeClothMidSensorErr.jpg" />
     <None Include="Resources\TakeClothRightSensorErr.jpg" />
     <None Include="Resources\TakeClothUpperSensorErr.jpg" />
+    <None Include="Resources\ModifiedValueWarn.jpg" />
     <Content Include="亿生.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />

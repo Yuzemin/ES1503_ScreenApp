@@ -62,6 +62,7 @@ namespace ShouldPadMachine.ShouldPadMachineBLL
             //读入机器参数XML
             MachineBaseDataDAO baseDataDAO = new MachineBaseDataDAO();
             baseDataDAO.LoadAllData();
+            
 
             //读入花形参数XML
             ShouldPadDAO mouldDataDAO = new ShouldPadDAO();

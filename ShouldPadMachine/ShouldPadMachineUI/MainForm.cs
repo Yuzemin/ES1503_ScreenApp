@@ -59,6 +59,14 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             mainFormManager.LoadShouldPadImage();
             picShapeImage.Image = mainFormManager.GetShapeImage();
             lblTotalNeedleNumber.Text = mainFormManager.TotalNumber.ToString();
+
+            MachineBaseDataDAO baseDataDAO = new MachineBaseDataDAO();
+            if (baseDataDAO.IsParamsInvalid())
+            {
+				warnForm.HaveWarnMsg = true;
+                warnForm.WarnType = WarnType.ModifiedValueWarn;
+				warnForm.Show();
+            }
         }
 
         private void CheckMachineInfoData()
@@ -584,8 +592,6 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             if (editForm == null)
                 editForm = new EditForm();
   
-         
-
             editForm.ShouldPadShapeInfo = mainFormManager.ShouldPadShapeInfo; //传入加布和点坐标
             InitCollingStepMode(false);
             ScreenStatueData.ScreenStatueDataEX.InterfaceMode = InterfaceMode.EditFormMode;
