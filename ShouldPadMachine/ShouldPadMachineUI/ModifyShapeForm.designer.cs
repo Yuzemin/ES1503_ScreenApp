@@ -83,7 +83,6 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.ibMirror1.Name = "ibMirror1";
             this.ibMirror1.Size = new System.Drawing.Size(80, 45);
             this.ibMirror1.TabIndex = 32;
-            this.ibMirror1.Visible = false;
             this.ibMirror1.Click += new System.EventHandler(this.PointOperMode_Click);
             this.ibMirror1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ImgBtn_MouseDown);
             this.ibMirror1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ImgBtn_MouseUp);
