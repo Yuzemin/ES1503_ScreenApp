@@ -59,6 +59,7 @@ namespace ShouldPadMachine.ShouldPadMachineBLL
         public bool DownSensorErrL { get; set; }
         public bool LeftSensorErrL { get; set; }
         public bool RightSensorErrL { get; set; }
+        public bool SyncWorkedNumber { get; set; }
     }
     public class EditFormFlagData
     {

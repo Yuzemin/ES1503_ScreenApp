@@ -157,18 +157,23 @@ namespace ShouldPadMachine.ShouldPadMachineUI
                     showPromptForm = true;
                     flagData.ClickSewingButton = machineBasicDataInfo.ClickSewingButton;
                 }
-                if (flagData.WorkedNumber != machineBasicDataInfo.WorkedNumber)
+                if (flagData.WorkedNumber != machineBasicDataInfo.WorkedNumber || flagData.SyncWorkedNumber == false)
                 {
                     lowerMachineStatueData.WorkedNumber = machineBasicDataInfo.WorkedNumber;
                     flagData.WorkedNumber = machineBasicDataInfo.WorkedNumber;
-                    if (machineBasicDataInfo.WorkedNumber != 0)
+                    //ReflectToObject(lblWorkedNumber, machineBasicDataInfo.WorkedNumber.ToString());
+                    //ReflectToObject(lblMagnWorkedNumber, machineBasicDataInfo.WorkedNumber.ToString()); 
+
+                    MachineBaseDataDAO baseDataDAO = new MachineBaseDataDAO();
+                    Read_ProductNum = baseDataDAO.GetDataBaseValue(MachineBaseDataEnum.ProductCount);
+                    if (flagData.SyncWorkedNumber == true && machineBasicDataInfo.WorkedNumber != 0)
                     {
-                        MachineBaseDataDAO baseDataDAO = new MachineBaseDataDAO();
-                        Read_ProductNum = baseDataDAO.GetDataBaseValue(MachineBaseDataEnum.ProductCount);
-                        baseDataDAO.SetDataBaseValue(MachineBaseDataEnum.ProductCount, (Read_ProductNum + 1));
+                        Read_ProductNum++;
+                        baseDataDAO.SetDataBaseValue(MachineBaseDataEnum.ProductCount, Read_ProductNum);
                     }
-                    ReflectToObject(lblWorkedNumber, (machineBasicDataInfo.WorkedNumber).ToString());//
-                    ReflectToObject(lblMagnWorkedNumber, (machineBasicDataInfo.WorkedNumber).ToString());
+                    flagData.SyncWorkedNumber = true;
+                    ReflectToObject(lblWorkedNumber, Read_ProductNum.ToString());
+                    ReflectToObject(lblMagnWorkedNumber, Read_ProductNum.ToString());    
                 }
                 if (flagData.BootomWorkedNumber != machineBasicDataInfo.BootomWorkedNumber)
                 {
@@ -1002,6 +1007,10 @@ namespace ShouldPadMachine.ShouldPadMachineUI
                 if (tag != null)
                     ScreenStatueData.ScreenStatueDataEX.ClearNumberID = Convert.ToByte(tag.ToString());
                 dataButton.Text = "0";
+
+                MachineBaseDataDAO baseDataDAO = new MachineBaseDataDAO();
+                if (baseDataDAO.GetDataBaseValue(MachineBaseDataEnum.ProductCount) != 0)       //清零屏上保存的已生产件数
+                    baseDataDAO.SetDataBaseValue(MachineBaseDataEnum.ProductCount, 0);  
             }
         }
 

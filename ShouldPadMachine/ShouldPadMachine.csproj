@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
+    <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{B0CC57DB-24B1-42AF-93A3-FA1A7B2670D7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -332,6 +332,7 @@
     </EmbeddedResource>
     <EmbeddedResource Include="ShouldPadMachineUI\Menu.resx">
       <DependentUpon>Menu.cs</DependentUpon>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
     <EmbeddedResource Include="ShouldPadMachineUI\MessageBoxEX.resx">
       <DependentUpon>MessageBoxEX.cs</DependentUpon>
