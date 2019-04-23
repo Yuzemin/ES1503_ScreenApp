@@ -92,7 +92,5 @@ namespace ShouldPadMachine.ShouldPadMachineBLL
         public bool carrySensorLeft { get; set; }
         public bool carrySensorRight { get; set; }
 
-
-      
     }
 }

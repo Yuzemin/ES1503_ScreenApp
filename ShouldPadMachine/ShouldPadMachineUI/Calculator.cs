@@ -16,6 +16,13 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             InitializeComponent();
             this.Location = new Point((Screen.PrimaryScreen.Bounds.Width - this.Width) / 2, (Screen.PrimaryScreen.Bounds.Height - this.Height + 40) / 2);
         }
+
+        public Calculator(int X, int Y, int offset_x, int offset_y)
+        {
+            InitializeComponent();
+            this.Location = new Point((X - this.Width) / 2 + offset_x, (Y - this.Height + 40) / 2 + offset_y);
+        }
+
         private String initStrNum = String.Empty;//最初数据
         private double lastNumber;//最终数据
         private bool minusButtonEnable = false;

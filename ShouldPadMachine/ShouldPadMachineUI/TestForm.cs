@@ -18,7 +18,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
     {
         private TestFormFlag formFlag;
 
-         public TestForm()
+        public TestForm()
         {
             InitializeComponent();
             ibTestReturn.SetMap(Properties.Resources.imgReturn1, Properties.Resources.imgReturn2);
@@ -83,6 +83,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
         {
             SerialDataManager.Feedback += new ShouldPadMachine.ShouldPadMachineAssist.DelegateEx.FeedbackEventHandle(SerialDataManager_Feedback);
         }
+
         private void ReflectToObject(object sender, String text)
         {
             Control ctl = sender as Control;
@@ -103,6 +104,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
                 dataButton.Text = text;
             }
         }
+
         void SerialDataManager_Feedback(ShouldPadMachine.ShouldPadMachineModel.UartComdEventArgs lowerDataInfo)
         {
             if (lowerDataInfo.LowerDataType == ShouldPadMachine.ShouldPadMachineAssist.Enum.LowerDataType.TestDataType)

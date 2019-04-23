@@ -443,8 +443,6 @@ namespace ShouldPadMachine.ShouldPadMachineUI
                         showPromptForm = true;
                 }
 
-
-
                 if (flagData.Working != false)
                 {
                     flagData.Working = false;
@@ -461,6 +459,12 @@ namespace ShouldPadMachine.ShouldPadMachineUI
                 {
                     //ToDo:强制发21花型参数
                     ScreenStatueData.ScreenStatueDataEX.SendDesignFlag = true;
+                }
+                // 收到跟随表测试数据报告
+                if (machineBasicDataInfo.TestReport != 0)
+                {
+                    // 请求测试跟随数据 请求0x26
+                    SerialDataManager.TestReportRep = true;
                 }
                 if (machineBasicDataInfo.ReciveGroupIndex != 0)//请求包序
                 {

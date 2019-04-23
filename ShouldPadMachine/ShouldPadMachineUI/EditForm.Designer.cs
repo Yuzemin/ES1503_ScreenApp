@@ -166,7 +166,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.tlClampM.Size = new System.Drawing.Size(76, 36);
             this.tlClampM.TabIndex = 200;
             this.tlClampM.Tag = "2";
-            this.tlClampM.Val_Max = 300;
+            this.tlClampM.Val_Max = 350;
             this.tlClampM.Val_Min = 50;
             this.tlClampM.Click += new System.EventHandler(this.Param_Click);
             // 
@@ -186,7 +186,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.tlClampR.Size = new System.Drawing.Size(76, 36);
             this.tlClampR.TabIndex = 199;
             this.tlClampR.Tag = "3";
-            this.tlClampR.Val_Max = 300;
+            this.tlClampR.Val_Max = 350;
             this.tlClampR.Val_Min = 50;
             this.tlClampR.Click += new System.EventHandler(this.Param_Click);
             // 
@@ -206,7 +206,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.tlClampL.Size = new System.Drawing.Size(76, 36);
             this.tlClampL.TabIndex = 198;
             this.tlClampL.Tag = "1";
-            this.tlClampL.Val_Max = 300;
+            this.tlClampL.Val_Max = 350;
             this.tlClampL.Val_Min = 50;
             this.tlClampL.Click += new System.EventHandler(this.Param_Click);
             // 
@@ -226,7 +226,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.tlCol.Size = new System.Drawing.Size(76, 36);
             this.tlCol.TabIndex = 197;
             this.tlCol.Tag = "8";
-            this.tlCol.Val_Max = 10;
+            this.tlCol.Val_Max = 20;
             this.tlCol.Val_Min = 2;
             this.tlCol.Click += new System.EventHandler(this.Param_Click);
             // 
@@ -254,7 +254,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             // 
             this.tlPadHalf.Alignment = System.Drawing.StringAlignment.Center;
             this.tlPadHalf.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.tlPadHalf.Content = "50";
+            this.tlPadHalf.Content = "20";
             this.tlPadHalf.Endecimal = false;
             this.tlPadHalf.Enminus = false;
             this.tlPadHalf.Enrange = true;
@@ -266,7 +266,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.tlPadHalf.Size = new System.Drawing.Size(76, 36);
             this.tlPadHalf.TabIndex = 195;
             this.tlPadHalf.Tag = "6";
-            this.tlPadHalf.Val_Max = 175;
+            this.tlPadHalf.Val_Max = 300;
             this.tlPadHalf.Val_Min = 20;
             this.tlPadHalf.Click += new System.EventHandler(this.Param_Click);
             // 
@@ -274,7 +274,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             // 
             this.tlPad_Width.Alignment = System.Drawing.StringAlignment.Center;
             this.tlPad_Width.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.tlPad_Width.Content = "100";
+            this.tlPad_Width.Content = "50";
             this.tlPad_Width.Endecimal = false;
             this.tlPad_Width.Enminus = false;
             this.tlPad_Width.Enrange = true;
@@ -286,7 +286,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.tlPad_Width.Size = new System.Drawing.Size(76, 36);
             this.tlPad_Width.TabIndex = 194;
             this.tlPad_Width.Tag = "5";
-            this.tlPad_Width.Val_Max = 300;
+            this.tlPad_Width.Val_Max = 350;
             this.tlPad_Width.Val_Min = 50;
             this.tlPad_Width.Click += new System.EventHandler(this.Param_Click);
             // 
@@ -294,7 +294,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             // 
             this.tlPadLength.Alignment = System.Drawing.StringAlignment.Center;
             this.tlPadLength.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.tlPadLength.Content = "100";
+            this.tlPadLength.Content = "50";
             this.tlPadLength.Endecimal = false;
             this.tlPadLength.Enminus = false;
             this.tlPadLength.Enrange = true;
@@ -306,7 +306,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.tlPadLength.Size = new System.Drawing.Size(76, 36);
             this.tlPadLength.TabIndex = 193;
             this.tlPadLength.Tag = "4";
-            this.tlPadLength.Val_Max = 350;
+            this.tlPadLength.Val_Max = 600;
             this.tlPadLength.Val_Min = 50;
             this.tlPadLength.Click += new System.EventHandler(this.Param_Click);
             // 

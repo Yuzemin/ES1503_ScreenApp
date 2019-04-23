@@ -13,7 +13,7 @@ namespace ShouldPadMachine.ShouldPadMachineAssist
         private int[] testDatas;//测试数据
         private int cascadeCount;//级联次数
         private bool collectionLowerPoint;//收集下位机点使能
-        private bool clearWorkNumber;//清楚数据使能
+        private bool clearWorkNumber;//清除数据使能
         private bool finishThreadLine;//完成穿线
         private bool knowedWarn;//用户是否点看到警告
         private bool shouldReset;//复位使能
@@ -24,6 +24,7 @@ namespace ShouldPadMachine.ShouldPadMachineAssist
         private InterfaceMode interfaceMode;
         private int selectPointIndex;
         private bool numberOverflow;
+        private ushort testIndex;           //运动测试序号 0:无效 1~20:100~2000
 
         private int installedButton;//装机按钮
         private byte machineTestData;
@@ -54,6 +55,7 @@ namespace ShouldPadMachine.ShouldPadMachineAssist
             screenWorkedStatue = ScreenWorkedStatue.NormalStatue;
             screenButtonEnable = true;
             unLock = false;
+            testIndex = 0;
         }
         public static ScreenStatueData ScreenStatueDataEX
         {
@@ -65,6 +67,17 @@ namespace ShouldPadMachine.ShouldPadMachineAssist
         }
 
         #region get set方法
+        public ushort TestIndex
+        {
+            get
+            {
+                return testIndex;
+            }
+            set
+            {
+                testIndex = value;
+            }
+        }
         public bool UnLock
         {
             get

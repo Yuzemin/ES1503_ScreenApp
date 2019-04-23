@@ -30,6 +30,13 @@ namespace ShouldPadMachine.ShouldPadMachineBLL
         private MoveType moveType;
         private int plusShapeSize;
         private ValueRange[] pointValueRanges;
+        private bool copyMark;
+
+        public bool CopyMark
+        {
+            get { return copyMark;}
+            set { copyMark = value;}
+        }
 
         public bool HaveIttegularPoint
         {
@@ -283,53 +290,255 @@ namespace ShouldPadMachine.ShouldPadMachineBLL
                 }
             }
         }
-        public void MirrorShapePoint(int dir)
+        
+        private int PointList_XCheck(){
+            int Mark = 0;
+            
+            for(int i=0;i < shapePoints.Length; i++)
+            {
+                switch(Mark)
+                {
+                    case 0 :
+                        // 在x负半轴有点
+                        if(shapePoints[i].X < 0)
+                            Mark = 1;
+                        // 在x正半轴有点
+                        else if(shapePoints[i].X > 0)
+                            Mark = 2;
+                        break;
+                    case 1:
+                        // 在x轴正负两侧有点
+                        if(shapePoints[i].X > 0)
+                            Mark = 3;
+                        break;
+                    case 2:
+                        // 在x轴正负两侧有点
+                        if(shapePoints[i].X < 0)
+                            Mark = 3;
+                        break;
+                    default:
+                        break;
+                }
+                if(Mark == 3)
+                    break;
+            }
+            return Mark;
+        }
+
+        private int PointList_YCheck()
+        {
+            int Mark = 0;
+
+            for (int i = 0; i < shapePoints.Length; i++)
+            {
+                switch (Mark)
+                {
+                    case 0:
+                        // 在Y负半轴有点
+                        if (shapePoints[i].Y < 0)
+                            Mark = 1;
+                        // 在y正半轴有点
+                        else if (shapePoints[i].Y > 0)
+                            Mark = 2;
+                        break;
+                    case 1:
+                        // 在y轴正负两侧有点
+                        if (shapePoints[i].Y > 0)
+                            Mark = 3;
+                        break;
+                    case 2:
+                        // 在y轴正负两侧有点
+                        if (shapePoints[i].Y < 0)
+                            Mark = 3;
+                        break;
+                    default:
+                        break;
+                }
+                if (Mark == 3)
+                    break;
+            }
+            return Mark;
+        }
+
+        public void RotatingMirror()
         {
             List<Point> mirrorPointList = new List<Point>();
             List<Point> shapePointList = new List<Point>();
             Point left_Con, right_Con, Connect;
+            int Mark = 0;
 
-            if (shapePoints[0].X < 0)
+            if (this.copyMark == true)
+            {
+                Mark = PointList_XCheck();
+
+                if (Mark == 1)
+                {
+                    for (int i = 0; i < shapePoints.Length; i++)
+                    {
+                        shapePointList.Add(shapePoints[i]);
+                        mirrorPointList.Add(new Point(shapePoints[i].X * -1, shapePoints[i].Y * -1));
+                    }
+                    mirrorPointList.Reverse();
+                    left_Con = shapePointList[shapePointList.Count - 1];
+                    right_Con = mirrorPointList[0];
+                    Connect = new Point((left_Con.X + right_Con.X) / 2, (left_Con.Y + right_Con.Y) / 2);
+                    shapePointList.Add(Connect);
+                    shapePointList.AddRange(mirrorPointList);
+                }
+                else if (Mark == 2)
+                {
+                    for (int i = shapePoints.Length - 1; i >= 0; i--)
+                    {
+                        mirrorPointList.Add(new Point(shapePoints[i].X * -1, shapePoints[i].Y * -1));
+                    }
+
+                    left_Con = mirrorPointList[mirrorPointList.Count - 1];
+                    right_Con = shapePoints[0];
+                    Connect = new Point((left_Con.X + right_Con.X) / 2, (left_Con.Y + right_Con.Y) / 2);
+                    shapePointList.AddRange(mirrorPointList.ToArray());
+                    shapePointList.Add(Connect);
+                    shapePointList.AddRange(shapePoints);
+                }
+                else
+                {
+                    for (int i = 0; i < shapePoints.Length; i++)
+                    {
+                        shapePointList.Add(new Point(shapePoints[i].X * -1, shapePoints[i].Y * -1));
+                    }
+                }
+            }
+            else
             {
                 for (int i = 0; i < shapePoints.Length; i++)
                 {
-                    if (shapePoints[i].X >= 0) // 只获得左半花型
-                        break;
-                    shapePointList.Add(shapePoints[i]);
-
-                    if (dir == 0)
-                        mirrorPointList.Add(new Point(shapePoints[i].X * -1, shapePoints[i].Y));
-                    else
-                        mirrorPointList.Add(new Point(shapePoints[i].X * -1, shapePoints[i].Y * -1));
+                    shapePointList.Add(new Point(shapePoints[i].X * -1, shapePoints[i].Y * -1));
                 }
-                mirrorPointList.Reverse();
-                left_Con = shapePointList[shapePointList.Count - 1];
-                right_Con = mirrorPointList[0];
-                Connect = new Point((left_Con.X + right_Con.X) / 2, (left_Con.Y + right_Con.Y) / 2);
-                shapePointList.Add(Connect);
-                shapePointList.AddRange(mirrorPointList);
-            }
-            else //表明图像只有在X轴正方向的点或者没有点
-            {
-                for (int i = shapePoints.Length - 1; i >= 0; i--)
-                {
-                    if (dir == 0)
-                        mirrorPointList.Add(new Point(shapePoints[i].X * -1, shapePoints[i].Y));
-                    else
-                        mirrorPointList.Add(new Point(shapePoints[i].X * -1, shapePoints[i].Y * -1));
-                }
-
-                left_Con = mirrorPointList[mirrorPointList.Count - 1];
-                right_Con = shapePoints[0];
-                Connect = new Point((left_Con.X + right_Con.X) / 2, (left_Con.Y + right_Con.Y) / 2);
-                shapePointList.AddRange(mirrorPointList.ToArray());
-                shapePointList.Add(Connect);
-                shapePointList.AddRange(shapePoints);
             }
 
             SetShapePoints(shapePointList.ToArray());
             MoveType = MoveType.MoveShapeSelectPoint;
         }
+        
+        public void MirrorShapePoint()
+        {
+            List<Point> mirrorPointList = new List<Point>();
+            List<Point> shapePointList = new List<Point>();
+            Point left_Con, right_Con, Connect;
+            int Mark = 0;
+
+            if (this.copyMark == true)
+            {
+                Mark = PointList_XCheck();
+
+                if (Mark == 1)
+                {
+                    for (int i = 0; i < shapePoints.Length; i++)
+                    {
+                        shapePointList.Add(shapePoints[i]);
+                        mirrorPointList.Add(new Point(shapePoints[i].X * -1, shapePoints[i].Y));
+                    }
+                    mirrorPointList.Reverse();
+                    left_Con = shapePointList[shapePointList.Count - 1];
+                    right_Con = mirrorPointList[0];
+                    Connect = new Point((left_Con.X + right_Con.X) / 2, (left_Con.Y + right_Con.Y) / 2);
+                    shapePointList.Add(Connect);
+                    shapePointList.AddRange(mirrorPointList);
+                }
+                else if (Mark == 2)
+                {
+                    for (int i = shapePoints.Length - 1; i >= 0; i--)
+                    {
+                        mirrorPointList.Add(new Point(shapePoints[i].X * -1, shapePoints[i].Y));
+                    }
+
+                    left_Con = mirrorPointList[mirrorPointList.Count - 1];
+                    right_Con = shapePoints[0];
+                    Connect = new Point((left_Con.X + right_Con.X) / 2, (left_Con.Y + right_Con.Y) / 2);
+                    shapePointList.AddRange(mirrorPointList.ToArray());
+                    shapePointList.Add(Connect);
+                    shapePointList.AddRange(shapePoints);
+                }
+                else
+                {
+                    for (int i = 0; i < shapePoints.Length; i++)
+                    {
+                        shapePointList.Add(new Point(shapePoints[i].X * -1, shapePoints[i].Y));
+                    }
+                }
+            }
+            else
+            {
+                for (int i = 0; i < shapePoints.Length; i++)
+                {
+                    shapePointList.Add(new Point(shapePoints[i].X * -1, shapePoints[i].Y));
+                }
+            }
+
+            SetShapePoints(shapePointList.ToArray());
+            MoveType = MoveType.MoveShapeSelectPoint;
+        }
+
+        public void XMirrorShapePoint()
+        {
+            List<Point> mirrorPointList = new List<Point>();
+            List<Point> shapePointList = new List<Point>();
+            Point left_Con, right_Con, Connect;
+            int Mark = 0;
+
+            if (this.copyMark == true)
+            {
+                Mark = PointList_YCheck();
+
+                if (Mark == 1)
+                {
+                    for (int i = 0; i < shapePoints.Length; i++)
+                    {
+                        shapePointList.Add(shapePoints[i]);
+                        mirrorPointList.Add(new Point(shapePoints[i].X, shapePoints[i].Y * -1));
+                    }
+                    mirrorPointList.Reverse();
+                    left_Con = shapePointList[shapePointList.Count - 1];
+                    right_Con = mirrorPointList[0];
+                    Connect = new Point((left_Con.X + right_Con.X) / 2, (left_Con.Y + right_Con.Y) / 2);
+                    shapePointList.Add(Connect);
+                    shapePointList.AddRange(mirrorPointList);
+                }
+                else if (Mark == 2)
+                {
+                    for (int i = shapePoints.Length - 1; i >= 0; i--)
+                    {
+                        mirrorPointList.Add(new Point(shapePoints[i].X, shapePoints[i].Y * -1));
+                    }
+
+                    left_Con = mirrorPointList[mirrorPointList.Count - 1];
+                    right_Con = shapePoints[0];
+                    Connect = new Point((left_Con.X + right_Con.X) / 2, (left_Con.Y + right_Con.Y) / 2);
+                    shapePointList.AddRange(mirrorPointList.ToArray());
+                    shapePointList.Add(Connect);
+                    shapePointList.AddRange(shapePoints);
+                }
+                else
+                {
+                    for (int i = 0; i < shapePoints.Length; i++)
+                    {
+                        shapePointList.Add(new Point(shapePoints[i].X, shapePoints[i].Y * -1));
+                    }
+                }
+            }
+            else
+            {
+                for (int i = 0; i < shapePoints.Length; i++)
+                {
+                    shapePointList.Add(new Point(shapePoints[i].X, shapePoints[i].Y * -1));
+                }
+            }
+            
+
+            SetShapePoints(shapePointList.ToArray());
+            MoveType = MoveType.MoveShapeSelectPoint;
+        }
+        
+
         public void AppendShapePoint()
         {
             int newX, newY;
@@ -362,6 +571,7 @@ namespace ShouldPadMachine.ShouldPadMachineBLL
                 }
             }
         }
+        
         public void MoveShapePoint()
         {
             if (moveType == MoveType.MoveShapeUnSelectPoint)
@@ -386,6 +596,7 @@ namespace ShouldPadMachine.ShouldPadMachineBLL
             }
             
         }
+        
         public void RevokeShapesOPer()
         {
             if (moveType == MoveType.MoveShapeUnSelectPoint)
@@ -399,10 +610,12 @@ namespace ShouldPadMachine.ShouldPadMachineBLL
                 }
             }
         }
+        
         private void SetShapePoints(Point[] shapePoints)
         {
             SetShapePoints(shapePoints, true);
         }
+        
         private void SetShapePoints(Point[] shapePoints, bool newShapes)
         {
             this.shapePoints = new Point[shapePoints.Length];

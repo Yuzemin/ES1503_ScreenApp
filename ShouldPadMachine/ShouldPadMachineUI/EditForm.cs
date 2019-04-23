@@ -170,13 +170,14 @@ namespace ShouldPadMachine.ShouldPadMachineUI
                 {
                     if (EditManager.HaveIrregularPoint)
                         MessageBoxEX.Show("图中存在无效点，请重新编辑！");
-                    else if (EditManager.GetShapePointLength > 300)
-                        MessageBoxEX.Show("花型针数超过300针，请重新编辑！");
+                    else if (EditManager.GetShapePointLength > 900)
+                        MessageBoxEX.Show("花型针数超过900针，请重新编辑！");
                     else
                     {
                         EditManager.Edit_SaveAllParam();
                         EditManager.ShouldPadShapeInfo = EditManager.EditShouldPadInfoList[EditManager.EditShouldPadInfoList.Count - 1].ShouldPadShapeInfo;
                         LowerMachineStatueData.LowerMachineStatueDateEx.EditStatue = false;
+                        SerialDataManager.Feedback -= new ShouldPadMachine.ShouldPadMachineAssist.DelegateEx.FeedbackEventHandle(SerialDataManager_Feedback);
                         this.Close();
                     }
                 }
@@ -184,6 +185,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
                 {
                     EditManager.ShouldPadShapeInfo = EditManager.EditShouldPadInfoList[0].ShouldPadShapeInfo;                    
                     LowerMachineStatueData.LowerMachineStatueDateEx.EditStatue = false;
+                    SerialDataManager.Feedback -= new ShouldPadMachine.ShouldPadMachineAssist.DelegateEx.FeedbackEventHandle(SerialDataManager_Feedback);
                     this.Close();
                 }
             }

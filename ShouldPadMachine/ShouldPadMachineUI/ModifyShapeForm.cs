@@ -23,6 +23,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
         private WarnForm warnForm;
         private ModifyFormFlagData flagData;
         private DirectionType directionType;
+
         public new DialogResult DialogResult
         {
             get {
@@ -33,8 +34,9 @@ namespace ShouldPadMachine.ShouldPadMachineUI
         {
             InitializeComponent();
 
-            ibMirror.SetMap(Properties.Resources.imgMirror1, Properties.Resources.imgMirror2);
-            ibMirror1.SetMap(Properties.Resources.imgMir1, Properties.Resources.imgMir2);
+            ibMirror.SetMap(Properties.Resources.imgMir1, Properties.Resources.imgMir2);
+            ibxMirror.SetMap(Properties.Resources.imgxMir1, Properties.Resources.imgxMir2);
+            ibMirrorCopy.SetMap(Properties.Resources.imgMirCpy1, Properties.Resources.imgMirCpy2); 
 
             ibReturn.SetMap(Properties.Resources.imgExit1, Properties.Resources.imgExit2);
             ibAddPoint.SetMap(Properties.Resources.imgAddPoit1, Properties.Resources.imgAddPoit2);
@@ -149,10 +151,10 @@ namespace ShouldPadMachine.ShouldPadMachineUI
                     shapeOperManager.DeleteShapePoint();
                     break;
                 case "ibMirror":
-                    shapeOperManager.MirrorShapePoint(0);
+                    shapeOperManager.MirrorShapePoint();
                     break;
-                case "ibMirror1":
-                    shapeOperManager.MirrorShapePoint(1);
+                case "ibxMirror":
+                    shapeOperManager.XMirrorShapePoint();
                     break;
                 default:
                     break;
@@ -170,7 +172,10 @@ namespace ShouldPadMachine.ShouldPadMachineUI
 
         private void Return_Click(object sender, EventArgs e)
         {
+            ibMirrorCopy.IsCheck = false;
+            shapeOperManager.CopyMark = false;
             dialogResult = DialogResult.Yes;
+            SerialDataManager.Feedback -= new ShouldPadMachine.ShouldPadMachineAssist.DelegateEx.FeedbackEventHandle(SerialDataManager_Feedback);
             this.Close();
         }
 
@@ -230,6 +235,14 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             ImgBtn imgBtn = sender as ImgBtn;
 
             imgBtn.btnClickUp();
+        }
+
+        private void ibMirrorCopy_Click(object sender, EventArgs e)
+        {
+            ImgSwitch imBtn = sender as ImgSwitch;
+
+            imBtn.SwitchClick();
+            shapeOperManager.CopyMark = imBtn.IsCheck;
         } 
     }
 }

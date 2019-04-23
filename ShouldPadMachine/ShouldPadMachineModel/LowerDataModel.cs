@@ -24,6 +24,14 @@ namespace ShouldPadMachine.ShouldPadMachineModel
             data = Convert.ToUInt16(data + byte1);
             return data;
         }
+
+        protected short GetInt16Data(byte byte1, byte byte2)
+        {
+            short data = byte2;
+            data <<= 8;
+            data = Convert.ToInt16(data + byte1);
+            return data;
+        }
         /// <summary>
         /// 加载下位机数据
         /// </summary>
@@ -32,16 +40,17 @@ namespace ShouldPadMachine.ShouldPadMachineModel
     }
     public class MachineBasicDataInfo : LowerDataInfo//机器基本数据
     {
-        private ushort workNeedleNumber;//当前工作针数
-        private ushort bootomWorkedNumber;//底缝件数
-        private ushort workedNumber; //已完成的生产件数
+        private ushort workNeedleNumber;            //当前工作针数
+        private ushort bootomWorkedNumber;          //底缝件数
+        private ushort workedNumber;                //已完成的生产件数
         private short servoCodeValue;
-        private ushort reciveGroupIndex;//请求数据包信号
+        private ushort reciveGroupIndex;            //请求数据包信号
        // private ushort workedStatue;//工作状态
         private WorkedStatue workedStatue;
-        private UInt32 errorValue;//错误数据
-        private bool clickSewingButton;//点击了缝纫按钮
-        private bool errorOccur; //错误是否发生
+        private UInt32 errorValue;                  //错误数据
+        private bool clickSewingButton = false;     //点击了缝纫按钮
+        private bool errorOccur;                    //错误是否发生
+        private byte testReport;                    //测试数据反馈  
 
         private bool modeSwitchWarn;                //模式切换错误
         private bool totalworkedNumberOverflowWarn; //总生产件数达到警告
@@ -62,28 +71,28 @@ namespace ShouldPadMachine.ShouldPadMachineModel
         private bool x_OCurWarn;//X电机过流错误
         private bool x_NoMotorWarn;//X无电机 
         private bool y_QepErrWarn;//Y电机编码器错误
-        private bool y_OLoadWarn;//Y电机过载错误
-        private bool y_OCurWarn;//Y电机过流错误
-        private bool y_NoMotorWarn;//Y无电机 
+        private bool y_OLoadWarn;           //Y电机过载错误
+        private bool y_OCurWarn;            //Y电机过流错误
+        private bool y_NoMotorWarn;         //Y无电机 
         private bool sysTimeOutWarn { get; set; }
         private bool sysRePowerWarn { get; set; } 
-        private bool UpperSensorErr;//取布上端传感器错误
-        private bool MidSensorErr;//取布中端传感器错误
-        private bool DownSensorErr;//取布下端传感器错误
-        private bool LeftSensorErr;//取布左端传感器错误
-        private bool RightSensorErr;//取布右端传感器错误
-        private bool xSensorErr;//x回零错误
-        private bool ySensorErr;//y回零错误
-        private bool servoSensorErr;//伺服回零错误
-        private bool UpperSensorErrL;//取布上端传感器常量错误
-        private bool MidSensorErrL;//取布中端传感器常量错误
-        private bool DownSensorErrL;//取布下端传感器常量错误
-        private bool LeftSensorErrL;//取布左端传感器常量错误
-        private bool RightSensorErrL;//取布右端传感器常量错误
+        private bool UpperSensorErr;        //取布上端传感器错误
+        private bool MidSensorErr;          //取布中端传感器错误
+        private bool DownSensorErr;         //取布下端传感器错误
+        private bool LeftSensorErr;         //取布左端传感器错误
+        private bool RightSensorErr;        //取布右端传感器错误
+        private bool xSensorErr;            //x回零错误
+        private bool ySensorErr;            //y回零错误
+        private bool servoSensorErr;        //伺服回零错误
+        private bool UpperSensorErrL;       //取布上端传感器常量错误
+        private bool MidSensorErrL;         //取布中端传感器常量错误
+        private bool DownSensorErrL;        //取布下端传感器常量错误
+        private bool LeftSensorErrL;        //取布左端传感器常量错误
+        private bool RightSensorErrL;       //取布右端传感器常量错误
 
         private byte sendClothStatue;
         private bool singleStepStatue;
-        private bool stReqstData;//花型参数请求标志位
+        private bool stReqstData;           //花型参数请求标志位
 
         public MachineBasicDataInfo()
         {
@@ -91,7 +100,13 @@ namespace ShouldPadMachine.ShouldPadMachineModel
         }
 
         #region get set 方法
-        
+
+        public byte TestReport
+        {
+            get { return testReport; }
+
+        }
+
         public bool StReqstData
         {
             get { return stReqstData; }
@@ -467,7 +482,10 @@ namespace ShouldPadMachine.ShouldPadMachineModel
             singleStepStatue = (lowerDatas[13] == 1 ? true : false);
 
             //获取系统警告和报错信号
-            GetMachineWarn(lowerDatas[14], lowerDatas[15], lowerDatas[16], lowerDatas[17], lowerDatas[18]);            
+            GetMachineWarn(lowerDatas[14], lowerDatas[15], lowerDatas[16], lowerDatas[17], lowerDatas[18]);
+
+            //测试数据报告标志位
+            testReport = lowerDatas[19];
         }
 
         private void GetMachineWarn(byte Warn_Msg, byte byte1, byte byte2, byte byte3,byte byte4)
@@ -622,6 +640,64 @@ namespace ShouldPadMachine.ShouldPadMachineModel
         public override void LoadLowerData(byte[] backDatas)
         {
             MenuFormManager.LockResult = backDatas[0];
+        }
+    }
+
+    public class TestReportInfo : LowerDataInfo //运动测试
+    {
+        private ushort  rptID;
+        private short xBgnDstErr;
+        private short xEndDstErr;
+        private short yBgnDstErr;
+        private short yEndDstErr;
+
+        #region   get set 方法
+
+        public ushort RptID
+        {
+            get { return rptID; }
+            set { rptID = value; }
+        }
+        public short XBgnDstErr
+        {
+            get { return xBgnDstErr; }
+            set { xBgnDstErr = value; }
+        }
+        public short XEndDstErr
+        {
+            get { return xEndDstErr; }
+            set { xEndDstErr = value; }
+        }
+        public short YBgnDstErr
+        {
+            get { return yBgnDstErr; }
+            set { yBgnDstErr = value; }
+        }
+        public short YEndDstErr
+        {
+            get { return yEndDstErr; }
+            set { yEndDstErr = value; }
+        }
+
+        #endregion
+
+        public TestReportInfo()
+        {
+            lowerDataType = LowerDataType.TestReptDataType;
+        }
+
+        public override void LoadLowerData(byte[] backDatas)
+        {
+            //测试0x36回复解析
+            byte[] lowerDatas = new byte[backDatas.Length];
+            backDatas.CopyTo(lowerDatas, 0);
+
+            //电磁阀 与 按钮状态读取
+            rptID = GetShortData(lowerDatas[0], lowerDatas[1]);
+            xBgnDstErr = GetInt16Data(lowerDatas[2], lowerDatas[3]);
+            xEndDstErr = GetInt16Data(lowerDatas[4], lowerDatas[5]);
+            yBgnDstErr = GetInt16Data(lowerDatas[6], lowerDatas[7]);
+            yEndDstErr = GetInt16Data(lowerDatas[8], lowerDatas[9]);
         }
     }
 

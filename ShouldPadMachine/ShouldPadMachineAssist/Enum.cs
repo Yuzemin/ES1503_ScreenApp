@@ -120,7 +120,7 @@ namespace ShouldPadMachine.ShouldPadMachineAssist
             Null
         }
 
-        public enum SetDataEnum : byte//画园参数
+        public enum SetDataEnum : byte//跟随参数
         {
             angleOfX,
             angleOfX1,
@@ -142,26 +142,66 @@ namespace ShouldPadMachine.ShouldPadMachineAssist
             angleOfY7,
             angleOfY8,
             angleOfY9,
-            RotationAngleOfX,
-            RotationAngleOfX1,
-            RotationAngleOfX2,
-            RotationAngleOfX3,
-            RotationAngleOfX4,
-            RotationAngleOfX5,
-            RotationAngleOfX6,
-            RotationAngleOfX7,
-            RotationAngleOfX8,
-            RotationAngleOfX9,
-            RotationAngleOfY,
-            RotationAngleOfY1,
-            RotationAngleOfY2,
-            RotationAngleOfY3,
-            RotationAngleOfY4,
-            RotationAngleOfY5,
-            RotationAngleOfY6,
-            RotationAngleOfY7,
-            RotationAngleOfY8,
-            RotationAngleOfY9,
+            MaxDstOfX,
+            MaxDstOfX1,
+            MaxDstOfX2,
+            MaxDstOfX3,
+            MaxDstOfX4,
+            MaxDstOfX5,
+            MaxDstOfX6,
+            MaxDstOfX7,
+            MaxDstOfX8,
+            MaxDstOfX9,
+            MaxDstOfY,
+            MaxDstOfY1,
+            MaxDstOfY2,
+            MaxDstOfY3,
+            MaxDstOfY4,
+            MaxDstOfY5,
+            MaxDstOfY6,
+            MaxDstOfY7,
+            MaxDstOfY8,
+            MaxDstOfY9,
+            angleOfX10,
+            angleOfX11,
+            angleOfX12,
+            angleOfX13,
+            angleOfX14,
+            angleOfX15,
+            angleOfX16,
+            angleOfX17,
+            angleOfX18,
+            angleOfX19,
+            angleOfY10,
+            angleOfY11,
+            angleOfY12,
+            angleOfY13,
+            angleOfY14,
+            angleOfY15,
+            angleOfY16,
+            angleOfY17,
+            angleOfY18,
+            angleOfY19,
+            MaxDstOfX10,
+            MaxDstOfX11,
+            MaxDstOfX12,
+            MaxDstOfX13,
+            MaxDstOfX14,
+            MaxDstOfX15,
+            MaxDstOfX16,
+            MaxDstOfX17,
+            MaxDstOfX18,
+            MaxDstOfX19,
+            MaxDstOfY10,
+            MaxDstOfY11,
+            MaxDstOfY12,
+            MaxDstOfY13,
+            MaxDstOfY14,
+            MaxDstOfY15,
+            MaxDstOfY16,
+            MaxDstOfY17,
+            MaxDstOfY18,
+            MaxDstOfY19,
             Null
         }
         public enum OtherStringType : byte
@@ -233,6 +273,7 @@ namespace ShouldPadMachine.ShouldPadMachineAssist
             LowerSingleStepInfoType,
             EncStaInfoType,
             EncResInfoType,
+            TestReptDataType,           //运动测试报告数据类型
             NULL
         }
         public enum ImageType : byte
@@ -269,8 +310,6 @@ namespace ShouldPadMachine.ShouldPadMachineAssist
             ModeImage,
             LeftPatternImage,   //左半花型绘制
             RightPatternImage,  //右半花型绘制
-
-
             Null, 
         }
         public enum ButtonStatus : byte
@@ -402,15 +441,17 @@ namespace ShouldPadMachine.ShouldPadMachineAssist
         }
         public enum SendDataType
         {
-            NormalSerialData = 0x20,   //普通的串口数据
-            DesignParam = 0x21,//花型参数  
-            TestSerialData = 0x23,     //测试数据
-            ClearComdSerailData = 0x24,//清除下位机件数
-            MachineSerialData = 0x25,  //机器参数           
-            ShouldPadPointsData = 0x27,//VersionCheckSerialData = 0x27,
-            SingleStepSerialData =0x28,//屏幕按键           
-            LockStaSerialData = 0x29,  //加密系统状态
-            UnLockSerialData = 0x2A    //尝试解密
+            NormalSerialData = 0x20,    //普通的串口数据
+            DesignParam = 0x21,         //花型参数  
+            DstReportReq = 0x22,       //跟随表测试数据请求
+            TestSerialData = 0x23,      //测试数据
+            ClearComdSerailData = 0x24, //清除下位机件数
+            MachineSerialData = 0x25,   //机器参数           
+            DstReportData = 0x26,        //获取跟随表测试数据
+            ShouldPadPointsData = 0x27, //VersionCheckSerialData = 0x27,
+            SingleStepSerialData =0x28, //屏幕按键           
+            LockStaSerialData = 0x29,   //加密系统状态
+            UnLockSerialData = 0x2A     //尝试解密
         }
         public enum UpdataType : byte
         {
@@ -419,20 +460,20 @@ namespace ShouldPadMachine.ShouldPadMachineAssist
         }
         public enum InterfaceMode
         {
-            MainFormMode = 0,//正常缝纫
-            EditFormMode=3,//编辑模式
-            ModifyFormMode = 4,//修正模式
-            SingleStepMode = 1,//单步缝纫
-            BaseFormMode = 5,//
-            TestFormMode = 2,//测试模式
+            MainFormMode = 0,       //正常缝纫
+            EditFormMode=3,         //编辑模式
+            ModifyFormMode = 4,     //修正模式
+            SingleStepMode = 1,     //单步缝纫
+            BaseFormMode = 5,       //
+            TestFormMode = 2,       //测试模式
             FlowDrawForm = 6,
             MenuForm = 7,
             Null
         }
         public enum ScreenWorkedStatue : byte
         { 
-            NormalStatue,//正常状态
-            SingleStepStatue,//单步状态
+            NormalStatue,           //正常状态
+            SingleStepStatue,       //单步状态
         }
         public enum WorkedStatue : byte
         {
