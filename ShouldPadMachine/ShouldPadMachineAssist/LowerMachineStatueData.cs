@@ -22,6 +22,10 @@ namespace ShouldPadMachine.ShouldPadMachineAssist
         private byte sendClothStatue;
         private bool singleStepStatue;
         private WorkedStatue workedStatue;
+        private short[] xBgnDstErr = new short[20];
+        private short[] xEndDstErr = new short[20];
+        private short[] yBgnDstErr = new short[20];
+        private short[] yEndDstErr = new short[20];
 
         private LowerMachineStatueData()
         {
@@ -189,6 +193,26 @@ namespace ShouldPadMachine.ShouldPadMachineAssist
         public bool LeftSensorErrL { get; set; }
         public bool RightSensorErrL { get; set; }
 
+        public short[] XBgnDstErr
+        {
+            get { return xBgnDstErr; }
+            set { xBgnDstErr = value; }
+        }
+        public short[] XEndDstErr
+        {
+            get { return xEndDstErr; }
+            set { xEndDstErr = value; }
+        }
+        public short[] YBgnDstErr
+        {
+            get { return yBgnDstErr; }
+            set { yBgnDstErr = value; }
+        }
+        public short[] YEndDstErr
+        {
+            get { return yEndDstErr; }
+            set { yEndDstErr = value; }
+        }
 
         public uint ErrorValue
         {

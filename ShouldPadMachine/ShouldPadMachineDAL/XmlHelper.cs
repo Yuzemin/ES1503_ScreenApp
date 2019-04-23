@@ -138,6 +138,7 @@ namespace ShouldPadMachine.ShouldPadMachineDAL
                 ErrorMessage.SetErrorMessage(promptOccurPlace, promptMessageType, Path.GetFileName(xmlName));
             }
         }
+
         public static void SetElementValue(String fileName, String elementName, String elementValue)
         {
             if (File.Exists(fileName))

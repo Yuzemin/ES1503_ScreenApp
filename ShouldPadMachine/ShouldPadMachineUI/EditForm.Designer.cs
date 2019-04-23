@@ -226,7 +226,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.tlCol.Size = new System.Drawing.Size(76, 36);
             this.tlCol.TabIndex = 197;
             this.tlCol.Tag = "8";
-            this.tlCol.Val_Max = 10;
+            this.tlCol.Val_Max = 20;
             this.tlCol.Val_Min = 2;
             this.tlCol.Click += new System.EventHandler(this.Param_Click);
             // 
@@ -254,7 +254,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             // 
             this.tlPadHalf.Alignment = System.Drawing.StringAlignment.Center;
             this.tlPadHalf.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.tlPadHalf.Content = "50";
+            this.tlPadHalf.Content = "20";
             this.tlPadHalf.Endecimal = false;
             this.tlPadHalf.Enminus = false;
             this.tlPadHalf.Enrange = true;
@@ -274,7 +274,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             // 
             this.tlPad_Width.Alignment = System.Drawing.StringAlignment.Center;
             this.tlPad_Width.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.tlPad_Width.Content = "100";
+            this.tlPad_Width.Content = "50";
             this.tlPad_Width.Endecimal = false;
             this.tlPad_Width.Enminus = false;
             this.tlPad_Width.Enrange = true;
@@ -294,7 +294,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             // 
             this.tlPadLength.Alignment = System.Drawing.StringAlignment.Center;
             this.tlPadLength.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.tlPadLength.Content = "100";
+            this.tlPadLength.Content = "50";
             this.tlPadLength.Endecimal = false;
             this.tlPadLength.Enminus = false;
             this.tlPadLength.Enrange = true;

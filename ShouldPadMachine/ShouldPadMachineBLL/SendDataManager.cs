@@ -34,8 +34,12 @@ namespace ShouldPadMachine.ShouldPadMachineBLL
                 
                 if (ScreenStatueData.ScreenStatueDataEX.SendDesignFlag || ShouldPadModel.GetDataBaseModel().HaveDataChanged)
                     cmdFlag |= 0x0001;   //0x21
+                if (ScreenStatueData.ScreenStatueDataEX.TestIndex != 0)
+                    cmdFlag |= 0x0002;      //0x22
                 if (BaseDateModel.GetDataBaseModel().HaveDataChanged || FlowDataModel.GetDataBaseModel().HaveDataChanged || ScreenStatueData.ScreenStatueDataEX.NormalSpeedChanged)
                     cmdFlag |= 0x0010;   //0x25
+                if (SerialDataManager.TestReportRep)
+                    cmdFlag |= 0x0020;  //0x26
                 if (SerialDataManager.FlowFlag)//0x27
                     cmdFlag |= 0x40;
                 if (SerialDataManager.ScreenButton)//0x28
@@ -66,6 +70,9 @@ namespace ShouldPadMachine.ShouldPadMachineBLL
                 case SendDataType.DesignParam://0x21指令
                     serialDatas = GetDesignParam();
                     break;
+                case SendDataType.DstReportReq://0x22 发送指令
+                    serialDatas = GetTestReportReqDatas();
+                    break;
                 case SendDataType.TestSerialData://0x23
                     serialDatas = GetTestDatas();
                     break;
@@ -76,6 +83,9 @@ namespace ShouldPadMachine.ShouldPadMachineBLL
                     getSendDatas = new MachineInfoSendData();
                     dataInfoSet = MouldDataFactory.CreateDataInfo(DataTypeName.BaseDataTable);
                     dataBaseValues = BaseDateModel.GetDataBaseModel().DataBaseValues;
+                    break;
+                case SendDataType.DstReportData: //0x26
+                    serialDatas = GetDstReportData();
                     break;
                 case SendDataType.ShouldPadPointsData://0x27
                     serialDatas = GetShouldPadPoints();
@@ -92,6 +102,14 @@ namespace ShouldPadMachine.ShouldPadMachineBLL
             }
             if (getSendDatas != null)
                 serialDatas = getSendDatas.GetSendDatas(dataBaseValues, dataInfoSet);
+            return serialDatas;
+        }
+
+        private byte[] GetDstReportData()
+        {
+            byte[] serialDatas = new byte[1];
+
+            serialDatas[0] = 0;
             return serialDatas;
         }
 
@@ -181,6 +199,16 @@ namespace ShouldPadMachine.ShouldPadMachineBLL
 
             byte[] serialDatas = new byte[1];
             serialDatas[0] = (byte)ScreenStatueData.ScreenStatueDataEX.MachineTestData;
+            return serialDatas;
+        }
+
+        private byte[] GetTestReportReqDatas()
+        {
+            byte[] serialDatas = new byte[2];
+            ushort baseData = ScreenStatueData.ScreenStatueDataEX.TestIndex;
+
+            serialDatas[0] = Convert.ToByte(baseData & 0xFF);
+            serialDatas[1] = Convert.ToByte((baseData >> 8) & 0xFF);
             return serialDatas;
         }
 

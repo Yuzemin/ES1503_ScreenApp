@@ -149,19 +149,19 @@ namespace ShouldPadMachine.ShouldPadMachineModel
         {
             dataInfoSet = new DataInfo[] { 
             null,
-            new DataInfo(50,300,false,false),   //左夹布夹间隙
-            new DataInfo(50,300,false,false),   //主夹布夹间隙
-            new DataInfo(50,300,false,false),   //右夹布夹间隙
-            new DataInfo(100,350,false,false),    //花形长度
+            new DataInfo(50,400,false,false),   //左夹布夹间隙
+            new DataInfo(50,400,false,false),   //主夹布夹间隙
+            new DataInfo(50,400,false,false),   //右夹布夹间隙
+            new DataInfo(100,600,false,false),    //花形长度
             new DataInfo(100,300,false,false),    //花形宽度
-            new DataInfo(50,100,false,false),    //花形半长度
+            new DataInfo(50,300,false,false),    //花形半长度
             new DataInfo(0,100,false,false),    //半个花型行数
             new DataInfo(2,100,false,false),    //半个花型列数
             new DataInfo(1,35,false,false),    //X轴方向间距
             new DataInfo(1,35,false,false),    //Y轴方向间距
             new DataInfo(5,35,false,false),    //锯齿振幅
             new DataInfo(0,30,false,false),     //弧度程度
-            new DataInfo(100,1000,false,false),  //普通速度
+            new DataInfo(100,2000,false,false),  //普通速度
             new DataInfo(0,350,false,false),    //剪线距离
             new DataInfo(1,100,false,false),    //底线件数            
             };
@@ -204,7 +204,7 @@ namespace ShouldPadMachine.ShouldPadMachineModel
             new DataInfo(1,999,false,false),         //低峰件数限制
             new DataInfo(1,350,false,false) ,        //剪线距离
             new DataInfo(100,1000,false,false),      //角度
-            new DataInfo(100,1000,false,false),      //角度范围
+            new DataInfo(10,500,false,false),        //跟随距离范围
             };
         }
     }

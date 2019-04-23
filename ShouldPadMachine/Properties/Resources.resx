@@ -244,12 +244,6 @@
   <data name="imgMenu2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imgMenu2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="imgMirror1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\imgMirror1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imgMirror2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\imgMirror2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="imgNext1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imgNext1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -375,12 +369,6 @@
   </data>
   <data name="imgSysRe2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imgSysRe2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imgEditLock1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\imgEditLock1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imgEditLock2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\imgEditLock2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="CrdWarn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CrdWarn.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -532,12 +520,6 @@
   <data name="imgUnlock2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\imgUnlock2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="imgMir1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\imgMir1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imgMir2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\imgMir2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="DownSensorErrL" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\TakeClothDownSensorErr.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -555,5 +537,65 @@
   </data>
   <data name="ModifiedValueWarn" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ModifiedValueWarn.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BtnEdit1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BtnEdit1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BtnEdit2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BtnEdit2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BtnPageDn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BtnPageDn.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BtnPageDn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BtnPageDn1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BtnPageDn2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BtnPageDn2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BtnPageUp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BtnPageUp.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BtnPageUp1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BtnPageUp1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BtnPageUp2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BtnPageUp2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BtnRtn1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BtnRtn1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BtnRtn2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BtnRtn2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnTest1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Test1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btnTest2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Test2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgMir1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgMir1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgMir2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgMir2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgRMir1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgRMir1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgRMir2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgRMir2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgxMir1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgxMir1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgxMir2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgxMir2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgMirCpy1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgMirCpy1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="imgMirCpy2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\imgMirCpy2.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

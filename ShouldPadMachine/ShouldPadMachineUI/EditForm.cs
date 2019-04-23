@@ -177,6 +177,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
                         EditManager.Edit_SaveAllParam();
                         EditManager.ShouldPadShapeInfo = EditManager.EditShouldPadInfoList[EditManager.EditShouldPadInfoList.Count - 1].ShouldPadShapeInfo;
                         LowerMachineStatueData.LowerMachineStatueDateEx.EditStatue = false;
+                        SerialDataManager.Feedback -= new ShouldPadMachine.ShouldPadMachineAssist.DelegateEx.FeedbackEventHandle(SerialDataManager_Feedback);
                         this.Close();
                     }
                 }
@@ -184,6 +185,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
                 {
                     EditManager.ShouldPadShapeInfo = EditManager.EditShouldPadInfoList[0].ShouldPadShapeInfo;                    
                     LowerMachineStatueData.LowerMachineStatueDateEx.EditStatue = false;
+                    SerialDataManager.Feedback -= new ShouldPadMachine.ShouldPadMachineAssist.DelegateEx.FeedbackEventHandle(SerialDataManager_Feedback);
                     this.Close();
                 }
             }

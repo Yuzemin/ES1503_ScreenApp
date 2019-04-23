@@ -22,6 +22,7 @@ namespace ShouldPadMachine.ShouldPadMachineBLL
         public static bool FirstMachine = true;//第一次发机器参数
         public static bool ScreenButton = false;//28 屏幕按键
         public static bool FlowFlag = false;   //27 坐标
+        public static bool TestReportRep = false; //26
 
         private object key;//锁
         public SerialDataModelCollect SerialDataModelCollect
@@ -140,6 +141,7 @@ namespace ShouldPadMachine.ShouldPadMachineBLL
                         break;
                     case 0x32:
                         serialDataHelper.SendComdFlag &= 0xFFFD;
+                        ScreenStatueData.ScreenStatueDataEX.TestIndex = 0;
                         break;
                     case 0x33:
                         lowerDataInfo = new TestDataInfo();
@@ -151,8 +153,10 @@ namespace ShouldPadMachine.ShouldPadMachineBLL
                     case 0x35:
                         serialDataHelper.SendComdFlag &= 0xFFEF;
                         break;
-                    case 0x36:                        
+                    case 0x36:
+                        lowerDataInfo = new TestReportInfo();
                         serialDataHelper.SendComdFlag &= 0xFFDF;
+                        SerialDataManager.TestReportRep = false;
                         break;
                     case 0x37:
                         serialDataHelper.SendComdFlag &= 0xFFBF;
@@ -193,3 +197,4 @@ namespace ShouldPadMachine.ShouldPadMachineBLL
         }
     }
 }
+
