@@ -40,7 +40,7 @@ namespace ShouldPadMachine.ShouldPadMachineModel
        // private ushort workedStatue;//工作状态
         private WorkedStatue workedStatue;
         private UInt32 errorValue;//错误数据
-        private bool clickSewingButton;//点击了缝纫按钮
+        private bool clickSewingButton = false;//点击了缝纫按钮
         private bool errorOccur; //错误是否发生
 
         private bool modeSwitchWarn;                //模式切换错误

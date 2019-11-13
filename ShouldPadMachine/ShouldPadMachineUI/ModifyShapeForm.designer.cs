@@ -30,10 +30,10 @@ namespace ShouldPadMachine.ShouldPadMachineUI
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(ModifyShapeForm));
-            this.picModiyBackGround = new System.Windows.Forms.PictureBox();
-            this.picDrawBackGround = new System.Windows.Forms.PictureBox();
             this.timMain = new System.Windows.Forms.Timer();
-            this.ibMirror1 = new ShouldPadMachine.ShouldPadMachineCTL.ImgBtn();
+            this.picDrawBackGround = new System.Windows.Forms.PictureBox();
+            this.picModiyBackGround = new System.Windows.Forms.PictureBox();
+            this.ibxMirror = new ShouldPadMachine.ShouldPadMachineCTL.ImgBtn();
             this.lblNeedleNumber = new ShouldPadMachine.ShouldPadMachineCTL.ImageButton();
             this.lblTotalNeedleNumber = new ShouldPadMachine.ShouldPadMachineCTL.ImageButton();
             this.ibEnter = new ShouldPadMachine.ShouldPadMachineCTL.ImgBtn();
@@ -53,7 +53,21 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.btnMovePrevious = new ShouldPadMachine.ShouldPadMachineCTL.ImgBtn();
             this.ibBreakOut = new ShouldPadMachine.ShouldPadMachineCTL.ImgBtn();
             this.ibReturn = new ShouldPadMachine.ShouldPadMachineCTL.ImgBtn();
+            this.ibMirrorCopy = new ShouldPadMachine.ShouldPadMachineCTL.ImgSwitch();
+            this.ibMirRota = new ShouldPadMachine.ShouldPadMachineCTL.ImgBtn();
             this.SuspendLayout();
+            // 
+            // timMain
+            // 
+            this.timMain.Interval = 5;
+            this.timMain.Tick += new System.EventHandler(this.MainTime_Tick);
+            // 
+            // picDrawBackGround
+            // 
+            this.picDrawBackGround.BackColor = System.Drawing.Color.Gray;
+            this.picDrawBackGround.Location = new System.Drawing.Point(21, 38);
+            this.picDrawBackGround.Name = "picDrawBackGround";
+            this.picDrawBackGround.Size = new System.Drawing.Size(568, 370);
             // 
             // picModiyBackGround
             // 
@@ -63,29 +77,17 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.picModiyBackGround.Name = "picModiyBackGround";
             this.picModiyBackGround.Size = new System.Drawing.Size(800, 480);
             // 
-            // picDrawBackGround
+            // ibxMirror
             // 
-            this.picDrawBackGround.BackColor = System.Drawing.Color.Gray;
-            this.picDrawBackGround.Location = new System.Drawing.Point(21, 38);
-            this.picDrawBackGround.Name = "picDrawBackGround";
-            this.picDrawBackGround.Size = new System.Drawing.Size(568, 370);
-            // 
-            // timMain
-            // 
-            this.timMain.Interval = 5;
-            this.timMain.Tick += new System.EventHandler(this.MainTime_Tick);
-            // 
-            // ibMirror1
-            // 
-            this.ibMirror1.BackColor = System.Drawing.Color.Transparent;
-            this.ibMirror1.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular);
-            this.ibMirror1.Location = new System.Drawing.Point(265, 417);
-            this.ibMirror1.Name = "ibMirror1";
-            this.ibMirror1.Size = new System.Drawing.Size(80, 45);
-            this.ibMirror1.TabIndex = 32;
-            this.ibMirror1.Click += new System.EventHandler(this.PointOperMode_Click);
-            this.ibMirror1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ImgBtn_MouseDown);
-            this.ibMirror1.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ImgBtn_MouseUp);
+            this.ibxMirror.BackColor = System.Drawing.Color.Transparent;
+            this.ibxMirror.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular);
+            this.ibxMirror.Location = new System.Drawing.Point(155, 417);
+            this.ibxMirror.Name = "ibxMirror";
+            this.ibxMirror.Size = new System.Drawing.Size(80, 45);
+            this.ibxMirror.TabIndex = 35;
+            this.ibxMirror.Click += new System.EventHandler(this.PointOperMode_Click);
+            this.ibxMirror.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ImgBtn_MouseDown);
+            this.ibxMirror.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ImgBtn_MouseUp);
             // 
             // lblNeedleNumber
             // 
@@ -221,7 +223,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             // 
             this.ibMirror.BackColor = System.Drawing.Color.Transparent;
             this.ibMirror.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular);
-            this.ibMirror.Location = new System.Drawing.Point(699, 120);
+            this.ibMirror.Location = new System.Drawing.Point(42, 417);
             this.ibMirror.Name = "ibMirror";
             this.ibMirror.Size = new System.Drawing.Size(80, 45);
             this.ibMirror.TabIndex = 20;
@@ -310,6 +312,29 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.ibReturn.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ImgBtn_MouseDown);
             this.ibReturn.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ImgBtn_MouseUp);
             // 
+            // ibMirrorCopy
+            // 
+            this.ibMirrorCopy.BackColor = System.Drawing.Color.Transparent;
+            this.ibMirrorCopy.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular);
+            this.ibMirrorCopy.IsCheck = false;
+            this.ibMirrorCopy.Location = new System.Drawing.Point(699, 120);
+            this.ibMirrorCopy.Name = "ibMirrorCopy";
+            this.ibMirrorCopy.Size = new System.Drawing.Size(80, 45);
+            this.ibMirrorCopy.TabIndex = 38;
+            this.ibMirrorCopy.Click += new System.EventHandler(this.ibMirrorCopy_Click);
+            // 
+            // ibMirRota
+            // 
+            this.ibMirRota.BackColor = System.Drawing.Color.Transparent;
+            this.ibMirRota.Font = new System.Drawing.Font("宋体", 9F, System.Drawing.FontStyle.Regular);
+            this.ibMirRota.Location = new System.Drawing.Point(266, 417);
+            this.ibMirRota.Name = "ibMirRota";
+            this.ibMirRota.Size = new System.Drawing.Size(80, 45);
+            this.ibMirRota.TabIndex = 41;
+            this.ibMirRota.Click += new System.EventHandler(this.PointOperMode_Click);
+            this.ibMirRota.MouseDown += new System.Windows.Forms.MouseEventHandler(this.ImgBtn_MouseDown);
+            this.ibMirRota.MouseUp += new System.Windows.Forms.MouseEventHandler(this.ImgBtn_MouseUp);
+            // 
             // ModifyShapeForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(96F, 96F);
@@ -317,7 +342,9 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AutoScroll = true;
             this.ClientSize = new System.Drawing.Size(800, 480);
             this.ControlBox = false;
-            this.Controls.Add(this.ibMirror1);
+            this.Controls.Add(this.ibMirRota);
+            this.Controls.Add(this.ibMirrorCopy);
+            this.Controls.Add(this.ibxMirror);
             this.Controls.Add(this.lblNeedleNumber);
             this.Controls.Add(this.lblTotalNeedleNumber);
             this.Controls.Add(this.ibEnter);
@@ -371,6 +398,8 @@ namespace ShouldPadMachine.ShouldPadMachineUI
         private ImgBtn btnMoveRightDown;
         private ImgBtn btnMoveDown;
         private ImgBtn ibEnter;
-        private ImgBtn ibMirror1;
+        private ImgBtn ibxMirror;
+        private ImgSwitch ibMirrorCopy;
+        private ImgBtn ibMirRota;
     }
 }

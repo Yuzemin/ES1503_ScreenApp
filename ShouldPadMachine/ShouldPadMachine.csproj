@@ -2,7 +2,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProductVersion>9.0.30729</ProductVersion>
+    <ProductVersion>9.0.21022</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{B0CC57DB-24B1-42AF-93A3-FA1A7B2670D7}</ProjectGuid>
     <OutputType>WinExe</OutputType>
@@ -424,8 +424,6 @@
     <None Include="Resources\imgLift2.jpg" />
     <None Include="Resources\imgMenu1.jpg" />
     <None Include="Resources\imgMenu2.jpg" />
-    <None Include="Resources\imgMirror1.jpg" />
-    <None Include="Resources\imgMirror2.jpg" />
     <None Include="Resources\imgNext1.jpg" />
     <None Include="Resources\imgNext2.jpg" />
     <None Include="Resources\imgNor.jpg" />
@@ -524,14 +522,20 @@
     <None Include="Resources\imgBacktype1_1.jpg" />
     <None Include="Resources\imgUnlock1.jpg" />
     <None Include="Resources\imgUnlock2.jpg" />
-    <None Include="Resources\imgMir2.jpg" />
-    <None Include="Resources\imgMir1.jpg" />
     <None Include="Resources\TakeClothDownSensorErr.jpg" />
     <None Include="Resources\TakeClothLeftSensorErr.jpg" />
     <None Include="Resources\TakeClothMidSensorErr.jpg" />
     <None Include="Resources\TakeClothRightSensorErr.jpg" />
     <None Include="Resources\TakeClothUpperSensorErr.jpg" />
     <None Include="Resources\ModifiedValueWarn.jpg" />
+    <None Include="Resources\imgMir1.jpg" />
+    <None Include="Resources\imgMir2.jpg" />
+    <None Include="Resources\imgMirCpy1.jpg" />
+    <None Include="Resources\imgMirCpy2.jpg" />
+    <None Include="Resources\imgRMir1.jpg" />
+    <None Include="Resources\imgRMir2.jpg" />
+    <None Include="Resources\imgxMir1.jpg" />
+    <None Include="Resources\imgxMir2.jpg" />
     <Content Include="亿生.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CompactFramework.CSharp.targets" />
