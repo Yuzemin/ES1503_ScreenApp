@@ -94,89 +94,47 @@ namespace ShouldPadMachine.ShouldPadMachineUI
         {
             LowerMachineStatueData LMachStaData = LowerMachineStatueData.LowerMachineStatueDateEx;
 
-            xBgnDstErr1.Text = LMachStaData.XBgnDstErr.GetValue(0).ToString();
-            xBgnDstErr2.Text = LMachStaData.XBgnDstErr.GetValue(1).ToString();
-            xBgnDstErr3.Text = LMachStaData.XBgnDstErr.GetValue(2).ToString();
-            xBgnDstErr4.Text = LMachStaData.XBgnDstErr.GetValue(3).ToString();
-            xBgnDstErr5.Text = LMachStaData.XBgnDstErr.GetValue(4).ToString();
-            xBgnDstErr6.Text = LMachStaData.XBgnDstErr.GetValue(5).ToString();
-            xBgnDstErr7.Text = LMachStaData.XBgnDstErr.GetValue(6).ToString();
-            xBgnDstErr8.Text = LMachStaData.XBgnDstErr.GetValue(7).ToString();
-            xBgnDstErr9.Text = LMachStaData.XBgnDstErr.GetValue(8).ToString();
-            xBgnDstErr10.Text = LMachStaData.XBgnDstErr.GetValue(9).ToString();
-            xBgnDstErr11.Text = LMachStaData.XBgnDstErr.GetValue(10).ToString();
-            xBgnDstErr12.Text = LMachStaData.XBgnDstErr.GetValue(11).ToString();
-            xBgnDstErr13.Text = LMachStaData.XBgnDstErr.GetValue(12).ToString();
-            xBgnDstErr14.Text = LMachStaData.XBgnDstErr.GetValue(13).ToString();
-            xBgnDstErr15.Text = LMachStaData.XBgnDstErr.GetValue(14).ToString();
-            xBgnDstErr16.Text = LMachStaData.XBgnDstErr.GetValue(15).ToString();
-            xBgnDstErr17.Text = LMachStaData.XBgnDstErr.GetValue(16).ToString();
-            xBgnDstErr18.Text = LMachStaData.XBgnDstErr.GetValue(17).ToString();
-            xBgnDstErr19.Text = LMachStaData.XBgnDstErr.GetValue(18).ToString();
-            xBgnDstErr20.Text = LMachStaData.XBgnDstErr.GetValue(19).ToString();
+            xDstErr1.Text = LMachStaData.XBgnDstErr.GetValue(0).ToString() + "," + LMachStaData.XEndDstErr.GetValue(0).ToString();
+            xDstErr2.Text = LMachStaData.XBgnDstErr.GetValue(1).ToString() + "," + LMachStaData.XEndDstErr.GetValue(1).ToString();
+            xDstErr3.Text = LMachStaData.XBgnDstErr.GetValue(2).ToString() + "," + LMachStaData.XEndDstErr.GetValue(2).ToString();
+            xDstErr4.Text = LMachStaData.XBgnDstErr.GetValue(3).ToString() + "," + LMachStaData.XEndDstErr.GetValue(3).ToString();
+            xDstErr5.Text = LMachStaData.XBgnDstErr.GetValue(4).ToString() + "," + LMachStaData.XEndDstErr.GetValue(4).ToString();
+            xDstErr6.Text = LMachStaData.XBgnDstErr.GetValue(5).ToString() + "," + LMachStaData.XEndDstErr.GetValue(5).ToString();
+            xDstErr7.Text = LMachStaData.XBgnDstErr.GetValue(6).ToString() + "," + LMachStaData.XEndDstErr.GetValue(6).ToString();
+            xDstErr8.Text = LMachStaData.XBgnDstErr.GetValue(7).ToString() + "," + LMachStaData.XEndDstErr.GetValue(7).ToString();
+            xDstErr9.Text = LMachStaData.XBgnDstErr.GetValue(8).ToString() + "," + LMachStaData.XEndDstErr.GetValue(8).ToString();
+            xDstErr10.Text = LMachStaData.XBgnDstErr.GetValue(9).ToString() + "," + LMachStaData.XEndDstErr.GetValue(9).ToString();
+            xDstErr11.Text = LMachStaData.XBgnDstErr.GetValue(10).ToString() + "," + LMachStaData.XEndDstErr.GetValue(10).ToString();
+            xDstErr12.Text = LMachStaData.XBgnDstErr.GetValue(11).ToString() + "," + LMachStaData.XEndDstErr.GetValue(11).ToString();
+            xDstErr13.Text = LMachStaData.XBgnDstErr.GetValue(12).ToString() + "," + LMachStaData.XEndDstErr.GetValue(12).ToString();
+            xDstErr14.Text = LMachStaData.XBgnDstErr.GetValue(13).ToString() + "," + LMachStaData.XEndDstErr.GetValue(13).ToString();
+            xDstErr15.Text = LMachStaData.XBgnDstErr.GetValue(14).ToString() + "," + LMachStaData.XEndDstErr.GetValue(14).ToString();
+            xDstErr16.Text = LMachStaData.XBgnDstErr.GetValue(15).ToString() + "," + LMachStaData.XEndDstErr.GetValue(15).ToString();
+            xDstErr17.Text = LMachStaData.XBgnDstErr.GetValue(16).ToString() + "," + LMachStaData.XEndDstErr.GetValue(16).ToString();
+            xDstErr18.Text = LMachStaData.XBgnDstErr.GetValue(17).ToString() + "," + LMachStaData.XEndDstErr.GetValue(17).ToString();
+            xDstErr19.Text = LMachStaData.XBgnDstErr.GetValue(18).ToString() + "," + LMachStaData.XEndDstErr.GetValue(18).ToString();
+            xDstErr20.Text = LMachStaData.XBgnDstErr.GetValue(19).ToString() + "," + LMachStaData.XEndDstErr.GetValue(19).ToString();
 
-            xEndDstErr1.Text = LMachStaData.XEndDstErr.GetValue(0).ToString();
-            xEndDstErr2.Text = LMachStaData.XEndDstErr.GetValue(1).ToString();
-            xEndDstErr3.Text = LMachStaData.XEndDstErr.GetValue(2).ToString();
-            xEndDstErr4.Text = LMachStaData.XEndDstErr.GetValue(3).ToString();
-            xEndDstErr5.Text = LMachStaData.XEndDstErr.GetValue(4).ToString();
-            xEndDstErr6.Text = LMachStaData.XEndDstErr.GetValue(5).ToString();
-            xEndDstErr7.Text = LMachStaData.XEndDstErr.GetValue(6).ToString();
-            xEndDstErr8.Text = LMachStaData.XEndDstErr.GetValue(7).ToString();
-            xEndDstErr9.Text = LMachStaData.XEndDstErr.GetValue(8).ToString();
-            xEndDstErr10.Text = LMachStaData.XEndDstErr.GetValue(9).ToString();
-            xEndDstErr11.Text = LMachStaData.XEndDstErr.GetValue(10).ToString();
-            xEndDstErr12.Text = LMachStaData.XEndDstErr.GetValue(11).ToString();
-            xEndDstErr13.Text = LMachStaData.XEndDstErr.GetValue(12).ToString();
-            xEndDstErr14.Text = LMachStaData.XEndDstErr.GetValue(13).ToString();
-            xEndDstErr15.Text = LMachStaData.XEndDstErr.GetValue(14).ToString();
-            xEndDstErr16.Text = LMachStaData.XEndDstErr.GetValue(15).ToString();
-            xEndDstErr17.Text = LMachStaData.XEndDstErr.GetValue(16).ToString();
-            xEndDstErr18.Text = LMachStaData.XEndDstErr.GetValue(17).ToString();
-            xEndDstErr19.Text = LMachStaData.XEndDstErr.GetValue(18).ToString();
-            xEndDstErr20.Text = LMachStaData.XEndDstErr.GetValue(19).ToString();
-
-            xDstErr1.Text = LMachStaData.YBgnDstErr.GetValue(0).ToString();
-            xDstErr2.Text = LMachStaData.YBgnDstErr.GetValue(1).ToString();
-            xDstErr3.Text = LMachStaData.YBgnDstErr.GetValue(2).ToString();
-            xDstErr4.Text = LMachStaData.YBgnDstErr.GetValue(3).ToString();
-            xDstErr5.Text = LMachStaData.YBgnDstErr.GetValue(4).ToString();
-            xDstErr6.Text = LMachStaData.YBgnDstErr.GetValue(5).ToString();
-            xDstErr7.Text = LMachStaData.YBgnDstErr.GetValue(6).ToString();
-            xDstErr8.Text = LMachStaData.YBgnDstErr.GetValue(7).ToString();
-            xDstErr9.Text = LMachStaData.YBgnDstErr.GetValue(8).ToString();
-            xDstErr10.Text = LMachStaData.YBgnDstErr.GetValue(9).ToString();
-            xDstErr11.Text = LMachStaData.YBgnDstErr.GetValue(10).ToString();
-            xDstErr12.Text = LMachStaData.YBgnDstErr.GetValue(11).ToString();
-            xDstErr13.Text = LMachStaData.YBgnDstErr.GetValue(12).ToString();
-            xDstErr14.Text = LMachStaData.YBgnDstErr.GetValue(13).ToString();
-            xDstErr15.Text = LMachStaData.YBgnDstErr.GetValue(14).ToString();
-            xDstErr16.Text = LMachStaData.YBgnDstErr.GetValue(15).ToString();
-            xDstErr17.Text = LMachStaData.YBgnDstErr.GetValue(16).ToString();
-            xDstErr18.Text = LMachStaData.YBgnDstErr.GetValue(17).ToString();
-            xDstErr19.Text = LMachStaData.YBgnDstErr.GetValue(18).ToString();
-            xDstErr20.Text = LMachStaData.YBgnDstErr.GetValue(19).ToString();
-
-            yDstErr1.Text = LMachStaData.YEndDstErr.GetValue(0).ToString();
-            yDstErr2.Text = LMachStaData.YEndDstErr.GetValue(1).ToString();
-            yDstErr3.Text = LMachStaData.YEndDstErr.GetValue(2).ToString();
-            yDstErr4.Text = LMachStaData.YEndDstErr.GetValue(3).ToString();
-            yDstErr5.Text = LMachStaData.YEndDstErr.GetValue(4).ToString();
-            yDstErr6.Text = LMachStaData.YEndDstErr.GetValue(5).ToString();
-            yDstErr7.Text = LMachStaData.YEndDstErr.GetValue(6).ToString();
-            yDstErr8.Text = LMachStaData.YEndDstErr.GetValue(7).ToString();
-            yDstErr9.Text = LMachStaData.YEndDstErr.GetValue(8).ToString();
-            yDstErr10.Text = LMachStaData.YEndDstErr.GetValue(9).ToString();
-            yDstErr11.Text = LMachStaData.YEndDstErr.GetValue(10).ToString();
-            yDstErr12.Text = LMachStaData.YEndDstErr.GetValue(11).ToString();
-            yDstErr13.Text = LMachStaData.YEndDstErr.GetValue(12).ToString();
-            yDstErr14.Text = LMachStaData.YEndDstErr.GetValue(13).ToString();
-            yDstErr15.Text = LMachStaData.YEndDstErr.GetValue(14).ToString();
-            yDstErr16.Text = LMachStaData.YEndDstErr.GetValue(15).ToString();
-            yDstErr17.Text = LMachStaData.YEndDstErr.GetValue(16).ToString();
-            yDstErr18.Text = LMachStaData.YEndDstErr.GetValue(17).ToString();
-            yDstErr19.Text = LMachStaData.YEndDstErr.GetValue(18).ToString();
-            yDstErr20.Text = LMachStaData.YEndDstErr.GetValue(19).ToString();
+            yDstErr1.Text = LMachStaData.YBgnDstErr.GetValue(0).ToString() + "," + LMachStaData.YEndDstErr.GetValue(0).ToString();
+            yDstErr2.Text = LMachStaData.YBgnDstErr.GetValue(1).ToString() + "," + LMachStaData.YEndDstErr.GetValue(1).ToString();
+            yDstErr3.Text = LMachStaData.YBgnDstErr.GetValue(2).ToString() + "," + LMachStaData.YEndDstErr.GetValue(2).ToString();
+            yDstErr4.Text = LMachStaData.YBgnDstErr.GetValue(3).ToString() + "," + LMachStaData.YEndDstErr.GetValue(3).ToString();
+            yDstErr5.Text = LMachStaData.YBgnDstErr.GetValue(4).ToString() + "," + LMachStaData.YEndDstErr.GetValue(4).ToString();
+            yDstErr6.Text = LMachStaData.YBgnDstErr.GetValue(5).ToString() + "," + LMachStaData.YEndDstErr.GetValue(5).ToString();
+            yDstErr7.Text = LMachStaData.YBgnDstErr.GetValue(6).ToString() + "," + LMachStaData.YEndDstErr.GetValue(6).ToString();
+            yDstErr8.Text = LMachStaData.YBgnDstErr.GetValue(7).ToString() + "," + LMachStaData.YEndDstErr.GetValue(7).ToString();
+            yDstErr9.Text = LMachStaData.YBgnDstErr.GetValue(8).ToString() + "," + LMachStaData.YEndDstErr.GetValue(8).ToString();
+            yDstErr10.Text = LMachStaData.YBgnDstErr.GetValue(9).ToString() + "," + LMachStaData.YEndDstErr.GetValue(9).ToString();
+            yDstErr11.Text = LMachStaData.YBgnDstErr.GetValue(10).ToString() + "," + LMachStaData.YEndDstErr.GetValue(10).ToString();
+            yDstErr12.Text = LMachStaData.YBgnDstErr.GetValue(11).ToString() + "," + LMachStaData.YEndDstErr.GetValue(11).ToString();
+            yDstErr13.Text = LMachStaData.YBgnDstErr.GetValue(12).ToString() + "," + LMachStaData.YEndDstErr.GetValue(12).ToString();
+            yDstErr14.Text = LMachStaData.YBgnDstErr.GetValue(13).ToString() + "," + LMachStaData.YEndDstErr.GetValue(13).ToString();
+            yDstErr15.Text = LMachStaData.YBgnDstErr.GetValue(14).ToString() + "," + LMachStaData.YEndDstErr.GetValue(14).ToString();
+            yDstErr16.Text = LMachStaData.YBgnDstErr.GetValue(15).ToString() + "," + LMachStaData.YEndDstErr.GetValue(15).ToString();
+            yDstErr17.Text = LMachStaData.YBgnDstErr.GetValue(16).ToString() + "," + LMachStaData.YEndDstErr.GetValue(16).ToString();
+            yDstErr18.Text = LMachStaData.YBgnDstErr.GetValue(17).ToString() + "," + LMachStaData.YEndDstErr.GetValue(17).ToString();
+            yDstErr19.Text = LMachStaData.YBgnDstErr.GetValue(18).ToString() + "," + LMachStaData.YEndDstErr.GetValue(18).ToString();
+            yDstErr20.Text = LMachStaData.YBgnDstErr.GetValue(19).ToString() + "," + LMachStaData.YEndDstErr.GetValue(19).ToString();
         }
 
         private void ReflectToObject(object sender, String text)
@@ -222,16 +180,10 @@ namespace ShouldPadMachine.ShouldPadMachineUI
                             switch (row)
                             {
                                 case 0:
-                                    ReflectToObject(Sel, TestRptInfo.XBgnDstErr.ToString());
+                                    ReflectToObject(Sel, TestRptInfo.XBgnDstErr.ToString() + "," + TestRptInfo.XEndDstErr.ToString());
                                     break;
                                 case 1:
-                                    ReflectToObject(Sel, TestRptInfo.XEndDstErr.ToString());
-                                    break;
-                                case 2:
-                                    ReflectToObject(Sel, TestRptInfo.YBgnDstErr.ToString());
-                                    break;
-                                case 3:
-                                    ReflectToObject(Sel, TestRptInfo.YEndDstErr.ToString());
+                                    ReflectToObject(Sel, TestRptInfo.YBgnDstErr.ToString() + "," + TestRptInfo.YEndDstErr.ToString());
                                     break;
                                 default:
                                     break;

@@ -35,8 +35,18 @@ namespace ShouldPadMachine.ShouldPadMachineHelper
         public override byte[] GetSendDatas(String[] dataBaseValues, DataInfoSet dataInfoSet)
         {
             List<byte> sendDataList = new List<byte>();
-            String[] flowModelDataBases = new String[80];
+            String[] flowModelDataBases = new String[120];
 
+            //放布位置XY修正值
+            sendDataList.AddRange(GetByteData(Convert.ToUInt16(dataBaseValues[(int)MachineBaseDataEnum.XZeroModify])));
+            sendDataList.AddRange(GetByteData(Convert.ToUInt16(dataBaseValues[(int)MachineBaseDataEnum.YZeroModify])));
+
+            //上针位修正值
+            sendDataList.AddRange(GetByteData(Convert.ToUInt16(dataBaseValues[(int)MachineBaseDataEnum.UpNeedleCodeValue])));
+
+            //目标生产件数
+            sendDataList.AddRange(GetByteData(Convert.ToUInt16(dataBaseValues[(int)MachineBaseDataEnum.TotalClothNumberLimit])));            
+            
             //100-1000转跟随扇区表数据
             FlowDataModel.GetDataBaseModel().DataBaseValues.CopyTo(flowModelDataBases, 0);
             for (int j = 0; j < 10; j++)
@@ -45,23 +55,19 @@ namespace ShouldPadMachine.ShouldPadMachineHelper
                 sendDataList.AddRange(GetByteData(Convert.ToUInt16(flowModelDataBases[j + 10])));
                 sendDataList.AddRange(GetByteData(Convert.ToUInt16(flowModelDataBases[j + 20])));
                 sendDataList.AddRange(GetByteData(Convert.ToUInt16(flowModelDataBases[j + 30])));
-            }    
-
-            //放布位置XY修正值
-            sendDataList.AddRange(GetByteData(Convert.ToUInt16(dataBaseValues[(int)MachineBaseDataEnum.XZeroModify])));
-            sendDataList.AddRange(GetByteData(Convert.ToUInt16(dataBaseValues[(int)MachineBaseDataEnum.YZeroModify])));
-
-            //目标生产件数
-            sendDataList.AddRange(GetByteData(Convert.ToUInt16(dataBaseValues[(int)MachineBaseDataEnum.TotalClothNumberLimit])));            
-            sendDataList.AddRange(GetByteData(Convert.ToUInt16(dataBaseValues[(int)MachineBaseDataEnum.UpNeedleCodeValue])));
-
-            //增加的扇区表数据放到末尾，软件可以向下兼容
-            for (int j = 0; j < 10; j++)
-            {
                 sendDataList.AddRange(GetByteData(Convert.ToUInt16(flowModelDataBases[j + 40])));
                 sendDataList.AddRange(GetByteData(Convert.ToUInt16(flowModelDataBases[j + 50])));
+            } 
+
+            //增加的扇区表数据放到末尾
+            for (int j = 0; j < 10; j++)
+            {
                 sendDataList.AddRange(GetByteData(Convert.ToUInt16(flowModelDataBases[j + 60])));
                 sendDataList.AddRange(GetByteData(Convert.ToUInt16(flowModelDataBases[j + 70])));
+                sendDataList.AddRange(GetByteData(Convert.ToUInt16(flowModelDataBases[j + 80])));
+                sendDataList.AddRange(GetByteData(Convert.ToUInt16(flowModelDataBases[j + 90])));
+                sendDataList.AddRange(GetByteData(Convert.ToUInt16(flowModelDataBases[j + 100])));
+                sendDataList.AddRange(GetByteData(Convert.ToUInt16(flowModelDataBases[j + 110])));
             }
 
             return sendDataList.ToArray();
