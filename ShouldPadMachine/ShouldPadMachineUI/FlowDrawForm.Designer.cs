@@ -96,24 +96,15 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.PageDn = new ShouldPadMachine.ShouldPadMachineCTL.ImgBtn();
             this.ibReturn1 = new ShouldPadMachine.ShouldPadMachineCTL.ImgBtn();
             this.ibEditCheck1 = new ShouldPadMachine.ShouldPadMachineCTL.ImgSwitch();
-            this.RangeY20 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeY19 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeY18 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeY17 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeY16 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeY15 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeY14 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeY13 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeY12 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeX20 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeX19 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeX18 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeX17 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeX16 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeX15 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeX14 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeX13 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeX12 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
+            this.Range20 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
+            this.Range19 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
+            this.Range18 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
+            this.Range17 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
+            this.Range16 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
+            this.Range15 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
+            this.Range14 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
+            this.Range13 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
+            this.Range12 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
             this.AngleY20 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
             this.AngleY19 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
             this.AngleY18 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
@@ -132,30 +123,19 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleX14 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
             this.AngleX13 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
             this.AngleX12 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeY11 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeX11 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
+            this.Range11 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
             this.AngleY11 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
             this.AngleX11 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeY10 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeY9 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeY8 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeY7 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeY6 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeY5 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeY4 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeY3 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeY2 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeY1 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeX10 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeX9 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeX8 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeX7 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeX6 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeX5 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeX4 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeX3 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeX2 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
-            this.RangeX1 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
+            this.Range10 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
+            this.Range9 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
+            this.Range8 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
+            this.Range7 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
+            this.Range6 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
+            this.Range5 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
+            this.Range4 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
+            this.Range3 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
+            this.Range2 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
+            this.Range1 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
             this.AngleY10 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
             this.AngleY9 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
             this.AngleY8 = new ShouldPadMachine.ShouldPadMachineCTL.Tablet();
@@ -525,7 +505,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.yDstErr2.FrameColor = System.Drawing.Color.Empty;
             this.yDstErr2.HasClick = false;
             this.yDstErr2.InOutDataElement = ShouldPadMachine.ShouldPadMachineAssist.Enum.InOutDataEnum.Null;
-            this.yDstErr2.Location = new System.Drawing.Point(580, 98);
+            this.yDstErr2.Location = new System.Drawing.Point(580, 99);
             this.yDstErr2.Name = "yDstErr2";
             this.yDstErr2.SetDataElement = ShouldPadMachine.ShouldPadMachineAssist.Enum.SetDataEnum.Null;
             this.yDstErr2.ShouldPadDataEnum = ShouldPadMachine.ShouldPadMachineAssist.Enum.ShouldPadDataEnum.Null;
@@ -543,7 +523,7 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.xDstErr2.FrameColor = System.Drawing.Color.Empty;
             this.xDstErr2.HasClick = false;
             this.xDstErr2.InOutDataElement = ShouldPadMachine.ShouldPadMachineAssist.Enum.InOutDataEnum.Null;
-            this.xDstErr2.Location = new System.Drawing.Point(478, 98);
+            this.xDstErr2.Location = new System.Drawing.Point(478, 99);
             this.xDstErr2.Name = "xDstErr2";
             this.xDstErr2.SetDataElement = ShouldPadMachine.ShouldPadMachineAssist.Enum.SetDataEnum.Null;
             this.xDstErr2.ShouldPadDataEnum = ShouldPadMachine.ShouldPadMachineAssist.Enum.ShouldPadDataEnum.Null;
@@ -1230,365 +1210,185 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.ibEditCheck1.TabIndex = 196;
             this.ibEditCheck1.Click += new System.EventHandler(this.ibSwitch_Click);
             // 
-            // RangeY20
+            // Range20
             // 
-            this.RangeY20.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeY20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeY20.Content = "";
-            this.RangeY20.Endecimal = false;
-            this.RangeY20.Enminus = false;
-            this.RangeY20.Enrange = false;
-            this.RangeY20.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeY20.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeY20.Location = new System.Drawing.Point(266, 861);
-            this.RangeY20.Name = "RangeY20";
-            this.RangeY20.Size = new System.Drawing.Size(65, 30);
-            this.RangeY20.TabIndex = 153;
-            this.RangeY20.Tag = "99";
-            this.RangeY20.Val_Max = 0;
-            this.RangeY20.Val_Min = 0;
-            this.RangeY20.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeY20.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
+            this.Range20.Alignment = System.Drawing.StringAlignment.Center;
+            this.Range20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.Range20.Content = "";
+            this.Range20.Endecimal = false;
+            this.Range20.Enminus = false;
+            this.Range20.Enrange = false;
+            this.Range20.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
+            this.Range20.LineAlignment = System.Drawing.StringAlignment.Center;
+            this.Range20.Location = new System.Drawing.Point(234, 861);
+            this.Range20.Name = "Range20";
+            this.Range20.Size = new System.Drawing.Size(77, 30);
+            this.Range20.TabIndex = 144;
+            this.Range20.Tag = "79";
+            this.Range20.Val_Max = 0;
+            this.Range20.Val_Min = 0;
+            this.Range20.Click += new System.EventHandler(this.ButtonData_Click);
+            this.Range20.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
-            // RangeY19
+            // Range19
             // 
-            this.RangeY19.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeY19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeY19.Content = "";
-            this.RangeY19.Endecimal = false;
-            this.RangeY19.Enminus = false;
-            this.RangeY19.Enrange = false;
-            this.RangeY19.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeY19.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeY19.Location = new System.Drawing.Point(266, 825);
-            this.RangeY19.Name = "RangeY19";
-            this.RangeY19.Size = new System.Drawing.Size(65, 30);
-            this.RangeY19.TabIndex = 152;
-            this.RangeY19.Tag = "98";
-            this.RangeY19.Val_Max = 0;
-            this.RangeY19.Val_Min = 0;
-            this.RangeY19.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeY19.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
+            this.Range19.Alignment = System.Drawing.StringAlignment.Center;
+            this.Range19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.Range19.Content = "";
+            this.Range19.Endecimal = false;
+            this.Range19.Enminus = false;
+            this.Range19.Enrange = false;
+            this.Range19.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
+            this.Range19.LineAlignment = System.Drawing.StringAlignment.Center;
+            this.Range19.Location = new System.Drawing.Point(234, 825);
+            this.Range19.Name = "Range19";
+            this.Range19.Size = new System.Drawing.Size(77, 30);
+            this.Range19.TabIndex = 143;
+            this.Range19.Tag = "78";
+            this.Range19.Val_Max = 0;
+            this.Range19.Val_Min = 0;
+            this.Range19.Click += new System.EventHandler(this.ButtonData_Click);
+            this.Range19.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
-            // RangeY18
+            // Range18
             // 
-            this.RangeY18.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeY18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeY18.Content = "";
-            this.RangeY18.Endecimal = false;
-            this.RangeY18.Enminus = false;
-            this.RangeY18.Enrange = false;
-            this.RangeY18.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeY18.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeY18.Location = new System.Drawing.Point(266, 789);
-            this.RangeY18.Name = "RangeY18";
-            this.RangeY18.Size = new System.Drawing.Size(65, 30);
-            this.RangeY18.TabIndex = 151;
-            this.RangeY18.Tag = "97";
-            this.RangeY18.Val_Max = 0;
-            this.RangeY18.Val_Min = 0;
-            this.RangeY18.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeY18.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
+            this.Range18.Alignment = System.Drawing.StringAlignment.Center;
+            this.Range18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.Range18.Content = "";
+            this.Range18.Endecimal = false;
+            this.Range18.Enminus = false;
+            this.Range18.Enrange = false;
+            this.Range18.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
+            this.Range18.LineAlignment = System.Drawing.StringAlignment.Center;
+            this.Range18.Location = new System.Drawing.Point(234, 789);
+            this.Range18.Name = "Range18";
+            this.Range18.Size = new System.Drawing.Size(77, 30);
+            this.Range18.TabIndex = 142;
+            this.Range18.Tag = "77";
+            this.Range18.Val_Max = 0;
+            this.Range18.Val_Min = 0;
+            this.Range18.Click += new System.EventHandler(this.ButtonData_Click);
+            this.Range18.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
-            // RangeY17
+            // Range17
             // 
-            this.RangeY17.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeY17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeY17.Content = "";
-            this.RangeY17.Endecimal = false;
-            this.RangeY17.Enminus = false;
-            this.RangeY17.Enrange = false;
-            this.RangeY17.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeY17.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeY17.Location = new System.Drawing.Point(266, 753);
-            this.RangeY17.Name = "RangeY17";
-            this.RangeY17.Size = new System.Drawing.Size(65, 30);
-            this.RangeY17.TabIndex = 150;
-            this.RangeY17.Tag = "96";
-            this.RangeY17.Val_Max = 0;
-            this.RangeY17.Val_Min = 0;
-            this.RangeY17.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeY17.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
+            this.Range17.Alignment = System.Drawing.StringAlignment.Center;
+            this.Range17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.Range17.Content = "";
+            this.Range17.Endecimal = false;
+            this.Range17.Enminus = false;
+            this.Range17.Enrange = false;
+            this.Range17.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
+            this.Range17.LineAlignment = System.Drawing.StringAlignment.Center;
+            this.Range17.Location = new System.Drawing.Point(234, 753);
+            this.Range17.Name = "Range17";
+            this.Range17.Size = new System.Drawing.Size(77, 30);
+            this.Range17.TabIndex = 141;
+            this.Range17.Tag = "76";
+            this.Range17.Val_Max = 0;
+            this.Range17.Val_Min = 0;
+            this.Range17.Click += new System.EventHandler(this.ButtonData_Click);
+            this.Range17.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
-            // RangeY16
+            // Range16
             // 
-            this.RangeY16.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeY16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeY16.Content = "";
-            this.RangeY16.Endecimal = false;
-            this.RangeY16.Enminus = false;
-            this.RangeY16.Enrange = false;
-            this.RangeY16.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeY16.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeY16.Location = new System.Drawing.Point(266, 717);
-            this.RangeY16.Name = "RangeY16";
-            this.RangeY16.Size = new System.Drawing.Size(65, 30);
-            this.RangeY16.TabIndex = 149;
-            this.RangeY16.Tag = "95";
-            this.RangeY16.Val_Max = 0;
-            this.RangeY16.Val_Min = 0;
-            this.RangeY16.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeY16.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
+            this.Range16.Alignment = System.Drawing.StringAlignment.Center;
+            this.Range16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.Range16.Content = "";
+            this.Range16.Endecimal = false;
+            this.Range16.Enminus = false;
+            this.Range16.Enrange = false;
+            this.Range16.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
+            this.Range16.LineAlignment = System.Drawing.StringAlignment.Center;
+            this.Range16.Location = new System.Drawing.Point(234, 717);
+            this.Range16.Name = "Range16";
+            this.Range16.Size = new System.Drawing.Size(77, 30);
+            this.Range16.TabIndex = 140;
+            this.Range16.Tag = "75";
+            this.Range16.Val_Max = 0;
+            this.Range16.Val_Min = 0;
+            this.Range16.Click += new System.EventHandler(this.ButtonData_Click);
+            this.Range16.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
-            // RangeY15
+            // Range15
             // 
-            this.RangeY15.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeY15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeY15.Content = "";
-            this.RangeY15.Endecimal = false;
-            this.RangeY15.Enminus = false;
-            this.RangeY15.Enrange = false;
-            this.RangeY15.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeY15.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeY15.Location = new System.Drawing.Point(266, 682);
-            this.RangeY15.Name = "RangeY15";
-            this.RangeY15.Size = new System.Drawing.Size(65, 30);
-            this.RangeY15.TabIndex = 148;
-            this.RangeY15.Tag = "94";
-            this.RangeY15.Val_Max = 0;
-            this.RangeY15.Val_Min = 0;
-            this.RangeY15.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeY15.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
+            this.Range15.Alignment = System.Drawing.StringAlignment.Center;
+            this.Range15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.Range15.Content = "";
+            this.Range15.Endecimal = false;
+            this.Range15.Enminus = false;
+            this.Range15.Enrange = false;
+            this.Range15.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
+            this.Range15.LineAlignment = System.Drawing.StringAlignment.Center;
+            this.Range15.Location = new System.Drawing.Point(234, 682);
+            this.Range15.Name = "Range15";
+            this.Range15.Size = new System.Drawing.Size(77, 30);
+            this.Range15.TabIndex = 139;
+            this.Range15.Tag = "74";
+            this.Range15.Val_Max = 0;
+            this.Range15.Val_Min = 0;
+            this.Range15.Click += new System.EventHandler(this.ButtonData_Click);
+            this.Range15.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
-            // RangeY14
+            // Range14
             // 
-            this.RangeY14.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeY14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeY14.Content = "";
-            this.RangeY14.Endecimal = false;
-            this.RangeY14.Enminus = false;
-            this.RangeY14.Enrange = false;
-            this.RangeY14.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeY14.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeY14.Location = new System.Drawing.Point(267, 648);
-            this.RangeY14.Name = "RangeY14";
-            this.RangeY14.Size = new System.Drawing.Size(65, 30);
-            this.RangeY14.TabIndex = 147;
-            this.RangeY14.Tag = "93";
-            this.RangeY14.Val_Max = 0;
-            this.RangeY14.Val_Min = 0;
-            this.RangeY14.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeY14.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
+            this.Range14.Alignment = System.Drawing.StringAlignment.Center;
+            this.Range14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.Range14.Content = "";
+            this.Range14.Endecimal = false;
+            this.Range14.Enminus = false;
+            this.Range14.Enrange = false;
+            this.Range14.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
+            this.Range14.LineAlignment = System.Drawing.StringAlignment.Center;
+            this.Range14.Location = new System.Drawing.Point(234, 648);
+            this.Range14.Name = "Range14";
+            this.Range14.Size = new System.Drawing.Size(77, 30);
+            this.Range14.TabIndex = 138;
+            this.Range14.Tag = "73";
+            this.Range14.Val_Max = 0;
+            this.Range14.Val_Min = 0;
+            this.Range14.Click += new System.EventHandler(this.ButtonData_Click);
+            this.Range14.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
-            // RangeY13
+            // Range13
             // 
-            this.RangeY13.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeY13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeY13.Content = "";
-            this.RangeY13.Endecimal = false;
-            this.RangeY13.Enminus = false;
-            this.RangeY13.Enrange = false;
-            this.RangeY13.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeY13.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeY13.Location = new System.Drawing.Point(267, 613);
-            this.RangeY13.Name = "RangeY13";
-            this.RangeY13.Size = new System.Drawing.Size(65, 30);
-            this.RangeY13.TabIndex = 146;
-            this.RangeY13.Tag = "92";
-            this.RangeY13.Val_Max = 0;
-            this.RangeY13.Val_Min = 0;
-            this.RangeY13.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeY13.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
+            this.Range13.Alignment = System.Drawing.StringAlignment.Center;
+            this.Range13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.Range13.Content = "";
+            this.Range13.Endecimal = false;
+            this.Range13.Enminus = false;
+            this.Range13.Enrange = false;
+            this.Range13.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
+            this.Range13.LineAlignment = System.Drawing.StringAlignment.Center;
+            this.Range13.Location = new System.Drawing.Point(234, 613);
+            this.Range13.Name = "Range13";
+            this.Range13.Size = new System.Drawing.Size(77, 30);
+            this.Range13.TabIndex = 137;
+            this.Range13.Tag = "72";
+            this.Range13.Val_Max = 0;
+            this.Range13.Val_Min = 0;
+            this.Range13.Click += new System.EventHandler(this.ButtonData_Click);
+            this.Range13.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
-            // RangeY12
+            // Range12
             // 
-            this.RangeY12.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeY12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeY12.Content = "";
-            this.RangeY12.Endecimal = false;
-            this.RangeY12.Enminus = false;
-            this.RangeY12.Enrange = false;
-            this.RangeY12.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeY12.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeY12.Location = new System.Drawing.Point(266, 579);
-            this.RangeY12.Name = "RangeY12";
-            this.RangeY12.Size = new System.Drawing.Size(65, 30);
-            this.RangeY12.TabIndex = 145;
-            this.RangeY12.Tag = "91";
-            this.RangeY12.Val_Max = 0;
-            this.RangeY12.Val_Min = 0;
-            this.RangeY12.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeY12.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
-            // 
-            // RangeX20
-            // 
-            this.RangeX20.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeX20.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeX20.Content = "";
-            this.RangeX20.Endecimal = false;
-            this.RangeX20.Enminus = false;
-            this.RangeX20.Enrange = false;
-            this.RangeX20.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeX20.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeX20.Location = new System.Drawing.Point(196, 861);
-            this.RangeX20.Name = "RangeX20";
-            this.RangeX20.Size = new System.Drawing.Size(65, 30);
-            this.RangeX20.TabIndex = 144;
-            this.RangeX20.Tag = "89";
-            this.RangeX20.Val_Max = 0;
-            this.RangeX20.Val_Min = 0;
-            this.RangeX20.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeX20.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
-            // 
-            // RangeX19
-            // 
-            this.RangeX19.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeX19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeX19.Content = "";
-            this.RangeX19.Endecimal = false;
-            this.RangeX19.Enminus = false;
-            this.RangeX19.Enrange = false;
-            this.RangeX19.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeX19.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeX19.Location = new System.Drawing.Point(196, 825);
-            this.RangeX19.Name = "RangeX19";
-            this.RangeX19.Size = new System.Drawing.Size(65, 30);
-            this.RangeX19.TabIndex = 143;
-            this.RangeX19.Tag = "88";
-            this.RangeX19.Val_Max = 0;
-            this.RangeX19.Val_Min = 0;
-            this.RangeX19.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeX19.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
-            // 
-            // RangeX18
-            // 
-            this.RangeX18.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeX18.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeX18.Content = "";
-            this.RangeX18.Endecimal = false;
-            this.RangeX18.Enminus = false;
-            this.RangeX18.Enrange = false;
-            this.RangeX18.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeX18.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeX18.Location = new System.Drawing.Point(196, 789);
-            this.RangeX18.Name = "RangeX18";
-            this.RangeX18.Size = new System.Drawing.Size(65, 30);
-            this.RangeX18.TabIndex = 142;
-            this.RangeX18.Tag = "87";
-            this.RangeX18.Val_Max = 0;
-            this.RangeX18.Val_Min = 0;
-            this.RangeX18.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeX18.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
-            // 
-            // RangeX17
-            // 
-            this.RangeX17.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeX17.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeX17.Content = "";
-            this.RangeX17.Endecimal = false;
-            this.RangeX17.Enminus = false;
-            this.RangeX17.Enrange = false;
-            this.RangeX17.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeX17.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeX17.Location = new System.Drawing.Point(196, 753);
-            this.RangeX17.Name = "RangeX17";
-            this.RangeX17.Size = new System.Drawing.Size(65, 30);
-            this.RangeX17.TabIndex = 141;
-            this.RangeX17.Tag = "86";
-            this.RangeX17.Val_Max = 0;
-            this.RangeX17.Val_Min = 0;
-            this.RangeX17.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeX17.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
-            // 
-            // RangeX16
-            // 
-            this.RangeX16.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeX16.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeX16.Content = "";
-            this.RangeX16.Endecimal = false;
-            this.RangeX16.Enminus = false;
-            this.RangeX16.Enrange = false;
-            this.RangeX16.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeX16.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeX16.Location = new System.Drawing.Point(196, 717);
-            this.RangeX16.Name = "RangeX16";
-            this.RangeX16.Size = new System.Drawing.Size(65, 30);
-            this.RangeX16.TabIndex = 140;
-            this.RangeX16.Tag = "85";
-            this.RangeX16.Val_Max = 0;
-            this.RangeX16.Val_Min = 0;
-            this.RangeX16.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeX16.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
-            // 
-            // RangeX15
-            // 
-            this.RangeX15.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeX15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeX15.Content = "";
-            this.RangeX15.Endecimal = false;
-            this.RangeX15.Enminus = false;
-            this.RangeX15.Enrange = false;
-            this.RangeX15.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeX15.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeX15.Location = new System.Drawing.Point(196, 682);
-            this.RangeX15.Name = "RangeX15";
-            this.RangeX15.Size = new System.Drawing.Size(65, 30);
-            this.RangeX15.TabIndex = 139;
-            this.RangeX15.Tag = "84";
-            this.RangeX15.Val_Max = 0;
-            this.RangeX15.Val_Min = 0;
-            this.RangeX15.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeX15.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
-            // 
-            // RangeX14
-            // 
-            this.RangeX14.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeX14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeX14.Content = "";
-            this.RangeX14.Endecimal = false;
-            this.RangeX14.Enminus = false;
-            this.RangeX14.Enrange = false;
-            this.RangeX14.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeX14.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeX14.Location = new System.Drawing.Point(196, 648);
-            this.RangeX14.Name = "RangeX14";
-            this.RangeX14.Size = new System.Drawing.Size(65, 30);
-            this.RangeX14.TabIndex = 138;
-            this.RangeX14.Tag = "83";
-            this.RangeX14.Val_Max = 0;
-            this.RangeX14.Val_Min = 0;
-            this.RangeX14.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeX14.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
-            // 
-            // RangeX13
-            // 
-            this.RangeX13.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeX13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeX13.Content = "";
-            this.RangeX13.Endecimal = false;
-            this.RangeX13.Enminus = false;
-            this.RangeX13.Enrange = false;
-            this.RangeX13.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeX13.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeX13.Location = new System.Drawing.Point(196, 613);
-            this.RangeX13.Name = "RangeX13";
-            this.RangeX13.Size = new System.Drawing.Size(65, 30);
-            this.RangeX13.TabIndex = 137;
-            this.RangeX13.Tag = "82";
-            this.RangeX13.Val_Max = 0;
-            this.RangeX13.Val_Min = 0;
-            this.RangeX13.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeX13.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
-            // 
-            // RangeX12
-            // 
-            this.RangeX12.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeX12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeX12.Content = "";
-            this.RangeX12.Endecimal = false;
-            this.RangeX12.Enminus = false;
-            this.RangeX12.Enrange = false;
-            this.RangeX12.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeX12.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeX12.Location = new System.Drawing.Point(196, 579);
-            this.RangeX12.Name = "RangeX12";
-            this.RangeX12.Size = new System.Drawing.Size(65, 30);
-            this.RangeX12.TabIndex = 136;
-            this.RangeX12.Tag = "81";
-            this.RangeX12.Val_Max = 0;
-            this.RangeX12.Val_Min = 0;
-            this.RangeX12.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeX12.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
+            this.Range12.Alignment = System.Drawing.StringAlignment.Center;
+            this.Range12.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.Range12.Content = "";
+            this.Range12.Endecimal = false;
+            this.Range12.Enminus = false;
+            this.Range12.Enrange = false;
+            this.Range12.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
+            this.Range12.LineAlignment = System.Drawing.StringAlignment.Center;
+            this.Range12.Location = new System.Drawing.Point(234, 579);
+            this.Range12.Name = "Range12";
+            this.Range12.Size = new System.Drawing.Size(77, 30);
+            this.Range12.TabIndex = 136;
+            this.Range12.Tag = "71";
+            this.Range12.Val_Max = 0;
+            this.Range12.Val_Min = 0;
+            this.Range12.Click += new System.EventHandler(this.ButtonData_Click);
+            this.Range12.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
             // AngleY20
             // 
@@ -1600,11 +1400,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleY20.Enrange = false;
             this.AngleY20.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleY20.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleY20.Location = new System.Drawing.Point(126, 861);
+            this.AngleY20.Location = new System.Drawing.Point(153, 861);
             this.AngleY20.Name = "AngleY20";
-            this.AngleY20.Size = new System.Drawing.Size(65, 30);
+            this.AngleY20.Size = new System.Drawing.Size(77, 30);
             this.AngleY20.TabIndex = 135;
-            this.AngleY20.Tag = "79";
+            this.AngleY20.Tag = "69";
             this.AngleY20.Val_Max = 0;
             this.AngleY20.Val_Min = 0;
             this.AngleY20.Click += new System.EventHandler(this.ButtonData_Click);
@@ -1620,11 +1420,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleY19.Enrange = false;
             this.AngleY19.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleY19.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleY19.Location = new System.Drawing.Point(126, 825);
+            this.AngleY19.Location = new System.Drawing.Point(153, 825);
             this.AngleY19.Name = "AngleY19";
-            this.AngleY19.Size = new System.Drawing.Size(65, 30);
+            this.AngleY19.Size = new System.Drawing.Size(77, 30);
             this.AngleY19.TabIndex = 134;
-            this.AngleY19.Tag = "78";
+            this.AngleY19.Tag = "68";
             this.AngleY19.Val_Max = 0;
             this.AngleY19.Val_Min = 0;
             this.AngleY19.Click += new System.EventHandler(this.ButtonData_Click);
@@ -1640,11 +1440,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleY18.Enrange = false;
             this.AngleY18.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleY18.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleY18.Location = new System.Drawing.Point(126, 789);
+            this.AngleY18.Location = new System.Drawing.Point(153, 789);
             this.AngleY18.Name = "AngleY18";
-            this.AngleY18.Size = new System.Drawing.Size(65, 30);
+            this.AngleY18.Size = new System.Drawing.Size(77, 30);
             this.AngleY18.TabIndex = 133;
-            this.AngleY18.Tag = "77";
+            this.AngleY18.Tag = "67";
             this.AngleY18.Val_Max = 0;
             this.AngleY18.Val_Min = 0;
             this.AngleY18.Click += new System.EventHandler(this.ButtonData_Click);
@@ -1660,11 +1460,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleY17.Enrange = false;
             this.AngleY17.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleY17.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleY17.Location = new System.Drawing.Point(126, 753);
+            this.AngleY17.Location = new System.Drawing.Point(153, 753);
             this.AngleY17.Name = "AngleY17";
-            this.AngleY17.Size = new System.Drawing.Size(65, 30);
+            this.AngleY17.Size = new System.Drawing.Size(77, 30);
             this.AngleY17.TabIndex = 132;
-            this.AngleY17.Tag = "76";
+            this.AngleY17.Tag = "66";
             this.AngleY17.Val_Max = 0;
             this.AngleY17.Val_Min = 0;
             this.AngleY17.Click += new System.EventHandler(this.ButtonData_Click);
@@ -1680,11 +1480,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleY16.Enrange = false;
             this.AngleY16.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleY16.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleY16.Location = new System.Drawing.Point(126, 717);
+            this.AngleY16.Location = new System.Drawing.Point(153, 717);
             this.AngleY16.Name = "AngleY16";
-            this.AngleY16.Size = new System.Drawing.Size(65, 30);
+            this.AngleY16.Size = new System.Drawing.Size(77, 30);
             this.AngleY16.TabIndex = 131;
-            this.AngleY16.Tag = "75";
+            this.AngleY16.Tag = "65";
             this.AngleY16.Val_Max = 0;
             this.AngleY16.Val_Min = 0;
             this.AngleY16.Click += new System.EventHandler(this.ButtonData_Click);
@@ -1700,11 +1500,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleY15.Enrange = false;
             this.AngleY15.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleY15.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleY15.Location = new System.Drawing.Point(126, 682);
+            this.AngleY15.Location = new System.Drawing.Point(153, 682);
             this.AngleY15.Name = "AngleY15";
-            this.AngleY15.Size = new System.Drawing.Size(65, 30);
+            this.AngleY15.Size = new System.Drawing.Size(77, 30);
             this.AngleY15.TabIndex = 130;
-            this.AngleY15.Tag = "74";
+            this.AngleY15.Tag = "64";
             this.AngleY15.Val_Max = 0;
             this.AngleY15.Val_Min = 0;
             this.AngleY15.Click += new System.EventHandler(this.ButtonData_Click);
@@ -1720,11 +1520,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleY14.Enrange = false;
             this.AngleY14.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleY14.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleY14.Location = new System.Drawing.Point(126, 648);
+            this.AngleY14.Location = new System.Drawing.Point(153, 648);
             this.AngleY14.Name = "AngleY14";
-            this.AngleY14.Size = new System.Drawing.Size(65, 30);
+            this.AngleY14.Size = new System.Drawing.Size(77, 30);
             this.AngleY14.TabIndex = 129;
-            this.AngleY14.Tag = "73";
+            this.AngleY14.Tag = "63";
             this.AngleY14.Val_Max = 0;
             this.AngleY14.Val_Min = 0;
             this.AngleY14.Click += new System.EventHandler(this.ButtonData_Click);
@@ -1740,11 +1540,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleY13.Enrange = false;
             this.AngleY13.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleY13.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleY13.Location = new System.Drawing.Point(126, 613);
+            this.AngleY13.Location = new System.Drawing.Point(153, 613);
             this.AngleY13.Name = "AngleY13";
-            this.AngleY13.Size = new System.Drawing.Size(65, 30);
+            this.AngleY13.Size = new System.Drawing.Size(77, 30);
             this.AngleY13.TabIndex = 128;
-            this.AngleY13.Tag = "72";
+            this.AngleY13.Tag = "62";
             this.AngleY13.Val_Max = 0;
             this.AngleY13.Val_Min = 0;
             this.AngleY13.Click += new System.EventHandler(this.ButtonData_Click);
@@ -1760,11 +1560,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleY12.Enrange = false;
             this.AngleY12.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleY12.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleY12.Location = new System.Drawing.Point(126, 579);
+            this.AngleY12.Location = new System.Drawing.Point(153, 579);
             this.AngleY12.Name = "AngleY12";
-            this.AngleY12.Size = new System.Drawing.Size(65, 30);
+            this.AngleY12.Size = new System.Drawing.Size(77, 30);
             this.AngleY12.TabIndex = 127;
-            this.AngleY12.Tag = "71";
+            this.AngleY12.Tag = "61";
             this.AngleY12.Val_Max = 0;
             this.AngleY12.Val_Min = 0;
             this.AngleY12.Click += new System.EventHandler(this.ButtonData_Click);
@@ -1780,11 +1580,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleX20.Enrange = false;
             this.AngleX20.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleX20.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleX20.Location = new System.Drawing.Point(56, 861);
+            this.AngleX20.Location = new System.Drawing.Point(72, 861);
             this.AngleX20.Name = "AngleX20";
-            this.AngleX20.Size = new System.Drawing.Size(65, 30);
+            this.AngleX20.Size = new System.Drawing.Size(77, 30);
             this.AngleX20.TabIndex = 126;
-            this.AngleX20.Tag = "69";
+            this.AngleX20.Tag = "59";
             this.AngleX20.Val_Max = 0;
             this.AngleX20.Val_Min = 0;
             this.AngleX20.Click += new System.EventHandler(this.ButtonData_Click);
@@ -1800,11 +1600,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleX19.Enrange = false;
             this.AngleX19.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleX19.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleX19.Location = new System.Drawing.Point(56, 825);
+            this.AngleX19.Location = new System.Drawing.Point(72, 825);
             this.AngleX19.Name = "AngleX19";
-            this.AngleX19.Size = new System.Drawing.Size(65, 30);
+            this.AngleX19.Size = new System.Drawing.Size(77, 30);
             this.AngleX19.TabIndex = 125;
-            this.AngleX19.Tag = "68";
+            this.AngleX19.Tag = "58";
             this.AngleX19.Val_Max = 0;
             this.AngleX19.Val_Min = 0;
             this.AngleX19.Click += new System.EventHandler(this.ButtonData_Click);
@@ -1820,11 +1620,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleX18.Enrange = false;
             this.AngleX18.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleX18.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleX18.Location = new System.Drawing.Point(56, 789);
+            this.AngleX18.Location = new System.Drawing.Point(72, 789);
             this.AngleX18.Name = "AngleX18";
-            this.AngleX18.Size = new System.Drawing.Size(65, 30);
+            this.AngleX18.Size = new System.Drawing.Size(77, 30);
             this.AngleX18.TabIndex = 124;
-            this.AngleX18.Tag = "67";
+            this.AngleX18.Tag = "57";
             this.AngleX18.Val_Max = 0;
             this.AngleX18.Val_Min = 0;
             this.AngleX18.Click += new System.EventHandler(this.ButtonData_Click);
@@ -1840,11 +1640,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleX17.Enrange = false;
             this.AngleX17.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleX17.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleX17.Location = new System.Drawing.Point(56, 753);
+            this.AngleX17.Location = new System.Drawing.Point(72, 753);
             this.AngleX17.Name = "AngleX17";
-            this.AngleX17.Size = new System.Drawing.Size(65, 30);
+            this.AngleX17.Size = new System.Drawing.Size(77, 30);
             this.AngleX17.TabIndex = 123;
-            this.AngleX17.Tag = "66";
+            this.AngleX17.Tag = "56";
             this.AngleX17.Val_Max = 0;
             this.AngleX17.Val_Min = 0;
             this.AngleX17.Click += new System.EventHandler(this.ButtonData_Click);
@@ -1860,11 +1660,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleX16.Enrange = false;
             this.AngleX16.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleX16.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleX16.Location = new System.Drawing.Point(56, 717);
+            this.AngleX16.Location = new System.Drawing.Point(72, 717);
             this.AngleX16.Name = "AngleX16";
-            this.AngleX16.Size = new System.Drawing.Size(65, 30);
+            this.AngleX16.Size = new System.Drawing.Size(77, 30);
             this.AngleX16.TabIndex = 122;
-            this.AngleX16.Tag = "65";
+            this.AngleX16.Tag = "55";
             this.AngleX16.Val_Max = 0;
             this.AngleX16.Val_Min = 0;
             this.AngleX16.Click += new System.EventHandler(this.ButtonData_Click);
@@ -1880,11 +1680,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleX15.Enrange = false;
             this.AngleX15.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleX15.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleX15.Location = new System.Drawing.Point(56, 682);
+            this.AngleX15.Location = new System.Drawing.Point(72, 682);
             this.AngleX15.Name = "AngleX15";
-            this.AngleX15.Size = new System.Drawing.Size(65, 30);
+            this.AngleX15.Size = new System.Drawing.Size(77, 30);
             this.AngleX15.TabIndex = 121;
-            this.AngleX15.Tag = "64";
+            this.AngleX15.Tag = "54";
             this.AngleX15.Val_Max = 0;
             this.AngleX15.Val_Min = 0;
             this.AngleX15.Click += new System.EventHandler(this.ButtonData_Click);
@@ -1900,11 +1700,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleX14.Enrange = false;
             this.AngleX14.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleX14.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleX14.Location = new System.Drawing.Point(56, 648);
+            this.AngleX14.Location = new System.Drawing.Point(72, 648);
             this.AngleX14.Name = "AngleX14";
-            this.AngleX14.Size = new System.Drawing.Size(65, 30);
+            this.AngleX14.Size = new System.Drawing.Size(77, 30);
             this.AngleX14.TabIndex = 120;
-            this.AngleX14.Tag = "63";
+            this.AngleX14.Tag = "53";
             this.AngleX14.Val_Max = 0;
             this.AngleX14.Val_Min = 0;
             this.AngleX14.Click += new System.EventHandler(this.ButtonData_Click);
@@ -1920,11 +1720,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleX13.Enrange = false;
             this.AngleX13.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleX13.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleX13.Location = new System.Drawing.Point(56, 613);
+            this.AngleX13.Location = new System.Drawing.Point(72, 613);
             this.AngleX13.Name = "AngleX13";
-            this.AngleX13.Size = new System.Drawing.Size(65, 30);
+            this.AngleX13.Size = new System.Drawing.Size(77, 30);
             this.AngleX13.TabIndex = 119;
-            this.AngleX13.Tag = "62";
+            this.AngleX13.Tag = "52";
             this.AngleX13.Val_Max = 0;
             this.AngleX13.Val_Min = 0;
             this.AngleX13.Click += new System.EventHandler(this.ButtonData_Click);
@@ -1940,55 +1740,35 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleX12.Enrange = false;
             this.AngleX12.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleX12.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleX12.Location = new System.Drawing.Point(56, 579);
+            this.AngleX12.Location = new System.Drawing.Point(72, 579);
             this.AngleX12.Name = "AngleX12";
-            this.AngleX12.Size = new System.Drawing.Size(65, 30);
+            this.AngleX12.Size = new System.Drawing.Size(77, 30);
             this.AngleX12.TabIndex = 118;
-            this.AngleX12.Tag = "61";
+            this.AngleX12.Tag = "51";
             this.AngleX12.Val_Max = 0;
             this.AngleX12.Val_Min = 0;
             this.AngleX12.Click += new System.EventHandler(this.ButtonData_Click);
             this.AngleX12.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
-            // RangeY11
+            // Range11
             // 
-            this.RangeY11.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeY11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeY11.Content = "";
-            this.RangeY11.Endecimal = false;
-            this.RangeY11.Enminus = false;
-            this.RangeY11.Enrange = false;
-            this.RangeY11.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeY11.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeY11.Location = new System.Drawing.Point(266, 546);
-            this.RangeY11.Name = "RangeY11";
-            this.RangeY11.Size = new System.Drawing.Size(65, 30);
-            this.RangeY11.TabIndex = 117;
-            this.RangeY11.Tag = "90";
-            this.RangeY11.Val_Max = 0;
-            this.RangeY11.Val_Min = 0;
-            this.RangeY11.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeY11.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
-            // 
-            // RangeX11
-            // 
-            this.RangeX11.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeX11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeX11.Content = "";
-            this.RangeX11.Endecimal = false;
-            this.RangeX11.Enminus = false;
-            this.RangeX11.Enrange = false;
-            this.RangeX11.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeX11.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeX11.Location = new System.Drawing.Point(196, 546);
-            this.RangeX11.Name = "RangeX11";
-            this.RangeX11.Size = new System.Drawing.Size(65, 30);
-            this.RangeX11.TabIndex = 116;
-            this.RangeX11.Tag = "80";
-            this.RangeX11.Val_Max = 0;
-            this.RangeX11.Val_Min = 0;
-            this.RangeX11.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeX11.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
+            this.Range11.Alignment = System.Drawing.StringAlignment.Center;
+            this.Range11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.Range11.Content = "";
+            this.Range11.Endecimal = false;
+            this.Range11.Enminus = false;
+            this.Range11.Enrange = false;
+            this.Range11.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
+            this.Range11.LineAlignment = System.Drawing.StringAlignment.Center;
+            this.Range11.Location = new System.Drawing.Point(234, 546);
+            this.Range11.Name = "Range11";
+            this.Range11.Size = new System.Drawing.Size(77, 30);
+            this.Range11.TabIndex = 116;
+            this.Range11.Tag = "70";
+            this.Range11.Val_Max = 0;
+            this.Range11.Val_Min = 0;
+            this.Range11.Click += new System.EventHandler(this.ButtonData_Click);
+            this.Range11.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
             // AngleY11
             // 
@@ -2000,11 +1780,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleY11.Enrange = false;
             this.AngleY11.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleY11.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleY11.Location = new System.Drawing.Point(126, 546);
+            this.AngleY11.Location = new System.Drawing.Point(153, 546);
             this.AngleY11.Name = "AngleY11";
-            this.AngleY11.Size = new System.Drawing.Size(65, 30);
+            this.AngleY11.Size = new System.Drawing.Size(77, 30);
             this.AngleY11.TabIndex = 115;
-            this.AngleY11.Tag = "70";
+            this.AngleY11.Tag = "60";
             this.AngleY11.Val_Max = 0;
             this.AngleY11.Val_Min = 0;
             this.AngleY11.Click += new System.EventHandler(this.ButtonData_Click);
@@ -2020,415 +1800,215 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleX11.Enrange = false;
             this.AngleX11.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleX11.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleX11.Location = new System.Drawing.Point(56, 546);
+            this.AngleX11.Location = new System.Drawing.Point(72, 546);
             this.AngleX11.Name = "AngleX11";
-            this.AngleX11.Size = new System.Drawing.Size(65, 30);
+            this.AngleX11.Size = new System.Drawing.Size(77, 30);
             this.AngleX11.TabIndex = 114;
-            this.AngleX11.Tag = "60";
+            this.AngleX11.Tag = "50";
             this.AngleX11.Val_Max = 0;
             this.AngleX11.Val_Min = 0;
             this.AngleX11.Click += new System.EventHandler(this.ButtonData_Click);
             this.AngleX11.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
-            // RangeY10
+            // Range10
             // 
-            this.RangeY10.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeY10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeY10.Content = "";
-            this.RangeY10.Endecimal = false;
-            this.RangeY10.Enminus = false;
-            this.RangeY10.Enrange = false;
-            this.RangeY10.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeY10.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeY10.Location = new System.Drawing.Point(266, 380);
-            this.RangeY10.Name = "RangeY10";
-            this.RangeY10.Size = new System.Drawing.Size(65, 30);
-            this.RangeY10.TabIndex = 112;
-            this.RangeY10.Tag = "39";
-            this.RangeY10.Val_Max = 0;
-            this.RangeY10.Val_Min = 0;
-            this.RangeY10.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeY10.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
+            this.Range10.Alignment = System.Drawing.StringAlignment.Center;
+            this.Range10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.Range10.Content = "";
+            this.Range10.Endecimal = false;
+            this.Range10.Enminus = false;
+            this.Range10.Enrange = false;
+            this.Range10.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
+            this.Range10.LineAlignment = System.Drawing.StringAlignment.Center;
+            this.Range10.Location = new System.Drawing.Point(233, 380);
+            this.Range10.Name = "Range10";
+            this.Range10.Size = new System.Drawing.Size(77, 30);
+            this.Range10.TabIndex = 102;
+            this.Range10.Tag = "29";
+            this.Range10.Val_Max = 0;
+            this.Range10.Val_Min = 0;
+            this.Range10.Click += new System.EventHandler(this.ButtonData_Click);
+            this.Range10.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
-            // RangeY9
+            // Range9
             // 
-            this.RangeY9.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeY9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeY9.Content = "";
-            this.RangeY9.Endecimal = false;
-            this.RangeY9.Enminus = false;
-            this.RangeY9.Enrange = false;
-            this.RangeY9.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeY9.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeY9.Location = new System.Drawing.Point(266, 345);
-            this.RangeY9.Name = "RangeY9";
-            this.RangeY9.Size = new System.Drawing.Size(65, 30);
-            this.RangeY9.TabIndex = 111;
-            this.RangeY9.Tag = "38";
-            this.RangeY9.Val_Max = 0;
-            this.RangeY9.Val_Min = 0;
-            this.RangeY9.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeY9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
+            this.Range9.Alignment = System.Drawing.StringAlignment.Center;
+            this.Range9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.Range9.Content = "";
+            this.Range9.Endecimal = false;
+            this.Range9.Enminus = false;
+            this.Range9.Enrange = false;
+            this.Range9.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
+            this.Range9.LineAlignment = System.Drawing.StringAlignment.Center;
+            this.Range9.Location = new System.Drawing.Point(233, 345);
+            this.Range9.Name = "Range9";
+            this.Range9.Size = new System.Drawing.Size(77, 30);
+            this.Range9.TabIndex = 101;
+            this.Range9.Tag = "28";
+            this.Range9.Val_Max = 0;
+            this.Range9.Val_Min = 0;
+            this.Range9.Click += new System.EventHandler(this.ButtonData_Click);
+            this.Range9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
-            // RangeY8
+            // Range8
             // 
-            this.RangeY8.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeY8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeY8.Content = "";
-            this.RangeY8.Endecimal = false;
-            this.RangeY8.Enminus = false;
-            this.RangeY8.Enrange = false;
-            this.RangeY8.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeY8.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeY8.Location = new System.Drawing.Point(266, 309);
-            this.RangeY8.Name = "RangeY8";
-            this.RangeY8.Size = new System.Drawing.Size(65, 30);
-            this.RangeY8.TabIndex = 110;
-            this.RangeY8.Tag = "37";
-            this.RangeY8.Val_Max = 0;
-            this.RangeY8.Val_Min = 0;
-            this.RangeY8.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeY8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
+            this.Range8.Alignment = System.Drawing.StringAlignment.Center;
+            this.Range8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.Range8.Content = "";
+            this.Range8.Endecimal = false;
+            this.Range8.Enminus = false;
+            this.Range8.Enrange = false;
+            this.Range8.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
+            this.Range8.LineAlignment = System.Drawing.StringAlignment.Center;
+            this.Range8.Location = new System.Drawing.Point(233, 309);
+            this.Range8.Name = "Range8";
+            this.Range8.Size = new System.Drawing.Size(77, 30);
+            this.Range8.TabIndex = 100;
+            this.Range8.Tag = "27";
+            this.Range8.Val_Max = 0;
+            this.Range8.Val_Min = 0;
+            this.Range8.Click += new System.EventHandler(this.ButtonData_Click);
+            this.Range8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
-            // RangeY7
+            // Range7
             // 
-            this.RangeY7.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeY7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeY7.Content = "";
-            this.RangeY7.Endecimal = false;
-            this.RangeY7.Enminus = false;
-            this.RangeY7.Enrange = false;
-            this.RangeY7.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeY7.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeY7.Location = new System.Drawing.Point(266, 273);
-            this.RangeY7.Name = "RangeY7";
-            this.RangeY7.Size = new System.Drawing.Size(65, 30);
-            this.RangeY7.TabIndex = 109;
-            this.RangeY7.Tag = "36";
-            this.RangeY7.Val_Max = 0;
-            this.RangeY7.Val_Min = 0;
-            this.RangeY7.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeY7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
+            this.Range7.Alignment = System.Drawing.StringAlignment.Center;
+            this.Range7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.Range7.Content = "";
+            this.Range7.Endecimal = false;
+            this.Range7.Enminus = false;
+            this.Range7.Enrange = false;
+            this.Range7.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
+            this.Range7.LineAlignment = System.Drawing.StringAlignment.Center;
+            this.Range7.Location = new System.Drawing.Point(233, 273);
+            this.Range7.Name = "Range7";
+            this.Range7.Size = new System.Drawing.Size(77, 30);
+            this.Range7.TabIndex = 99;
+            this.Range7.Tag = "26";
+            this.Range7.Val_Max = 0;
+            this.Range7.Val_Min = 0;
+            this.Range7.Click += new System.EventHandler(this.ButtonData_Click);
+            this.Range7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
-            // RangeY6
+            // Range6
             // 
-            this.RangeY6.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeY6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeY6.Content = "";
-            this.RangeY6.Endecimal = false;
-            this.RangeY6.Enminus = false;
-            this.RangeY6.Enrange = false;
-            this.RangeY6.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeY6.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeY6.Location = new System.Drawing.Point(266, 237);
-            this.RangeY6.Name = "RangeY6";
-            this.RangeY6.Size = new System.Drawing.Size(65, 30);
-            this.RangeY6.TabIndex = 108;
-            this.RangeY6.Tag = "35";
-            this.RangeY6.Val_Max = 0;
-            this.RangeY6.Val_Min = 0;
-            this.RangeY6.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeY6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
+            this.Range6.Alignment = System.Drawing.StringAlignment.Center;
+            this.Range6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.Range6.Content = "";
+            this.Range6.Endecimal = false;
+            this.Range6.Enminus = false;
+            this.Range6.Enrange = false;
+            this.Range6.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
+            this.Range6.LineAlignment = System.Drawing.StringAlignment.Center;
+            this.Range6.Location = new System.Drawing.Point(234, 237);
+            this.Range6.Name = "Range6";
+            this.Range6.Size = new System.Drawing.Size(77, 30);
+            this.Range6.TabIndex = 98;
+            this.Range6.Tag = "25";
+            this.Range6.Val_Max = 0;
+            this.Range6.Val_Min = 0;
+            this.Range6.Click += new System.EventHandler(this.ButtonData_Click);
+            this.Range6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
-            // RangeY5
+            // Range5
             // 
-            this.RangeY5.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeY5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeY5.Content = "";
-            this.RangeY5.Endecimal = false;
-            this.RangeY5.Enminus = false;
-            this.RangeY5.Enrange = false;
-            this.RangeY5.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeY5.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeY5.Location = new System.Drawing.Point(266, 203);
-            this.RangeY5.Name = "RangeY5";
-            this.RangeY5.Size = new System.Drawing.Size(65, 30);
-            this.RangeY5.TabIndex = 107;
-            this.RangeY5.Tag = "34";
-            this.RangeY5.Val_Max = 0;
-            this.RangeY5.Val_Min = 0;
-            this.RangeY5.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeY5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
+            this.Range5.Alignment = System.Drawing.StringAlignment.Center;
+            this.Range5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.Range5.Content = "";
+            this.Range5.Endecimal = false;
+            this.Range5.Enminus = false;
+            this.Range5.Enrange = false;
+            this.Range5.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
+            this.Range5.LineAlignment = System.Drawing.StringAlignment.Center;
+            this.Range5.Location = new System.Drawing.Point(234, 202);
+            this.Range5.Name = "Range5";
+            this.Range5.Size = new System.Drawing.Size(77, 30);
+            this.Range5.TabIndex = 97;
+            this.Range5.Tag = "24";
+            this.Range5.Val_Max = 0;
+            this.Range5.Val_Min = 0;
+            this.Range5.Click += new System.EventHandler(this.ButtonData_Click);
+            this.Range5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
-            // RangeY4
+            // Range4
             // 
-            this.RangeY4.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeY4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeY4.Content = "";
-            this.RangeY4.Endecimal = false;
-            this.RangeY4.Enminus = false;
-            this.RangeY4.Enrange = false;
-            this.RangeY4.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeY4.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeY4.Location = new System.Drawing.Point(266, 168);
-            this.RangeY4.Name = "RangeY4";
-            this.RangeY4.Size = new System.Drawing.Size(65, 30);
-            this.RangeY4.TabIndex = 106;
-            this.RangeY4.Tag = "33";
-            this.RangeY4.Val_Max = 0;
-            this.RangeY4.Val_Min = 0;
-            this.RangeY4.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeY4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
+            this.Range4.Alignment = System.Drawing.StringAlignment.Center;
+            this.Range4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.Range4.Content = "";
+            this.Range4.Endecimal = false;
+            this.Range4.Enminus = false;
+            this.Range4.Enrange = false;
+            this.Range4.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
+            this.Range4.LineAlignment = System.Drawing.StringAlignment.Center;
+            this.Range4.Location = new System.Drawing.Point(234, 168);
+            this.Range4.Name = "Range4";
+            this.Range4.Size = new System.Drawing.Size(77, 30);
+            this.Range4.TabIndex = 96;
+            this.Range4.Tag = "23";
+            this.Range4.Val_Max = 0;
+            this.Range4.Val_Min = 0;
+            this.Range4.Click += new System.EventHandler(this.ButtonData_Click);
+            this.Range4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
-            // RangeY3
+            // Range3
             // 
-            this.RangeY3.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeY3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeY3.Content = "";
-            this.RangeY3.Endecimal = false;
-            this.RangeY3.Enminus = false;
-            this.RangeY3.Enrange = false;
-            this.RangeY3.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeY3.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeY3.Location = new System.Drawing.Point(266, 134);
-            this.RangeY3.Name = "RangeY3";
-            this.RangeY3.Size = new System.Drawing.Size(65, 30);
-            this.RangeY3.TabIndex = 105;
-            this.RangeY3.Tag = "32";
-            this.RangeY3.Val_Max = 0;
-            this.RangeY3.Val_Min = 0;
-            this.RangeY3.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeY3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
+            this.Range3.Alignment = System.Drawing.StringAlignment.Center;
+            this.Range3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.Range3.Content = "";
+            this.Range3.Endecimal = false;
+            this.Range3.Enminus = false;
+            this.Range3.Enrange = false;
+            this.Range3.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
+            this.Range3.LineAlignment = System.Drawing.StringAlignment.Center;
+            this.Range3.Location = new System.Drawing.Point(233, 133);
+            this.Range3.Name = "Range3";
+            this.Range3.Size = new System.Drawing.Size(77, 30);
+            this.Range3.TabIndex = 95;
+            this.Range3.Tag = "22";
+            this.Range3.Val_Max = 0;
+            this.Range3.Val_Min = 0;
+            this.Range3.Click += new System.EventHandler(this.ButtonData_Click);
+            this.Range3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
-            // RangeY2
+            // Range2
             // 
-            this.RangeY2.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeY2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeY2.Content = "";
-            this.RangeY2.Endecimal = false;
-            this.RangeY2.Enminus = false;
-            this.RangeY2.Enrange = false;
-            this.RangeY2.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeY2.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeY2.Location = new System.Drawing.Point(266, 98);
-            this.RangeY2.Name = "RangeY2";
-            this.RangeY2.Size = new System.Drawing.Size(65, 30);
-            this.RangeY2.TabIndex = 104;
-            this.RangeY2.Tag = "31";
-            this.RangeY2.Val_Max = 0;
-            this.RangeY2.Val_Min = 0;
-            this.RangeY2.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeY2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
+            this.Range2.Alignment = System.Drawing.StringAlignment.Center;
+            this.Range2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.Range2.Content = "";
+            this.Range2.Endecimal = false;
+            this.Range2.Enminus = false;
+            this.Range2.Enrange = false;
+            this.Range2.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
+            this.Range2.LineAlignment = System.Drawing.StringAlignment.Center;
+            this.Range2.Location = new System.Drawing.Point(234, 99);
+            this.Range2.Name = "Range2";
+            this.Range2.Size = new System.Drawing.Size(77, 30);
+            this.Range2.TabIndex = 94;
+            this.Range2.Tag = "21";
+            this.Range2.Val_Max = 0;
+            this.Range2.Val_Min = 0;
+            this.Range2.Click += new System.EventHandler(this.ButtonData_Click);
+            this.Range2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
-            // RangeY1
+            // Range1
             // 
-            this.RangeY1.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeY1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeY1.Content = "";
-            this.RangeY1.Endecimal = false;
-            this.RangeY1.Enminus = false;
-            this.RangeY1.Enrange = false;
-            this.RangeY1.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeY1.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeY1.Location = new System.Drawing.Point(266, 66);
-            this.RangeY1.Name = "RangeY1";
-            this.RangeY1.Size = new System.Drawing.Size(65, 30);
-            this.RangeY1.TabIndex = 103;
-            this.RangeY1.Tag = "30";
-            this.RangeY1.Val_Max = 0;
-            this.RangeY1.Val_Min = 0;
-            this.RangeY1.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeY1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
-            // 
-            // RangeX10
-            // 
-            this.RangeX10.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeX10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeX10.Content = "";
-            this.RangeX10.Endecimal = false;
-            this.RangeX10.Enminus = false;
-            this.RangeX10.Enrange = false;
-            this.RangeX10.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeX10.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeX10.Location = new System.Drawing.Point(196, 380);
-            this.RangeX10.Name = "RangeX10";
-            this.RangeX10.Size = new System.Drawing.Size(65, 30);
-            this.RangeX10.TabIndex = 102;
-            this.RangeX10.Tag = "29";
-            this.RangeX10.Val_Max = 0;
-            this.RangeX10.Val_Min = 0;
-            this.RangeX10.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeX10.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
-            // 
-            // RangeX9
-            // 
-            this.RangeX9.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeX9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeX9.Content = "";
-            this.RangeX9.Endecimal = false;
-            this.RangeX9.Enminus = false;
-            this.RangeX9.Enrange = false;
-            this.RangeX9.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeX9.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeX9.Location = new System.Drawing.Point(196, 345);
-            this.RangeX9.Name = "RangeX9";
-            this.RangeX9.Size = new System.Drawing.Size(65, 30);
-            this.RangeX9.TabIndex = 101;
-            this.RangeX9.Tag = "28";
-            this.RangeX9.Val_Max = 0;
-            this.RangeX9.Val_Min = 0;
-            this.RangeX9.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeX9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
-            // 
-            // RangeX8
-            // 
-            this.RangeX8.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeX8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeX8.Content = "";
-            this.RangeX8.Endecimal = false;
-            this.RangeX8.Enminus = false;
-            this.RangeX8.Enrange = false;
-            this.RangeX8.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeX8.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeX8.Location = new System.Drawing.Point(196, 309);
-            this.RangeX8.Name = "RangeX8";
-            this.RangeX8.Size = new System.Drawing.Size(65, 30);
-            this.RangeX8.TabIndex = 100;
-            this.RangeX8.Tag = "27";
-            this.RangeX8.Val_Max = 0;
-            this.RangeX8.Val_Min = 0;
-            this.RangeX8.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeX8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
-            // 
-            // RangeX7
-            // 
-            this.RangeX7.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeX7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeX7.Content = "";
-            this.RangeX7.Endecimal = false;
-            this.RangeX7.Enminus = false;
-            this.RangeX7.Enrange = false;
-            this.RangeX7.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeX7.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeX7.Location = new System.Drawing.Point(196, 273);
-            this.RangeX7.Name = "RangeX7";
-            this.RangeX7.Size = new System.Drawing.Size(65, 30);
-            this.RangeX7.TabIndex = 99;
-            this.RangeX7.Tag = "26";
-            this.RangeX7.Val_Max = 0;
-            this.RangeX7.Val_Min = 0;
-            this.RangeX7.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeX7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
-            // 
-            // RangeX6
-            // 
-            this.RangeX6.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeX6.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeX6.Content = "";
-            this.RangeX6.Endecimal = false;
-            this.RangeX6.Enminus = false;
-            this.RangeX6.Enrange = false;
-            this.RangeX6.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeX6.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeX6.Location = new System.Drawing.Point(196, 237);
-            this.RangeX6.Name = "RangeX6";
-            this.RangeX6.Size = new System.Drawing.Size(65, 30);
-            this.RangeX6.TabIndex = 98;
-            this.RangeX6.Tag = "25";
-            this.RangeX6.Val_Max = 0;
-            this.RangeX6.Val_Min = 0;
-            this.RangeX6.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeX6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
-            // 
-            // RangeX5
-            // 
-            this.RangeX5.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeX5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeX5.Content = "";
-            this.RangeX5.Endecimal = false;
-            this.RangeX5.Enminus = false;
-            this.RangeX5.Enrange = false;
-            this.RangeX5.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeX5.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeX5.Location = new System.Drawing.Point(196, 203);
-            this.RangeX5.Name = "RangeX5";
-            this.RangeX5.Size = new System.Drawing.Size(65, 30);
-            this.RangeX5.TabIndex = 97;
-            this.RangeX5.Tag = "24";
-            this.RangeX5.Val_Max = 0;
-            this.RangeX5.Val_Min = 0;
-            this.RangeX5.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeX5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
-            // 
-            // RangeX4
-            // 
-            this.RangeX4.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeX4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeX4.Content = "";
-            this.RangeX4.Endecimal = false;
-            this.RangeX4.Enminus = false;
-            this.RangeX4.Enrange = false;
-            this.RangeX4.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeX4.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeX4.Location = new System.Drawing.Point(196, 168);
-            this.RangeX4.Name = "RangeX4";
-            this.RangeX4.Size = new System.Drawing.Size(65, 30);
-            this.RangeX4.TabIndex = 96;
-            this.RangeX4.Tag = "23";
-            this.RangeX4.Val_Max = 0;
-            this.RangeX4.Val_Min = 0;
-            this.RangeX4.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeX4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
-            // 
-            // RangeX3
-            // 
-            this.RangeX3.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeX3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeX3.Content = "";
-            this.RangeX3.Endecimal = false;
-            this.RangeX3.Enminus = false;
-            this.RangeX3.Enrange = false;
-            this.RangeX3.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeX3.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeX3.Location = new System.Drawing.Point(196, 134);
-            this.RangeX3.Name = "RangeX3";
-            this.RangeX3.Size = new System.Drawing.Size(65, 30);
-            this.RangeX3.TabIndex = 95;
-            this.RangeX3.Tag = "22";
-            this.RangeX3.Val_Max = 0;
-            this.RangeX3.Val_Min = 0;
-            this.RangeX3.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeX3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
-            // 
-            // RangeX2
-            // 
-            this.RangeX2.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeX2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeX2.Content = "";
-            this.RangeX2.Endecimal = false;
-            this.RangeX2.Enminus = false;
-            this.RangeX2.Enrange = false;
-            this.RangeX2.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeX2.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeX2.Location = new System.Drawing.Point(196, 98);
-            this.RangeX2.Name = "RangeX2";
-            this.RangeX2.Size = new System.Drawing.Size(65, 30);
-            this.RangeX2.TabIndex = 94;
-            this.RangeX2.Tag = "21";
-            this.RangeX2.Val_Max = 0;
-            this.RangeX2.Val_Min = 0;
-            this.RangeX2.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeX2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
-            // 
-            // RangeX1
-            // 
-            this.RangeX1.Alignment = System.Drawing.StringAlignment.Center;
-            this.RangeX1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
-            this.RangeX1.Content = "";
-            this.RangeX1.Endecimal = false;
-            this.RangeX1.Enminus = false;
-            this.RangeX1.Enrange = false;
-            this.RangeX1.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
-            this.RangeX1.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.RangeX1.Location = new System.Drawing.Point(196, 66);
-            this.RangeX1.Name = "RangeX1";
-            this.RangeX1.Size = new System.Drawing.Size(65, 30);
-            this.RangeX1.TabIndex = 93;
-            this.RangeX1.Tag = "20";
-            this.RangeX1.Val_Max = 0;
-            this.RangeX1.Val_Min = 0;
-            this.RangeX1.Click += new System.EventHandler(this.ButtonData_Click);
-            this.RangeX1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
+            this.Range1.Alignment = System.Drawing.StringAlignment.Center;
+            this.Range1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(233)))), ((int)(((byte)(233)))), ((int)(((byte)(233)))));
+            this.Range1.Content = "";
+            this.Range1.Endecimal = false;
+            this.Range1.Enminus = false;
+            this.Range1.Enrange = false;
+            this.Range1.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
+            this.Range1.LineAlignment = System.Drawing.StringAlignment.Center;
+            this.Range1.Location = new System.Drawing.Point(234, 66);
+            this.Range1.Name = "Range1";
+            this.Range1.Size = new System.Drawing.Size(77, 30);
+            this.Range1.TabIndex = 93;
+            this.Range1.Tag = "20";
+            this.Range1.Val_Max = 0;
+            this.Range1.Val_Min = 0;
+            this.Range1.Click += new System.EventHandler(this.ButtonData_Click);
+            this.Range1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
             // AngleY10
             // 
@@ -2440,9 +2020,9 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleY10.Enrange = false;
             this.AngleY10.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleY10.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleY10.Location = new System.Drawing.Point(126, 380);
+            this.AngleY10.Location = new System.Drawing.Point(153, 380);
             this.AngleY10.Name = "AngleY10";
-            this.AngleY10.Size = new System.Drawing.Size(65, 30);
+            this.AngleY10.Size = new System.Drawing.Size(77, 30);
             this.AngleY10.TabIndex = 92;
             this.AngleY10.Tag = "19";
             this.AngleY10.Val_Max = 0;
@@ -2460,9 +2040,9 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleY9.Enrange = false;
             this.AngleY9.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleY9.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleY9.Location = new System.Drawing.Point(126, 345);
+            this.AngleY9.Location = new System.Drawing.Point(153, 345);
             this.AngleY9.Name = "AngleY9";
-            this.AngleY9.Size = new System.Drawing.Size(65, 30);
+            this.AngleY9.Size = new System.Drawing.Size(77, 30);
             this.AngleY9.TabIndex = 91;
             this.AngleY9.Tag = "18";
             this.AngleY9.Val_Max = 0;
@@ -2480,9 +2060,9 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleY8.Enrange = false;
             this.AngleY8.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleY8.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleY8.Location = new System.Drawing.Point(126, 309);
+            this.AngleY8.Location = new System.Drawing.Point(153, 309);
             this.AngleY8.Name = "AngleY8";
-            this.AngleY8.Size = new System.Drawing.Size(65, 30);
+            this.AngleY8.Size = new System.Drawing.Size(77, 30);
             this.AngleY8.TabIndex = 90;
             this.AngleY8.Tag = "17";
             this.AngleY8.Val_Max = 0;
@@ -2500,9 +2080,9 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleY7.Enrange = false;
             this.AngleY7.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleY7.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleY7.Location = new System.Drawing.Point(126, 273);
+            this.AngleY7.Location = new System.Drawing.Point(153, 273);
             this.AngleY7.Name = "AngleY7";
-            this.AngleY7.Size = new System.Drawing.Size(65, 30);
+            this.AngleY7.Size = new System.Drawing.Size(77, 30);
             this.AngleY7.TabIndex = 89;
             this.AngleY7.Tag = "16";
             this.AngleY7.Val_Max = 0;
@@ -2520,9 +2100,9 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleY6.Enrange = false;
             this.AngleY6.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleY6.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleY6.Location = new System.Drawing.Point(126, 237);
+            this.AngleY6.Location = new System.Drawing.Point(153, 237);
             this.AngleY6.Name = "AngleY6";
-            this.AngleY6.Size = new System.Drawing.Size(65, 30);
+            this.AngleY6.Size = new System.Drawing.Size(77, 30);
             this.AngleY6.TabIndex = 88;
             this.AngleY6.Tag = "15";
             this.AngleY6.Val_Max = 0;
@@ -2540,9 +2120,9 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleY5.Enrange = false;
             this.AngleY5.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleY5.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleY5.Location = new System.Drawing.Point(126, 203);
+            this.AngleY5.Location = new System.Drawing.Point(153, 202);
             this.AngleY5.Name = "AngleY5";
-            this.AngleY5.Size = new System.Drawing.Size(65, 30);
+            this.AngleY5.Size = new System.Drawing.Size(77, 30);
             this.AngleY5.TabIndex = 87;
             this.AngleY5.Tag = "14";
             this.AngleY5.Val_Max = 0;
@@ -2560,9 +2140,9 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleY4.Enrange = false;
             this.AngleY4.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleY4.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleY4.Location = new System.Drawing.Point(126, 168);
+            this.AngleY4.Location = new System.Drawing.Point(153, 168);
             this.AngleY4.Name = "AngleY4";
-            this.AngleY4.Size = new System.Drawing.Size(65, 30);
+            this.AngleY4.Size = new System.Drawing.Size(77, 30);
             this.AngleY4.TabIndex = 86;
             this.AngleY4.Tag = "13";
             this.AngleY4.Val_Max = 0;
@@ -2580,9 +2160,9 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleY3.Enrange = false;
             this.AngleY3.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleY3.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleY3.Location = new System.Drawing.Point(126, 134);
+            this.AngleY3.Location = new System.Drawing.Point(153, 133);
             this.AngleY3.Name = "AngleY3";
-            this.AngleY3.Size = new System.Drawing.Size(65, 30);
+            this.AngleY3.Size = new System.Drawing.Size(77, 30);
             this.AngleY3.TabIndex = 85;
             this.AngleY3.Tag = "12";
             this.AngleY3.Val_Max = 0;
@@ -2600,9 +2180,9 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleY2.Enrange = false;
             this.AngleY2.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleY2.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleY2.Location = new System.Drawing.Point(126, 98);
+            this.AngleY2.Location = new System.Drawing.Point(153, 99);
             this.AngleY2.Name = "AngleY2";
-            this.AngleY2.Size = new System.Drawing.Size(65, 30);
+            this.AngleY2.Size = new System.Drawing.Size(77, 30);
             this.AngleY2.TabIndex = 84;
             this.AngleY2.Tag = "11";
             this.AngleY2.Val_Max = 0;
@@ -2620,9 +2200,9 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleY1.Enrange = false;
             this.AngleY1.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleY1.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleY1.Location = new System.Drawing.Point(126, 66);
+            this.AngleY1.Location = new System.Drawing.Point(153, 66);
             this.AngleY1.Name = "AngleY1";
-            this.AngleY1.Size = new System.Drawing.Size(65, 30);
+            this.AngleY1.Size = new System.Drawing.Size(77, 30);
             this.AngleY1.TabIndex = 83;
             this.AngleY1.Tag = "10";
             this.AngleY1.Val_Max = 0;
@@ -2640,9 +2220,9 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleX10.Enrange = false;
             this.AngleX10.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleX10.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleX10.Location = new System.Drawing.Point(56, 380);
+            this.AngleX10.Location = new System.Drawing.Point(72, 380);
             this.AngleX10.Name = "AngleX10";
-            this.AngleX10.Size = new System.Drawing.Size(65, 30);
+            this.AngleX10.Size = new System.Drawing.Size(77, 30);
             this.AngleX10.TabIndex = 82;
             this.AngleX10.Tag = "9";
             this.AngleX10.Val_Max = 0;
@@ -2660,9 +2240,9 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleX9.Enrange = false;
             this.AngleX9.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleX9.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleX9.Location = new System.Drawing.Point(56, 345);
+            this.AngleX9.Location = new System.Drawing.Point(72, 345);
             this.AngleX9.Name = "AngleX9";
-            this.AngleX9.Size = new System.Drawing.Size(65, 30);
+            this.AngleX9.Size = new System.Drawing.Size(77, 30);
             this.AngleX9.TabIndex = 81;
             this.AngleX9.Tag = "8";
             this.AngleX9.Val_Max = 0;
@@ -2680,9 +2260,9 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleX8.Enrange = false;
             this.AngleX8.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleX8.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleX8.Location = new System.Drawing.Point(56, 309);
+            this.AngleX8.Location = new System.Drawing.Point(72, 309);
             this.AngleX8.Name = "AngleX8";
-            this.AngleX8.Size = new System.Drawing.Size(65, 30);
+            this.AngleX8.Size = new System.Drawing.Size(77, 30);
             this.AngleX8.TabIndex = 80;
             this.AngleX8.Tag = "7";
             this.AngleX8.Val_Max = 0;
@@ -2700,9 +2280,9 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleX7.Enrange = false;
             this.AngleX7.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleX7.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleX7.Location = new System.Drawing.Point(56, 273);
+            this.AngleX7.Location = new System.Drawing.Point(72, 273);
             this.AngleX7.Name = "AngleX7";
-            this.AngleX7.Size = new System.Drawing.Size(65, 30);
+            this.AngleX7.Size = new System.Drawing.Size(77, 30);
             this.AngleX7.TabIndex = 79;
             this.AngleX7.Tag = "6";
             this.AngleX7.Val_Max = 0;
@@ -2720,9 +2300,9 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleX6.Enrange = false;
             this.AngleX6.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleX6.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleX6.Location = new System.Drawing.Point(54, 237);
+            this.AngleX6.Location = new System.Drawing.Point(72, 237);
             this.AngleX6.Name = "AngleX6";
-            this.AngleX6.Size = new System.Drawing.Size(65, 30);
+            this.AngleX6.Size = new System.Drawing.Size(77, 30);
             this.AngleX6.TabIndex = 78;
             this.AngleX6.Tag = "5";
             this.AngleX6.Val_Max = 0;
@@ -2740,9 +2320,9 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleX5.Enrange = false;
             this.AngleX5.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleX5.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleX5.Location = new System.Drawing.Point(56, 203);
+            this.AngleX5.Location = new System.Drawing.Point(72, 202);
             this.AngleX5.Name = "AngleX5";
-            this.AngleX5.Size = new System.Drawing.Size(65, 30);
+            this.AngleX5.Size = new System.Drawing.Size(77, 30);
             this.AngleX5.TabIndex = 77;
             this.AngleX5.Tag = "4";
             this.AngleX5.Val_Max = 0;
@@ -2760,9 +2340,9 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleX4.Enrange = false;
             this.AngleX4.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleX4.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleX4.Location = new System.Drawing.Point(56, 168);
+            this.AngleX4.Location = new System.Drawing.Point(72, 168);
             this.AngleX4.Name = "AngleX4";
-            this.AngleX4.Size = new System.Drawing.Size(65, 30);
+            this.AngleX4.Size = new System.Drawing.Size(77, 30);
             this.AngleX4.TabIndex = 76;
             this.AngleX4.Tag = "3";
             this.AngleX4.Val_Max = 0;
@@ -2780,9 +2360,9 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleX3.Enrange = false;
             this.AngleX3.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleX3.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleX3.Location = new System.Drawing.Point(56, 134);
+            this.AngleX3.Location = new System.Drawing.Point(72, 133);
             this.AngleX3.Name = "AngleX3";
-            this.AngleX3.Size = new System.Drawing.Size(65, 30);
+            this.AngleX3.Size = new System.Drawing.Size(77, 30);
             this.AngleX3.TabIndex = 75;
             this.AngleX3.Tag = "2";
             this.AngleX3.Val_Max = 0;
@@ -2800,9 +2380,9 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleX2.Enrange = false;
             this.AngleX2.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleX2.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleX2.Location = new System.Drawing.Point(56, 98);
+            this.AngleX2.Location = new System.Drawing.Point(72, 99);
             this.AngleX2.Name = "AngleX2";
-            this.AngleX2.Size = new System.Drawing.Size(65, 30);
+            this.AngleX2.Size = new System.Drawing.Size(77, 30);
             this.AngleX2.TabIndex = 74;
             this.AngleX2.Tag = "1";
             this.AngleX2.Val_Max = 0;
@@ -2820,9 +2400,9 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.AngleX1.Enrange = false;
             this.AngleX1.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.AngleX1.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.AngleX1.Location = new System.Drawing.Point(56, 66);
+            this.AngleX1.Location = new System.Drawing.Point(72, 66);
             this.AngleX1.Name = "AngleX1";
-            this.AngleX1.Size = new System.Drawing.Size(65, 30);
+            this.AngleX1.Size = new System.Drawing.Size(77, 30);
             this.AngleX1.TabIndex = 73;
             this.AngleX1.Tag = "0";
             this.AngleX1.Val_Max = 0;
@@ -2861,13 +2441,15 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstX1.Enrange = false;
             this.MvDstX1.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstX1.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstX1.Location = new System.Drawing.Point(336, 66);
+            this.MvDstX1.Location = new System.Drawing.Point(315, 66);
             this.MvDstX1.Name = "MvDstX1";
-            this.MvDstX1.Size = new System.Drawing.Size(65, 30);
+            this.MvDstX1.Size = new System.Drawing.Size(77, 30);
             this.MvDstX1.TabIndex = 223;
-            this.MvDstX1.Tag = "40";
+            this.MvDstX1.Tag = "30";
             this.MvDstX1.Val_Max = 0;
             this.MvDstX1.Val_Min = 0;
+            this.MvDstX1.Click += new System.EventHandler(this.ButtonData_Click);
+            this.MvDstX1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
             // MvDstY1
             // 
@@ -2879,13 +2461,15 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstY1.Enrange = false;
             this.MvDstY1.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstY1.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstY1.Location = new System.Drawing.Point(407, 66);
+            this.MvDstY1.Location = new System.Drawing.Point(397, 66);
             this.MvDstY1.Name = "MvDstY1";
-            this.MvDstY1.Size = new System.Drawing.Size(65, 30);
+            this.MvDstY1.Size = new System.Drawing.Size(77, 30);
             this.MvDstY1.TabIndex = 224;
-            this.MvDstY1.Tag = "50";
+            this.MvDstY1.Tag = "40";
             this.MvDstY1.Val_Max = 0;
             this.MvDstY1.Val_Min = 0;
+            this.MvDstY1.Click += new System.EventHandler(this.ButtonData_Click);
+            this.MvDstY1.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
             // MvDstX2
             // 
@@ -2897,13 +2481,15 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstX2.Enrange = false;
             this.MvDstX2.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstX2.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstX2.Location = new System.Drawing.Point(336, 98);
+            this.MvDstX2.Location = new System.Drawing.Point(315, 99);
             this.MvDstX2.Name = "MvDstX2";
-            this.MvDstX2.Size = new System.Drawing.Size(65, 30);
+            this.MvDstX2.Size = new System.Drawing.Size(77, 30);
             this.MvDstX2.TabIndex = 225;
-            this.MvDstX2.Tag = "41";
+            this.MvDstX2.Tag = "31";
             this.MvDstX2.Val_Max = 0;
             this.MvDstX2.Val_Min = 0;
+            this.MvDstX2.Click += new System.EventHandler(this.ButtonData_Click);
+            this.MvDstX2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
             // MvDstX3
             // 
@@ -2915,13 +2501,15 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstX3.Enrange = false;
             this.MvDstX3.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstX3.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstX3.Location = new System.Drawing.Point(336, 134);
+            this.MvDstX3.Location = new System.Drawing.Point(315, 133);
             this.MvDstX3.Name = "MvDstX3";
-            this.MvDstX3.Size = new System.Drawing.Size(65, 30);
+            this.MvDstX3.Size = new System.Drawing.Size(77, 30);
             this.MvDstX3.TabIndex = 226;
-            this.MvDstX3.Tag = "42";
+            this.MvDstX3.Tag = "32";
             this.MvDstX3.Val_Max = 0;
             this.MvDstX3.Val_Min = 0;
+            this.MvDstX3.Click += new System.EventHandler(this.ButtonData_Click);
+            this.MvDstX3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
             // MvDstX4
             // 
@@ -2933,13 +2521,15 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstX4.Enrange = false;
             this.MvDstX4.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstX4.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstX4.Location = new System.Drawing.Point(336, 168);
+            this.MvDstX4.Location = new System.Drawing.Point(315, 168);
             this.MvDstX4.Name = "MvDstX4";
-            this.MvDstX4.Size = new System.Drawing.Size(65, 30);
+            this.MvDstX4.Size = new System.Drawing.Size(77, 30);
             this.MvDstX4.TabIndex = 227;
-            this.MvDstX4.Tag = "43";
+            this.MvDstX4.Tag = "33";
             this.MvDstX4.Val_Max = 0;
             this.MvDstX4.Val_Min = 0;
+            this.MvDstX4.Click += new System.EventHandler(this.ButtonData_Click);
+            this.MvDstX4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
             // MvDstX5
             // 
@@ -2951,13 +2541,15 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstX5.Enrange = false;
             this.MvDstX5.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstX5.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstX5.Location = new System.Drawing.Point(336, 203);
+            this.MvDstX5.Location = new System.Drawing.Point(315, 202);
             this.MvDstX5.Name = "MvDstX5";
-            this.MvDstX5.Size = new System.Drawing.Size(65, 30);
+            this.MvDstX5.Size = new System.Drawing.Size(77, 30);
             this.MvDstX5.TabIndex = 228;
-            this.MvDstX5.Tag = "44";
+            this.MvDstX5.Tag = "34";
             this.MvDstX5.Val_Max = 0;
             this.MvDstX5.Val_Min = 0;
+            this.MvDstX5.Click += new System.EventHandler(this.ButtonData_Click);
+            this.MvDstX5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
             // MvDstX6
             // 
@@ -2969,13 +2561,15 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstX6.Enrange = false;
             this.MvDstX6.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstX6.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstX6.Location = new System.Drawing.Point(336, 237);
+            this.MvDstX6.Location = new System.Drawing.Point(315, 237);
             this.MvDstX6.Name = "MvDstX6";
-            this.MvDstX6.Size = new System.Drawing.Size(65, 30);
+            this.MvDstX6.Size = new System.Drawing.Size(77, 30);
             this.MvDstX6.TabIndex = 229;
-            this.MvDstX6.Tag = "45";
+            this.MvDstX6.Tag = "35";
             this.MvDstX6.Val_Max = 0;
             this.MvDstX6.Val_Min = 0;
+            this.MvDstX6.Click += new System.EventHandler(this.ButtonData_Click);
+            this.MvDstX6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
             // MvDstX7
             // 
@@ -2987,13 +2581,15 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstX7.Enrange = false;
             this.MvDstX7.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstX7.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstX7.Location = new System.Drawing.Point(336, 273);
+            this.MvDstX7.Location = new System.Drawing.Point(315, 273);
             this.MvDstX7.Name = "MvDstX7";
-            this.MvDstX7.Size = new System.Drawing.Size(65, 30);
+            this.MvDstX7.Size = new System.Drawing.Size(77, 30);
             this.MvDstX7.TabIndex = 230;
-            this.MvDstX7.Tag = "46";
+            this.MvDstX7.Tag = "36";
             this.MvDstX7.Val_Max = 0;
             this.MvDstX7.Val_Min = 0;
+            this.MvDstX7.Click += new System.EventHandler(this.ButtonData_Click);
+            this.MvDstX7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
             // MvDstX8
             // 
@@ -3005,13 +2601,15 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstX8.Enrange = false;
             this.MvDstX8.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstX8.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstX8.Location = new System.Drawing.Point(336, 309);
+            this.MvDstX8.Location = new System.Drawing.Point(315, 309);
             this.MvDstX8.Name = "MvDstX8";
-            this.MvDstX8.Size = new System.Drawing.Size(65, 30);
+            this.MvDstX8.Size = new System.Drawing.Size(77, 30);
             this.MvDstX8.TabIndex = 231;
-            this.MvDstX8.Tag = "47";
+            this.MvDstX8.Tag = "37";
             this.MvDstX8.Val_Max = 0;
             this.MvDstX8.Val_Min = 0;
+            this.MvDstX8.Click += new System.EventHandler(this.ButtonData_Click);
+            this.MvDstX8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
             // MvDstX9
             // 
@@ -3023,13 +2621,15 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstX9.Enrange = false;
             this.MvDstX9.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstX9.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstX9.Location = new System.Drawing.Point(336, 345);
+            this.MvDstX9.Location = new System.Drawing.Point(315, 345);
             this.MvDstX9.Name = "MvDstX9";
-            this.MvDstX9.Size = new System.Drawing.Size(65, 30);
+            this.MvDstX9.Size = new System.Drawing.Size(77, 30);
             this.MvDstX9.TabIndex = 232;
-            this.MvDstX9.Tag = "48";
+            this.MvDstX9.Tag = "38";
             this.MvDstX9.Val_Max = 0;
             this.MvDstX9.Val_Min = 0;
+            this.MvDstX9.Click += new System.EventHandler(this.ButtonData_Click);
+            this.MvDstX9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
             // MvDstX10
             // 
@@ -3041,13 +2641,15 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstX10.Enrange = false;
             this.MvDstX10.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstX10.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstX10.Location = new System.Drawing.Point(336, 380);
+            this.MvDstX10.Location = new System.Drawing.Point(315, 380);
             this.MvDstX10.Name = "MvDstX10";
-            this.MvDstX10.Size = new System.Drawing.Size(65, 30);
+            this.MvDstX10.Size = new System.Drawing.Size(77, 30);
             this.MvDstX10.TabIndex = 233;
-            this.MvDstX10.Tag = "49";
+            this.MvDstX10.Tag = "39";
             this.MvDstX10.Val_Max = 0;
             this.MvDstX10.Val_Min = 0;
+            this.MvDstX10.Click += new System.EventHandler(this.ButtonData_Click);
+            this.MvDstX10.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
             // MvDstY2
             // 
@@ -3059,13 +2661,15 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstY2.Enrange = false;
             this.MvDstY2.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstY2.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstY2.Location = new System.Drawing.Point(407, 98);
+            this.MvDstY2.Location = new System.Drawing.Point(397, 99);
             this.MvDstY2.Name = "MvDstY2";
-            this.MvDstY2.Size = new System.Drawing.Size(65, 30);
+            this.MvDstY2.Size = new System.Drawing.Size(77, 30);
             this.MvDstY2.TabIndex = 234;
-            this.MvDstY2.Tag = "51";
+            this.MvDstY2.Tag = "41";
             this.MvDstY2.Val_Max = 0;
             this.MvDstY2.Val_Min = 0;
+            this.MvDstY2.Click += new System.EventHandler(this.ButtonData_Click);
+            this.MvDstY2.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
             // MvDstY3
             // 
@@ -3077,13 +2681,15 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstY3.Enrange = false;
             this.MvDstY3.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstY3.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstY3.Location = new System.Drawing.Point(407, 134);
+            this.MvDstY3.Location = new System.Drawing.Point(397, 133);
             this.MvDstY3.Name = "MvDstY3";
-            this.MvDstY3.Size = new System.Drawing.Size(65, 30);
+            this.MvDstY3.Size = new System.Drawing.Size(77, 30);
             this.MvDstY3.TabIndex = 235;
-            this.MvDstY3.Tag = "52";
+            this.MvDstY3.Tag = "42";
             this.MvDstY3.Val_Max = 0;
             this.MvDstY3.Val_Min = 0;
+            this.MvDstY3.Click += new System.EventHandler(this.ButtonData_Click);
+            this.MvDstY3.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
             // MvDstY4
             // 
@@ -3095,13 +2701,15 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstY4.Enrange = false;
             this.MvDstY4.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstY4.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstY4.Location = new System.Drawing.Point(407, 168);
+            this.MvDstY4.Location = new System.Drawing.Point(397, 168);
             this.MvDstY4.Name = "MvDstY4";
-            this.MvDstY4.Size = new System.Drawing.Size(65, 30);
+            this.MvDstY4.Size = new System.Drawing.Size(77, 30);
             this.MvDstY4.TabIndex = 236;
-            this.MvDstY4.Tag = "53";
+            this.MvDstY4.Tag = "43";
             this.MvDstY4.Val_Max = 0;
             this.MvDstY4.Val_Min = 0;
+            this.MvDstY4.Click += new System.EventHandler(this.ButtonData_Click);
+            this.MvDstY4.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
             // MvDstY5
             // 
@@ -3113,13 +2721,15 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstY5.Enrange = false;
             this.MvDstY5.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstY5.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstY5.Location = new System.Drawing.Point(407, 203);
+            this.MvDstY5.Location = new System.Drawing.Point(397, 202);
             this.MvDstY5.Name = "MvDstY5";
-            this.MvDstY5.Size = new System.Drawing.Size(65, 30);
+            this.MvDstY5.Size = new System.Drawing.Size(77, 30);
             this.MvDstY5.TabIndex = 237;
-            this.MvDstY5.Tag = "54";
+            this.MvDstY5.Tag = "44";
             this.MvDstY5.Val_Max = 0;
             this.MvDstY5.Val_Min = 0;
+            this.MvDstY5.Click += new System.EventHandler(this.ButtonData_Click);
+            this.MvDstY5.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
             // MvDstY6
             // 
@@ -3131,13 +2741,15 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstY6.Enrange = false;
             this.MvDstY6.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstY6.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstY6.Location = new System.Drawing.Point(407, 237);
+            this.MvDstY6.Location = new System.Drawing.Point(397, 237);
             this.MvDstY6.Name = "MvDstY6";
-            this.MvDstY6.Size = new System.Drawing.Size(65, 30);
+            this.MvDstY6.Size = new System.Drawing.Size(77, 30);
             this.MvDstY6.TabIndex = 238;
-            this.MvDstY6.Tag = "55";
+            this.MvDstY6.Tag = "45";
             this.MvDstY6.Val_Max = 0;
             this.MvDstY6.Val_Min = 0;
+            this.MvDstY6.Click += new System.EventHandler(this.ButtonData_Click);
+            this.MvDstY6.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
             // MvDstY7
             // 
@@ -3149,13 +2761,15 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstY7.Enrange = false;
             this.MvDstY7.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstY7.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstY7.Location = new System.Drawing.Point(407, 273);
+            this.MvDstY7.Location = new System.Drawing.Point(397, 273);
             this.MvDstY7.Name = "MvDstY7";
-            this.MvDstY7.Size = new System.Drawing.Size(65, 30);
+            this.MvDstY7.Size = new System.Drawing.Size(77, 30);
             this.MvDstY7.TabIndex = 239;
-            this.MvDstY7.Tag = "56";
+            this.MvDstY7.Tag = "46";
             this.MvDstY7.Val_Max = 0;
             this.MvDstY7.Val_Min = 0;
+            this.MvDstY7.Click += new System.EventHandler(this.ButtonData_Click);
+            this.MvDstY7.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
             // MvDstY8
             // 
@@ -3167,13 +2781,15 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstY8.Enrange = false;
             this.MvDstY8.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstY8.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstY8.Location = new System.Drawing.Point(407, 309);
+            this.MvDstY8.Location = new System.Drawing.Point(397, 309);
             this.MvDstY8.Name = "MvDstY8";
-            this.MvDstY8.Size = new System.Drawing.Size(65, 30);
+            this.MvDstY8.Size = new System.Drawing.Size(77, 30);
             this.MvDstY8.TabIndex = 240;
-            this.MvDstY8.Tag = "57";
+            this.MvDstY8.Tag = "47";
             this.MvDstY8.Val_Max = 0;
             this.MvDstY8.Val_Min = 0;
+            this.MvDstY8.Click += new System.EventHandler(this.ButtonData_Click);
+            this.MvDstY8.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
             // MvDstY9
             // 
@@ -3185,13 +2801,15 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstY9.Enrange = false;
             this.MvDstY9.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstY9.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstY9.Location = new System.Drawing.Point(407, 345);
+            this.MvDstY9.Location = new System.Drawing.Point(397, 345);
             this.MvDstY9.Name = "MvDstY9";
-            this.MvDstY9.Size = new System.Drawing.Size(65, 30);
+            this.MvDstY9.Size = new System.Drawing.Size(77, 30);
             this.MvDstY9.TabIndex = 241;
-            this.MvDstY9.Tag = "58";
+            this.MvDstY9.Tag = "48";
             this.MvDstY9.Val_Max = 0;
             this.MvDstY9.Val_Min = 0;
+            this.MvDstY9.Click += new System.EventHandler(this.ButtonData_Click);
+            this.MvDstY9.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
             // MvDstY10
             // 
@@ -3203,13 +2821,15 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstY10.Enrange = false;
             this.MvDstY10.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstY10.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstY10.Location = new System.Drawing.Point(407, 380);
+            this.MvDstY10.Location = new System.Drawing.Point(397, 380);
             this.MvDstY10.Name = "MvDstY10";
-            this.MvDstY10.Size = new System.Drawing.Size(65, 30);
+            this.MvDstY10.Size = new System.Drawing.Size(77, 30);
             this.MvDstY10.TabIndex = 242;
-            this.MvDstY10.Tag = "59";
+            this.MvDstY10.Tag = "49";
             this.MvDstY10.Val_Max = 0;
             this.MvDstY10.Val_Min = 0;
+            this.MvDstY10.Click += new System.EventHandler(this.ButtonData_Click);
+            this.MvDstY10.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Tab_MouseDown);
             // 
             // MvDstX11
             // 
@@ -3221,11 +2841,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstX11.Enrange = false;
             this.MvDstX11.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstX11.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstX11.Location = new System.Drawing.Point(336, 546);
+            this.MvDstX11.Location = new System.Drawing.Point(315, 546);
             this.MvDstX11.Name = "MvDstX11";
-            this.MvDstX11.Size = new System.Drawing.Size(65, 30);
+            this.MvDstX11.Size = new System.Drawing.Size(77, 30);
             this.MvDstX11.TabIndex = 243;
-            this.MvDstX11.Tag = "100";
+            this.MvDstX11.Tag = "80";
             this.MvDstX11.Val_Max = 0;
             this.MvDstX11.Val_Min = 0;
             this.MvDstX11.Click += new System.EventHandler(this.ButtonData_Click);
@@ -3241,11 +2861,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstX12.Enrange = false;
             this.MvDstX12.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstX12.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstX12.Location = new System.Drawing.Point(336, 579);
+            this.MvDstX12.Location = new System.Drawing.Point(315, 579);
             this.MvDstX12.Name = "MvDstX12";
-            this.MvDstX12.Size = new System.Drawing.Size(65, 30);
+            this.MvDstX12.Size = new System.Drawing.Size(77, 30);
             this.MvDstX12.TabIndex = 244;
-            this.MvDstX12.Tag = "101";
+            this.MvDstX12.Tag = "81";
             this.MvDstX12.Val_Max = 0;
             this.MvDstX12.Val_Min = 0;
             this.MvDstX12.Click += new System.EventHandler(this.ButtonData_Click);
@@ -3261,11 +2881,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstX13.Enrange = false;
             this.MvDstX13.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstX13.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstX13.Location = new System.Drawing.Point(336, 613);
+            this.MvDstX13.Location = new System.Drawing.Point(315, 613);
             this.MvDstX13.Name = "MvDstX13";
-            this.MvDstX13.Size = new System.Drawing.Size(65, 30);
+            this.MvDstX13.Size = new System.Drawing.Size(77, 30);
             this.MvDstX13.TabIndex = 245;
-            this.MvDstX13.Tag = "102";
+            this.MvDstX13.Tag = "82";
             this.MvDstX13.Val_Max = 0;
             this.MvDstX13.Val_Min = 0;
             this.MvDstX13.Click += new System.EventHandler(this.ButtonData_Click);
@@ -3281,11 +2901,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstX14.Enrange = false;
             this.MvDstX14.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstX14.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstX14.Location = new System.Drawing.Point(336, 648);
+            this.MvDstX14.Location = new System.Drawing.Point(315, 648);
             this.MvDstX14.Name = "MvDstX14";
-            this.MvDstX14.Size = new System.Drawing.Size(65, 30);
+            this.MvDstX14.Size = new System.Drawing.Size(77, 30);
             this.MvDstX14.TabIndex = 246;
-            this.MvDstX14.Tag = "103";
+            this.MvDstX14.Tag = "83";
             this.MvDstX14.Val_Max = 0;
             this.MvDstX14.Val_Min = 0;
             this.MvDstX14.Click += new System.EventHandler(this.ButtonData_Click);
@@ -3301,11 +2921,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstX15.Enrange = false;
             this.MvDstX15.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstX15.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstX15.Location = new System.Drawing.Point(336, 682);
+            this.MvDstX15.Location = new System.Drawing.Point(315, 682);
             this.MvDstX15.Name = "MvDstX15";
-            this.MvDstX15.Size = new System.Drawing.Size(65, 30);
+            this.MvDstX15.Size = new System.Drawing.Size(77, 30);
             this.MvDstX15.TabIndex = 247;
-            this.MvDstX15.Tag = "104";
+            this.MvDstX15.Tag = "84";
             this.MvDstX15.Val_Max = 0;
             this.MvDstX15.Val_Min = 0;
             this.MvDstX15.Click += new System.EventHandler(this.ButtonData_Click);
@@ -3321,11 +2941,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstX16.Enrange = false;
             this.MvDstX16.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstX16.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstX16.Location = new System.Drawing.Point(336, 717);
+            this.MvDstX16.Location = new System.Drawing.Point(315, 717);
             this.MvDstX16.Name = "MvDstX16";
-            this.MvDstX16.Size = new System.Drawing.Size(65, 30);
+            this.MvDstX16.Size = new System.Drawing.Size(77, 30);
             this.MvDstX16.TabIndex = 248;
-            this.MvDstX16.Tag = "105";
+            this.MvDstX16.Tag = "85";
             this.MvDstX16.Val_Max = 0;
             this.MvDstX16.Val_Min = 0;
             this.MvDstX16.Click += new System.EventHandler(this.ButtonData_Click);
@@ -3341,11 +2961,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstX17.Enrange = false;
             this.MvDstX17.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstX17.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstX17.Location = new System.Drawing.Point(336, 753);
+            this.MvDstX17.Location = new System.Drawing.Point(315, 753);
             this.MvDstX17.Name = "MvDstX17";
-            this.MvDstX17.Size = new System.Drawing.Size(65, 30);
+            this.MvDstX17.Size = new System.Drawing.Size(77, 30);
             this.MvDstX17.TabIndex = 249;
-            this.MvDstX17.Tag = "106";
+            this.MvDstX17.Tag = "86";
             this.MvDstX17.Val_Max = 0;
             this.MvDstX17.Val_Min = 0;
             this.MvDstX17.Click += new System.EventHandler(this.ButtonData_Click);
@@ -3361,11 +2981,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstX18.Enrange = false;
             this.MvDstX18.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstX18.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstX18.Location = new System.Drawing.Point(336, 789);
+            this.MvDstX18.Location = new System.Drawing.Point(315, 789);
             this.MvDstX18.Name = "MvDstX18";
-            this.MvDstX18.Size = new System.Drawing.Size(65, 30);
+            this.MvDstX18.Size = new System.Drawing.Size(77, 30);
             this.MvDstX18.TabIndex = 250;
-            this.MvDstX18.Tag = "107";
+            this.MvDstX18.Tag = "87";
             this.MvDstX18.Val_Max = 0;
             this.MvDstX18.Val_Min = 0;
             this.MvDstX18.Click += new System.EventHandler(this.ButtonData_Click);
@@ -3381,11 +3001,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstX19.Enrange = false;
             this.MvDstX19.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstX19.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstX19.Location = new System.Drawing.Point(336, 825);
+            this.MvDstX19.Location = new System.Drawing.Point(315, 825);
             this.MvDstX19.Name = "MvDstX19";
-            this.MvDstX19.Size = new System.Drawing.Size(65, 30);
+            this.MvDstX19.Size = new System.Drawing.Size(77, 30);
             this.MvDstX19.TabIndex = 251;
-            this.MvDstX19.Tag = "108";
+            this.MvDstX19.Tag = "88";
             this.MvDstX19.Val_Max = 0;
             this.MvDstX19.Val_Min = 0;
             this.MvDstX19.Click += new System.EventHandler(this.ButtonData_Click);
@@ -3401,11 +3021,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstX20.Enrange = false;
             this.MvDstX20.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstX20.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstX20.Location = new System.Drawing.Point(336, 861);
+            this.MvDstX20.Location = new System.Drawing.Point(315, 861);
             this.MvDstX20.Name = "MvDstX20";
-            this.MvDstX20.Size = new System.Drawing.Size(65, 30);
+            this.MvDstX20.Size = new System.Drawing.Size(77, 30);
             this.MvDstX20.TabIndex = 252;
-            this.MvDstX20.Tag = "109";
+            this.MvDstX20.Tag = "89";
             this.MvDstX20.Val_Max = 0;
             this.MvDstX20.Val_Min = 0;
             this.MvDstX20.Click += new System.EventHandler(this.ButtonData_Click);
@@ -3421,11 +3041,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstY11.Enrange = false;
             this.MvDstY11.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstY11.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstY11.Location = new System.Drawing.Point(407, 546);
+            this.MvDstY11.Location = new System.Drawing.Point(397, 546);
             this.MvDstY11.Name = "MvDstY11";
-            this.MvDstY11.Size = new System.Drawing.Size(65, 30);
+            this.MvDstY11.Size = new System.Drawing.Size(77, 30);
             this.MvDstY11.TabIndex = 253;
-            this.MvDstY11.Tag = "110";
+            this.MvDstY11.Tag = "90";
             this.MvDstY11.Val_Max = 0;
             this.MvDstY11.Val_Min = 0;
             this.MvDstY11.Click += new System.EventHandler(this.ButtonData_Click);
@@ -3441,11 +3061,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstY12.Enrange = false;
             this.MvDstY12.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstY12.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstY12.Location = new System.Drawing.Point(407, 579);
+            this.MvDstY12.Location = new System.Drawing.Point(397, 579);
             this.MvDstY12.Name = "MvDstY12";
-            this.MvDstY12.Size = new System.Drawing.Size(65, 30);
+            this.MvDstY12.Size = new System.Drawing.Size(77, 30);
             this.MvDstY12.TabIndex = 254;
-            this.MvDstY12.Tag = "111";
+            this.MvDstY12.Tag = "91";
             this.MvDstY12.Val_Max = 0;
             this.MvDstY12.Val_Min = 0;
             this.MvDstY12.Click += new System.EventHandler(this.ButtonData_Click);
@@ -3461,11 +3081,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstY13.Enrange = false;
             this.MvDstY13.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstY13.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstY13.Location = new System.Drawing.Point(407, 613);
+            this.MvDstY13.Location = new System.Drawing.Point(397, 613);
             this.MvDstY13.Name = "MvDstY13";
-            this.MvDstY13.Size = new System.Drawing.Size(65, 30);
+            this.MvDstY13.Size = new System.Drawing.Size(77, 30);
             this.MvDstY13.TabIndex = 255;
-            this.MvDstY13.Tag = "112";
+            this.MvDstY13.Tag = "92";
             this.MvDstY13.Val_Max = 0;
             this.MvDstY13.Val_Min = 0;
             this.MvDstY13.Click += new System.EventHandler(this.ButtonData_Click);
@@ -3481,11 +3101,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstY14.Enrange = false;
             this.MvDstY14.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstY14.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstY14.Location = new System.Drawing.Point(407, 648);
+            this.MvDstY14.Location = new System.Drawing.Point(397, 648);
             this.MvDstY14.Name = "MvDstY14";
-            this.MvDstY14.Size = new System.Drawing.Size(65, 30);
+            this.MvDstY14.Size = new System.Drawing.Size(77, 30);
             this.MvDstY14.TabIndex = 256;
-            this.MvDstY14.Tag = "113";
+            this.MvDstY14.Tag = "93";
             this.MvDstY14.Val_Max = 0;
             this.MvDstY14.Val_Min = 0;
             this.MvDstY14.Click += new System.EventHandler(this.ButtonData_Click);
@@ -3501,11 +3121,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstY15.Enrange = false;
             this.MvDstY15.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstY15.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstY15.Location = new System.Drawing.Point(407, 682);
+            this.MvDstY15.Location = new System.Drawing.Point(397, 682);
             this.MvDstY15.Name = "MvDstY15";
-            this.MvDstY15.Size = new System.Drawing.Size(65, 30);
+            this.MvDstY15.Size = new System.Drawing.Size(77, 30);
             this.MvDstY15.TabIndex = 257;
-            this.MvDstY15.Tag = "114";
+            this.MvDstY15.Tag = "94";
             this.MvDstY15.Val_Max = 0;
             this.MvDstY15.Val_Min = 0;
             this.MvDstY15.Click += new System.EventHandler(this.ButtonData_Click);
@@ -3521,11 +3141,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstY16.Enrange = false;
             this.MvDstY16.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstY16.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstY16.Location = new System.Drawing.Point(407, 717);
+            this.MvDstY16.Location = new System.Drawing.Point(397, 717);
             this.MvDstY16.Name = "MvDstY16";
-            this.MvDstY16.Size = new System.Drawing.Size(65, 30);
+            this.MvDstY16.Size = new System.Drawing.Size(77, 30);
             this.MvDstY16.TabIndex = 258;
-            this.MvDstY16.Tag = "115";
+            this.MvDstY16.Tag = "95";
             this.MvDstY16.Val_Max = 0;
             this.MvDstY16.Val_Min = 0;
             this.MvDstY16.Click += new System.EventHandler(this.ButtonData_Click);
@@ -3541,11 +3161,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstY17.Enrange = false;
             this.MvDstY17.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstY17.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstY17.Location = new System.Drawing.Point(407, 753);
+            this.MvDstY17.Location = new System.Drawing.Point(397, 753);
             this.MvDstY17.Name = "MvDstY17";
-            this.MvDstY17.Size = new System.Drawing.Size(65, 30);
+            this.MvDstY17.Size = new System.Drawing.Size(77, 30);
             this.MvDstY17.TabIndex = 259;
-            this.MvDstY17.Tag = "116";
+            this.MvDstY17.Tag = "96";
             this.MvDstY17.Val_Max = 0;
             this.MvDstY17.Val_Min = 0;
             this.MvDstY17.Click += new System.EventHandler(this.ButtonData_Click);
@@ -3561,11 +3181,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstY18.Enrange = false;
             this.MvDstY18.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstY18.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstY18.Location = new System.Drawing.Point(407, 789);
+            this.MvDstY18.Location = new System.Drawing.Point(397, 789);
             this.MvDstY18.Name = "MvDstY18";
-            this.MvDstY18.Size = new System.Drawing.Size(65, 30);
+            this.MvDstY18.Size = new System.Drawing.Size(77, 30);
             this.MvDstY18.TabIndex = 260;
-            this.MvDstY18.Tag = "117";
+            this.MvDstY18.Tag = "97";
             this.MvDstY18.Val_Max = 0;
             this.MvDstY18.Val_Min = 0;
             this.MvDstY18.Click += new System.EventHandler(this.ButtonData_Click);
@@ -3581,11 +3201,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstY19.Enrange = false;
             this.MvDstY19.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstY19.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstY19.Location = new System.Drawing.Point(407, 825);
+            this.MvDstY19.Location = new System.Drawing.Point(397, 825);
             this.MvDstY19.Name = "MvDstY19";
-            this.MvDstY19.Size = new System.Drawing.Size(65, 30);
+            this.MvDstY19.Size = new System.Drawing.Size(77, 30);
             this.MvDstY19.TabIndex = 261;
-            this.MvDstY19.Tag = "118";
+            this.MvDstY19.Tag = "98";
             this.MvDstY19.Val_Max = 0;
             this.MvDstY19.Val_Min = 0;
             this.MvDstY19.Click += new System.EventHandler(this.ButtonData_Click);
@@ -3601,11 +3221,11 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.MvDstY20.Enrange = false;
             this.MvDstY20.Font = new System.Drawing.Font("Arial", 14F, System.Drawing.FontStyle.Regular);
             this.MvDstY20.LineAlignment = System.Drawing.StringAlignment.Center;
-            this.MvDstY20.Location = new System.Drawing.Point(407, 861);
+            this.MvDstY20.Location = new System.Drawing.Point(397, 861);
             this.MvDstY20.Name = "MvDstY20";
-            this.MvDstY20.Size = new System.Drawing.Size(65, 30);
+            this.MvDstY20.Size = new System.Drawing.Size(77, 30);
             this.MvDstY20.TabIndex = 262;
-            this.MvDstY20.Tag = "119";
+            this.MvDstY20.Tag = "99";
             this.MvDstY20.Val_Max = 0;
             this.MvDstY20.Val_Min = 0;
             this.MvDstY20.Click += new System.EventHandler(this.ButtonData_Click);
@@ -3723,24 +3343,15 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.Controls.Add(this.PageDn);
             this.Controls.Add(this.ibReturn1);
             this.Controls.Add(this.ibEditCheck1);
-            this.Controls.Add(this.RangeY20);
-            this.Controls.Add(this.RangeY19);
-            this.Controls.Add(this.RangeY18);
-            this.Controls.Add(this.RangeY17);
-            this.Controls.Add(this.RangeY16);
-            this.Controls.Add(this.RangeY15);
-            this.Controls.Add(this.RangeY14);
-            this.Controls.Add(this.RangeY13);
-            this.Controls.Add(this.RangeY12);
-            this.Controls.Add(this.RangeX20);
-            this.Controls.Add(this.RangeX19);
-            this.Controls.Add(this.RangeX18);
-            this.Controls.Add(this.RangeX17);
-            this.Controls.Add(this.RangeX16);
-            this.Controls.Add(this.RangeX15);
-            this.Controls.Add(this.RangeX14);
-            this.Controls.Add(this.RangeX13);
-            this.Controls.Add(this.RangeX12);
+            this.Controls.Add(this.Range20);
+            this.Controls.Add(this.Range19);
+            this.Controls.Add(this.Range18);
+            this.Controls.Add(this.Range17);
+            this.Controls.Add(this.Range16);
+            this.Controls.Add(this.Range15);
+            this.Controls.Add(this.Range14);
+            this.Controls.Add(this.Range13);
+            this.Controls.Add(this.Range12);
             this.Controls.Add(this.AngleY20);
             this.Controls.Add(this.AngleY19);
             this.Controls.Add(this.AngleY18);
@@ -3759,30 +3370,19 @@ namespace ShouldPadMachine.ShouldPadMachineUI
             this.Controls.Add(this.AngleX14);
             this.Controls.Add(this.AngleX13);
             this.Controls.Add(this.AngleX12);
-            this.Controls.Add(this.RangeY11);
-            this.Controls.Add(this.RangeX11);
+            this.Controls.Add(this.Range11);
             this.Controls.Add(this.AngleY11);
             this.Controls.Add(this.AngleX11);
-            this.Controls.Add(this.RangeY10);
-            this.Controls.Add(this.RangeY9);
-            this.Controls.Add(this.RangeY8);
-            this.Controls.Add(this.RangeY7);
-            this.Controls.Add(this.RangeY6);
-            this.Controls.Add(this.RangeY5);
-            this.Controls.Add(this.RangeY4);
-            this.Controls.Add(this.RangeY3);
-            this.Controls.Add(this.RangeY2);
-            this.Controls.Add(this.RangeY1);
-            this.Controls.Add(this.RangeX10);
-            this.Controls.Add(this.RangeX9);
-            this.Controls.Add(this.RangeX8);
-            this.Controls.Add(this.RangeX7);
-            this.Controls.Add(this.RangeX6);
-            this.Controls.Add(this.RangeX5);
-            this.Controls.Add(this.RangeX4);
-            this.Controls.Add(this.RangeX3);
-            this.Controls.Add(this.RangeX2);
-            this.Controls.Add(this.RangeX1);
+            this.Controls.Add(this.Range10);
+            this.Controls.Add(this.Range9);
+            this.Controls.Add(this.Range8);
+            this.Controls.Add(this.Range7);
+            this.Controls.Add(this.Range6);
+            this.Controls.Add(this.Range5);
+            this.Controls.Add(this.Range4);
+            this.Controls.Add(this.Range3);
+            this.Controls.Add(this.Range2);
+            this.Controls.Add(this.Range1);
             this.Controls.Add(this.AngleY10);
             this.Controls.Add(this.AngleY9);
             this.Controls.Add(this.AngleY8);
@@ -3841,28 +3441,17 @@ namespace ShouldPadMachine.ShouldPadMachineUI
         private Tablet AngleY3;
         private Tablet AngleY2;
         private Tablet AngleY1;
-        private Tablet RangeY10;
-        private Tablet RangeY9;
-        private Tablet RangeY8;
-        private Tablet RangeY7;
-        private Tablet RangeY6;
-        private Tablet RangeY5;
-        private Tablet RangeY4;
-        private Tablet RangeY3;
-        private Tablet RangeY2;
-        private Tablet RangeY1;
-        private Tablet RangeX10;
-        private Tablet RangeX9;
-        private Tablet RangeX8;
-        private Tablet RangeX7;
-        private Tablet RangeX6;
-        private Tablet RangeX5;
-        private Tablet RangeX4;
-        private Tablet RangeX3;
-        private Tablet RangeX2;
-        private Tablet RangeX1;
-        private Tablet RangeY11;
-        private Tablet RangeX11;
+        private Tablet Range10;
+        private Tablet Range9;
+        private Tablet Range8;
+        private Tablet Range7;
+        private Tablet Range6;
+        private Tablet Range5;
+        private Tablet Range4;
+        private Tablet Range3;
+        private Tablet Range2;
+        private Tablet Range1;
+        private Tablet Range11;
         private Tablet AngleY11;
         private Tablet AngleX11;
         private Tablet AngleX20;
@@ -3883,24 +3472,15 @@ namespace ShouldPadMachine.ShouldPadMachineUI
         private Tablet AngleY14;
         private Tablet AngleY13;
         private Tablet AngleY12;
-        private Tablet RangeY20;
-        private Tablet RangeY19;
-        private Tablet RangeY18;
-        private Tablet RangeY17;
-        private Tablet RangeY16;
-        private Tablet RangeY15;
-        private Tablet RangeY14;
-        private Tablet RangeY13;
-        private Tablet RangeY12;
-        private Tablet RangeX20;
-        private Tablet RangeX19;
-        private Tablet RangeX18;
-        private Tablet RangeX17;
-        private Tablet RangeX16;
-        private Tablet RangeX15;
-        private Tablet RangeX14;
-        private Tablet RangeX13;
-        private Tablet RangeX12;
+        private Tablet Range20;
+        private Tablet Range19;
+        private Tablet Range18;
+        private Tablet Range17;
+        private Tablet Range16;
+        private Tablet Range15;
+        private Tablet Range14;
+        private Tablet Range13;
+        private Tablet Range12;
         private ImgSwitch ibEditCheck1;
         private ImgBtn ibReturn1;
         private ImgBtn PageDn;

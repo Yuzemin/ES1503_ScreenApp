@@ -35,7 +35,7 @@ namespace ShouldPadMachine.ShouldPadMachineHelper
         public override byte[] GetSendDatas(String[] dataBaseValues, DataInfoSet dataInfoSet)
         {
             List<byte> sendDataList = new List<byte>();
-            String[] flowModelDataBases = new String[120];
+            String[] flowModelDataBases = new String[100];
 
             //放布位置XY修正值
             sendDataList.AddRange(GetByteData(Convert.ToUInt16(dataBaseValues[(int)MachineBaseDataEnum.XZeroModify])));
@@ -56,18 +56,16 @@ namespace ShouldPadMachine.ShouldPadMachineHelper
                 sendDataList.AddRange(GetByteData(Convert.ToUInt16(flowModelDataBases[j + 20])));
                 sendDataList.AddRange(GetByteData(Convert.ToUInt16(flowModelDataBases[j + 30])));
                 sendDataList.AddRange(GetByteData(Convert.ToUInt16(flowModelDataBases[j + 40])));
-                sendDataList.AddRange(GetByteData(Convert.ToUInt16(flowModelDataBases[j + 50])));
             } 
 
             //增加的扇区表数据放到末尾
             for (int j = 0; j < 10; j++)
             {
+                sendDataList.AddRange(GetByteData(Convert.ToUInt16(flowModelDataBases[j + 50])));
                 sendDataList.AddRange(GetByteData(Convert.ToUInt16(flowModelDataBases[j + 60])));
                 sendDataList.AddRange(GetByteData(Convert.ToUInt16(flowModelDataBases[j + 70])));
                 sendDataList.AddRange(GetByteData(Convert.ToUInt16(flowModelDataBases[j + 80])));
                 sendDataList.AddRange(GetByteData(Convert.ToUInt16(flowModelDataBases[j + 90])));
-                sendDataList.AddRange(GetByteData(Convert.ToUInt16(flowModelDataBases[j + 100])));
-                sendDataList.AddRange(GetByteData(Convert.ToUInt16(flowModelDataBases[j + 110])));
             }
 
             return sendDataList.ToArray();
