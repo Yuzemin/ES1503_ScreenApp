@@ -403,8 +403,17 @@ namespace ShouldPadMachine.ShouldPadMachineBLL
                 {
                     for (int i = 0; i < shapePoints.Length; i++)
                     {
-                        shapePointList.Add(new Point(shapePoints[i].X * -1, shapePoints[i].Y * -1));
+                        if (shapePoints[i].X >= 0) continue; // 只获得左半花型
+                        shapePointList.Add(shapePoints[i]);
+                        mirrorPointList.Add(new Point(shapePoints[i].X * -1, shapePoints[i].Y * -1));
                     }
+                    left_Con = shapePointList[shapePointList.Count - 1];
+                    right_Con = mirrorPointList[mirrorPointList.Count - 1];
+                    Connect = new Point((left_Con.X + right_Con.X) / 2, (left_Con.Y + right_Con.Y) / 2);
+
+                    mirrorPointList.Reverse();
+                    shapePointList.Add(Connect);
+                    shapePointList.AddRange(mirrorPointList);
                 }
             }
             else
@@ -413,6 +422,9 @@ namespace ShouldPadMachine.ShouldPadMachineBLL
                 {
                     shapePointList.Add(new Point(shapePoints[i].X * -1, shapePoints[i].Y * -1));
                 }
+
+                if (shapePointList.First().X > shapePointList.Last().X)
+                    shapePointList.Reverse();
             }
 
             SetShapePoints(shapePointList.ToArray());
@@ -462,8 +474,17 @@ namespace ShouldPadMachine.ShouldPadMachineBLL
                 {
                     for (int i = 0; i < shapePoints.Length; i++)
                     {
-                        shapePointList.Add(new Point(shapePoints[i].X * -1, shapePoints[i].Y));
+                        if (shapePoints[i].X >= 0) continue; // 只获得左半花型
+                        shapePointList.Add(shapePoints[i]);
+                        mirrorPointList.Add(new Point(shapePoints[i].X * -1, shapePoints[i].Y));
                     }
+                    left_Con = shapePointList[shapePointList.Count - 1];
+                    right_Con = mirrorPointList[mirrorPointList.Count - 1];
+                    Connect = new Point((left_Con.X + right_Con.X) / 2, (left_Con.Y + right_Con.Y) / 2);
+
+                    mirrorPointList.Reverse();
+                    shapePointList.Add(Connect);
+                    shapePointList.AddRange(mirrorPointList);
                 }
             }
             else
@@ -472,6 +493,8 @@ namespace ShouldPadMachine.ShouldPadMachineBLL
                 {
                     shapePointList.Add(new Point(shapePoints[i].X * -1, shapePoints[i].Y));
                 }
+                if (shapePointList.First().X > shapePointList.Last().X)
+                    shapePointList.Reverse();
             }
 
             SetShapePoints(shapePointList.ToArray());
